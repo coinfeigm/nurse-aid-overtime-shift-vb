@@ -1,0 +1,4374 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0010C
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署CD2">
+ <summary>
+ 配属部署CD2を取得する
+ </summary>
+ <returns>配属部署CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署名称2">
+ <summary>
+ 配属名称2を取得する
+ </summary>
+ <returns>配属名称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署略称2">
+ <summary>
+ 配属部署略称2を取得する
+ </summary>
+ <returns>配属部署略称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署表示順">
+ <summary>
+ 配属部署表示順を取得する
+ </summary>
+ <returns>配属部署表示順</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、1を取得する</remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p病院CD">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p承認区分">
+ <summary>
+ 承認区分をセットする
+ </summary>
+ <param name="Value">承認区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員番号変換">
+ <summary>
+ 職員番号変換をセットする
+ </summary>
+ <param name="Value">職員番号変換</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員区分">
+ <summary>
+ 職員区分をセットする
+ </summary>
+ <param name="Value">職員区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員番号">
+ <summary>
+ 職員番号をセットする
+ </summary>
+ <param name="Value">職員番号</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p利用者CD">
+ <summary>
+ 利用者CDをセットする
+ </summary>
+ <param name="Value">利用者CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務間隔考慮区分">
+ <summary>
+ 勤務間隔考慮区分をセットする
+ </summary>
+ <param name="Value">勤務間隔考慮区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務間隔">
+ <summary>
+ 勤務間隔をセットする
+ </summary>
+ <param name="Value">勤務間隔</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p履歴ソートFLG">
+ <summary>
+ 履歴ソートFLGをセットする
+ </summary>
+ <param name="Value">履歴ソートFLG</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pチーム区分">
+ <summary>
+ チーム区分をセットする
+ </summary>
+ <param name="Value">チーム区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p開始年月日">
+ <summary>
+ 開始年月日をセットする
+ </summary>
+ <param name="Value">開始年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p終了年月日">
+ <summary>
+ 終了年月日をセットする
+ </summary>
+ <param name="Value">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p採用条件CD">
+ <summary>
+ 採用条件CDをセットする
+ </summary>
+ <param name="Value">採用条件CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務CD">
+ <summary>
+ 勤務CDをセットする
+ </summary>
+ <param name="Value">勤務CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員索引">
+ <summary>
+ 職員索引をセットする
+ </summary>
+ <param name="Value">職員索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員管理索引">
+ <summary>
+ 職員管理索引をセットする
+ </summary>
+ <param name="Value">職員管理索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務地異動索引">
+ <summary>
+ 勤務地異動索引をセットする
+ </summary>
+ <param name="Value">勤務地異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p配属異動索引">
+ <summary>
+ 配属異動索引をセットする
+ </summary>
+ <param name="Value">配属異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p役職異動索引">
+ <summary>
+ 役職異動索引をセットする
+ </summary>
+ <param name="Value">役職異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職種異動索引">
+ <summary>
+ 職種異動索引をセットする
+ </summary>
+ <param name="Value">職種異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p超勤索引">
+ <summary>
+ 超勤索引をセットする
+ </summary>
+ <param name="Value">超勤索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務時間索引">
+ <summary>
+ 勤務時間索引をセットする
+ </summary>
+ <param name="Value">勤務時間索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p実績年月日">
+ <summary>
+ 実績年月日をセットする
+ </summary>
+ <param name="Value">実績年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p予定年月日">
+ <summary>
+ 予定年月日をセットする
+ </summary>
+ <param name="Value">予定年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務取得区分">
+ <summary>
+ 勤務取得区分をセットする
+ </summary>
+ <param name="Value">勤務取得区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務対象FLG">
+ <summary>
+ 勤務対象FLGをセットする
+ </summary>
+ <param name="Value">勤務対象FLG</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日付区分">
+ <summary>
+ 日付区分をセットする
+ </summary>
+ <param name="Value">日付区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p看護単位CD">
+ <summary>
+ 看護単位CDをセットする
+ </summary>
+ <param name="Value">看護単位CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p確定部署CD">
+ <summary>
+ 確定部署CDをセットする
+ </summary>
+ <param name="Value">確定部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p取得区分">
+ <summary>
+ 取得区分をセットする
+ </summary>
+ <param name="Value">取得区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p職員取得FLG">
+ <summary>
+ 職員取得FLGをセットする
+ </summary>
+ <param name="Value">職員取得FLG</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p指定年月日">
+ <summary>
+ 指定年月日をセットする
+ </summary>
+ <param name="Value">指定年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p在院FLG">
+ <summary>
+ 在院フラグをセットする
+ </summary>
+ <param name="Value">在院フラグ</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p指定時間">
+ <summary>
+ 在院状況基準時間をセットする
+ </summary>
+ <param name="Value">在院状況基準時間</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p打刻区分">
+ <summary>
+ 打刻区分をセットする
+ </summary>
+ <param name="Value">打刻区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pシステム区分">
+ <summary>
+ システム区分をセットする
+ </summary>
+ <param name="Value">システム区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pUNIQUESEQNO">
+ <summary>
+ UNIQUESEQNOをセットする
+ </summary>
+ <param name="Value">UNIQUESEQNO</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p優先順位">
+ <summary>
+ 優先順位をセットする
+ </summary>
+ <param name="Value">優先順位</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p対象CD">
+ <summary>
+ 対象CDをセットする
+ </summary>
+ <param name="Value">対象CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pソート順">
+ <summary>
+ ソート順をセットする
+ </summary>
+ <param name="Value">ソート順</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p超勤開始時間">
+ <summary>
+ 超勤開始時間をセットする
+ </summary>
+ <param name="Value">超勤開始時間</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p超勤終了時間">
+ <summary>
+ 超勤終了時間をセットする
+ </summary>
+ <param name="Value">超勤終了時間</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p休日FLG">
+ <summary>
+ 超勤終了時間をセットする
+ </summary>
+ <param name="Value">超勤終了時間</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p打刻索引">
+ <summary>
+ 打刻索引をセットする
+ </summary>
+ <param name="Value">打刻索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p基準日">
+ <summary>
+ 基準日をセットする
+ </summary>
+ <param name="Value">基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p超勤採用CD">
+ <summary>
+ 採用条件CDをセットする
+ </summary>
+ <param name="Value">採用条件CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p実働時間">
+ <summary>
+ 採用条件CDをセットする
+ </summary>
+ <param name="Value">採用条件CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p産休取得区分">
+ <summary>
+ 産休取得区分をセットする
+ </summary>
+ <param name="Value">産休取得区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p産休索引">
+ <summary>
+ 産休索引をセットする
+ </summary>
+ <param name="Value">産休索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p打刻エラー索引">
+ <summary>
+ 打刻エラー索引をセットする
+ </summary>
+ <param name="Value">打刻エラー索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日当直年月日">
+ <summary>
+ 日当直年月日をセットする
+ </summary>
+ <param name="Value">日当直年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日当直日別索引">
+ <summary>
+ 日当直日別索引をセットする
+ </summary>
+ <param name="Value">日当直日別索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日当直グループCD">
+ <summary>
+ 日当直グループCDをセットする
+ </summary>
+ <param name="Value">日当直グループCD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日当直勤務CD">
+ <summary>
+ 日当直勤務CDをセットする
+ </summary>
+ <param name="Value">日当直勤務CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p日当直勤務時間索引">
+ <summary>
+ 日当直勤務時間索引をセットする
+ </summary>
+ <param name="Value">日当直勤務時間索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pベース勤務採用条件CD">
+ <summary>
+ ベース勤務採用条件CDをセットする
+ </summary>
+ <param name="Value">ベース勤務採用条件CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pベース勤務勤務部署CD">
+ <summary>
+ ベース勤務勤務部署CDをセットする
+ </summary>
+ <param name="Value">ベース勤務勤務部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p年休承認区分">
+ <summary>
+ 承認区分をセットする
+ </summary>
+ <param name="Value">承認区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p削除区分">
+ <summary>
+ 削除区分をセットする
+ </summary>
+ <param name="Value">削除区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p年休UNIQUESEQNO">
+ <summary>
+ UNIQUESEQNOをセットする
+ </summary>
+ <param name="Value">UNIQUESEQNO</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p休暇分類CD">
+ <summary>
+ 休暇分類CDをセットする
+ </summary>
+ <param name="Value">休暇分類CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p年休年月日">
+ <summary>
+ 年休年月日をセットする
+ </summary>
+ <param name="Value">年休年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p年休日別索引">
+ <summary>
+ 年休索引をセットする
+ </summary>
+ <param name="Value">年休索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pチェック基準日">
+ <summary>
+ 基準日をセットする
+ </summary>
+ <param name="Value">基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p処理区分">
+ <summary>
+ 処理区分をセットする
+ </summary>
+ <param name="Value">処理区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pチェック勤務CD">
+ <summary>
+ 勤務CDをセットする
+ </summary>
+ <param name="Value">勤務CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pチェック日当直グループCD">
+ <summary>
+ グループCDをセットする
+ </summary>
+ <param name="Value">グループCD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務詳細CD">
+ <summary>
+ 勤務詳細CDをセットする
+ </summary>
+ <param name="Value">勤務詳細CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務詳細年月日">
+ <summary>
+ 勤務詳細年月日をセットする
+ </summary>
+ <param name="Value">勤務詳細年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p勤務詳細日別索引">
+ <summary>
+ 勤務詳細索引をセットする
+ </summary>
+ <param name="Value">勤務詳細索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.p再掲異動索引">
+ <summary>
+ 再掲異動索引をセットする
+ </summary>
+ <param name="Value">再掲異動索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0010C.clsStaffData.pIdoDataObj">
+ <summary>
+ データ取得部品(作成済みｵﾌﾞｼﾞｪｸﾄ)をセットする
+ </summary>
+ <param name="Value">データ取得部品(作成済みｵﾌﾞｼﾞｪｸﾄ)</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤件数">
+ <summary>
+ 超勤件数を取得する
+ </summary>
+ <returns>超勤件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間件数">
+ <summary>
+ 勤務時間件数を取得する
+ </summary>
+ <returns>勤務時間件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年月日">
+ <summary>
+ 年月日を取得する
+ </summary>
+ <returns>年月日</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤勤務CD">
+ <summary>
+ 超勤勤務CDを取得する
+ </summary>
+ <returns>超勤勤務CD</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻エラー">
+ <summary>
+ 打刻エラーを取得する
+ </summary>
+ <returns>打刻エラー</returns>
+ <remarks>打刻エラー件数が０、または、打刻エラー索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻エラーCD">
+ <summary>
+ 打刻エラーCDを取得する
+ </summary>
+ <returns>打刻エラーCD</returns>
+ <remarks>打刻エラー件数が０、または、打刻エラー索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤年月日">
+ <summary>
+ 超勤年月日を取得する
+ </summary>
+ <returns>超勤年月日</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤分割FLG">
+ <summary>
+ 分割FLGを取得する
+ </summary>
+ <returns>分割FLG</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤時間FROM">
+ <summary>
+ 超勤時間FROMを取得する
+ </summary>
+ <returns>超勤時間FROM</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤時間TO">
+ <summary>
+ 超勤時間TOを取得する
+ </summary>
+ <returns>超勤時間TO</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤理由CD">
+ <summary>
+ 超勤理由CDを取得する
+ </summary>
+ <returns>超勤理由CD</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤理由名称">
+ <summary>
+ 超勤理由名称を取得する
+ </summary>
+ <returns>超勤理由名称</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤理由略称">
+ <summary>
+ 超勤理由略称を取得する
+ </summary>
+ <returns>超勤理由略称</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤取得区分">
+ <summary>
+ 超勤取得区分を取得する
+ </summary>
+ <returns>超勤取得区分</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤区分">
+ <summary>
+ 超勤区分を取得する
+ </summary>
+ <returns>超勤区分</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤翌日FLG">
+ <summary>
+ 超勤翌日FLGを取得する
+ </summary>
+ <returns>超勤翌日FLG</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤UNIQUESEQNO">
+ <summary>
+ 超勤UNIQUESEQNOを取得する
+ </summary>
+ <returns>超勤UNIQUESEQNO</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務CD">
+ <summary>
+ 勤務CDを取得する
+ </summary>
+ <returns>勤務CD</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半開始時刻">
+ <summary>
+ 前半開始時刻を取得する
+ </summary>
+ <returns>前半開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半終了時刻">
+ <summary>
+ 前半終了時刻を取得する
+ </summary>
+ <returns>前半終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半勤務終了日">
+ <summary>
+ 前半勤務終了日を取得する
+ </summary>
+ <returns>前半勤務終了日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半勤務時間">
+ <summary>
+ 前半勤務時間を取得する
+ </summary>
+ <returns>前半勤務時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半開始時刻">
+ <summary>
+ 後半開始時刻を取得する
+ </summary>
+ <returns>後半開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半終了時刻">
+ <summary>
+ 後半終了時刻を取得する
+ </summary>
+ <returns>後半終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半勤務開始日">
+ <summary>
+ 後半勤務開始日を取得する
+ </summary>
+ <returns>後半勤務開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半勤務終了日">
+ <summary>
+ 後半勤務終了日を取得する
+ </summary>
+ <returns>後半勤務終了日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半勤務時間">
+ <summary>
+ 後半勤務時間を取得する
+ </summary>
+ <returns>後半勤務時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f正味休憩時間">
+ <summary>
+ 正味休憩時間を取得する
+ </summary>
+ <returns>正味休憩時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実勤務時間">
+ <summary>
+ 実勤務時間を取得する
+ </summary>
+ <returns>実勤務時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間1開始時刻">
+ <summary>
+ 休憩時間1開始時刻を取得する
+ </summary>
+ <returns>休憩時間1開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間1終了時刻">
+ <summary>
+ 休憩時間1終了時刻を取得する
+ </summary>
+ <returns>休憩時間1終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間1開始日">
+ <summary>
+ 休憩時間1開始日を取得する
+ </summary>
+ <returns>休憩時間1開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間2開始時刻">
+ <summary>
+ 休憩時間2開始時刻を取得する
+ </summary>
+ <returns>休憩時間2開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間2終了時刻">
+ <summary>
+ 休憩時間2終了時刻を取得する
+ </summary>
+ <returns>休憩時間2終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間2開始日">
+ <summary>
+ 休憩時間2開始日を取得する
+ </summary>
+ <returns>休憩時間2開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間3開始時刻">
+ <summary>
+ 休憩時間3開始時刻を取得する
+ </summary>
+ <returns>休憩時間3開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間3終了時刻">
+ <summary>
+ 休憩時間3終了時刻を取得する
+ </summary>
+ <returns>休憩時間3終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩時間3開始日">
+ <summary>
+ 休憩時間3開始日を取得する
+ </summary>
+ <returns>休憩時間3開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間1開始時刻">
+ <summary>
+ 申し送り時間1開始時刻を取得する
+ </summary>
+ <returns>申し送り時間1開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間1終了時刻">
+ <summary>
+ 申し送り時間1終了時刻を取得する
+ </summary>
+ <returns>申し送り時間1終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間1開始日">
+ <summary>
+ 申し送り時間1開始日を取得する
+ </summary>
+ <returns>申し送り時間1開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間2開始時刻">
+ <summary>
+ 申し送り時間2開始時刻を取得する
+ </summary>
+ <returns>申し送り時間2開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間2終了時刻">
+ <summary>
+ 申し送り時間2終了時刻を取得する
+ </summary>
+ <returns>申し送り時間2終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f申し送り時間2開始日">
+ <summary>
+ 申し送り時間2開始日を取得する
+ </summary>
+ <returns>申し送り時間2開始日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤入力可否">
+ <summary>
+ 超勤入力可否を取得する
+ </summary>
+ <returns>超勤入力可否</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤開始時間">
+ <summary>
+ 超勤開始時間を取得する
+ </summary>
+ <returns>超勤開始時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f当日休日算定時間">
+ <summary>
+ 当日休日算定時間を取得する
+ </summary>
+ <returns>当日休日算定時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f翌日休日算定時間">
+ <summary>
+ 翌日休日算定時間を取得する
+ </summary>
+ <returns>翌日休日算定時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f当日夜間算定時間">
+ <summary>
+ 当日夜間算定時間を取得する
+ </summary>
+ <returns>当日夜間算定時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f翌日夜間算定時間">
+ <summary>
+ 翌日夜間算定時間を取得する
+ </summary>
+ <returns>翌日夜間算定時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f宿日直単価">
+ <summary>
+ 単価を取得する
+ </summary>
+ <returns>単価</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f出勤打刻要否">
+ <summary>
+ 出勤打刻要否を取得する
+ </summary>
+ <returns>出勤打刻要否</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f出勤有効開始時間">
+ <summary>
+ 出勤有効開始時間を取得する
+ </summary>
+ <returns>出勤有効開始時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f退勤打刻要否">
+ <summary>
+ 退勤打刻要否を取得する
+ </summary>
+ <returns>退勤打刻要否</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f退勤有効終了時間">
+ <summary>
+ 退勤有効終了時間を取得する
+ </summary>
+ <returns>退勤有効終了時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f退勤有効終了日">
+ <summary>
+ 退勤有効終了日を取得する
+ </summary>
+ <returns>退勤有効終了日</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤単価0">
+ <summary>
+ 超勤単価0を取得する
+ </summary>
+ <returns>超勤単価0</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤単価1">
+ <summary>
+ 超勤単価1を取得する
+ </summary>
+ <returns>超勤単価1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤単価2">
+ <summary>
+ 超勤単価2を取得する
+ </summary>
+ <returns>超勤単価2</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤単価3">
+ <summary>
+ 超勤単価3を取得する
+ </summary>
+ <returns>超勤単価3</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤単価4">
+ <summary>
+ 超勤単価4を取得する
+ </summary>
+ <returns>超勤単価4</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地異動件数">
+ <summary>
+ 勤務地異動件数を取得する
+ </summary>
+ <returns>勤務地異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属異動件数">
+ <summary>
+ 配属異動件数を取得する
+ </summary>
+ <returns>配属異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護単位CD1">
+ <summary>
+ 看護単位CDを取得する
+ </summary>
+ <returns>看護単位CD</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護単位名称1">
+ <summary>
+ 看護単位名称1を取得する
+ </summary>
+ <returns>看護単位名称1</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護単位略称1">
+ <summary>
+ 看護単位略称1を取得する
+ </summary>
+ <returns>看護単位略称1</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地異動年月日">
+ <summary>
+ 勤務地異動年月日を取得する
+ </summary>
+ <returns>勤務地異動年月日</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地終了年月日">
+ <summary>
+ 勤務地終了年月日を取得する
+ </summary>
+ <returns>勤務地終了年月日</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地初回登録日時">
+ <summary>
+ 勤務地初回登録日時を取得する
+ </summary>
+ <returns>勤務地初回登録日時</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地最終更新日時">
+ <summary>
+ 勤務地最終更新日時を取得する
+ </summary>
+ <returns>勤務地最終更新日時</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地登録者ID">
+ <summary>
+ 勤務地登録者IDを取得する
+ </summary>
+ <returns>勤務地登録者ID</returns>
+ <remarks>勤務地異動件数が０、または、勤務地異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属異動年月日">
+ <summary>
+ 配属異動年月日を取得する
+ </summary>
+ <returns>配属異動年月日</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属終了年月日">
+ <summary>
+ 配属終了年月日を取得する
+ </summary>
+ <returns>配属終了年月日</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署CD">
+ <summary>
+ 配属部署CDを取得する
+ </summary>
+ <returns>配属部署CD</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署名称">
+ <summary>
+ 配属部署名称を取得する
+ </summary>
+ <returns>配属部署名称</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属部署略称">
+ <summary>
+ 配属部署略称を取得する
+ </summary>
+ <returns>配属部署略称</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属初回登録日時">
+ <summary>
+ 配属初回登録日時を取得する
+ </summary>
+ <returns>配属初回登録日時</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属最終更新日時">
+ <summary>
+ 配属最終更新日時を取得する
+ </summary>
+ <returns>配属最終更新日時</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属登録者ID">
+ <summary>
+ 配属登録者IDを取得する
+ </summary>
+ <returns>配属登録者ID</returns>
+ <remarks>配属異動件数が０、または、配属異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f氏名1">
+ <summary>
+ 氏名1を取得する
+ </summary>
+ <returns>氏名1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f氏名カナ1">
+ <summary>
+ 氏名カナ1を取得する
+ </summary>
+ <returns>氏名カナ1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f氏名2">
+ <summary>
+ 氏名2を取得する
+ </summary>
+ <returns>氏名2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f氏名カナ2">
+ <summary>
+ 氏名カナ2を取得する
+ </summary>
+ <returns>氏名カナ2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f性別1">
+ <summary>
+ 性別1を取得する
+ </summary>
+ <returns>性別1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f性別2">
+ <summary>
+ 性別2を取得する
+ </summary>
+ <returns>性別2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f生年月日2">
+ <summary>
+ 生年月日2を取得する
+ </summary>
+ <returns>生年月日2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f経験年数2">
+ <summary>
+ 経験年数2を取得する
+ </summary>
+ <returns>経験年数2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f在職看護単位CD">
+ <summary>
+ 在職看護単位CDを取得する
+ </summary>
+ <returns>在職看護単位CD</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f在職看護単位名称">
+ <summary>
+ 在職看護単位名称を取得する
+ </summary>
+ <returns>在職看護単位名称</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f在職看護単位略称">
+ <summary>
+ 在職看護単位略称を取得する
+ </summary>
+ <returns>在職看護単位略称</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f在職看護単位表示順">
+ <summary>
+ 在職看護単位表示NOを取得する
+ </summary>
+ <returns>在職看護単位表示NO</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員番号1">
+ <summary>
+ 職員番号1を取得する
+ </summary>
+ <returns>職員番号1</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員管理番号1">
+ <summary>
+ 職員管理番号1を取得する
+ </summary>
+ <returns>職員管理番号1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員番号2">
+ <summary>
+ 職員番号を取得する
+ </summary>
+ <returns>職員番号</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員管理番号2">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f異動年月日">
+ <summary>
+ 異動年月日を取得する
+ </summary>
+ <returns>異動年月日</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f終了年月日">
+ <summary>
+ 終了年月日を取得する
+ </summary>
+ <returns>終了年月日</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用年月日2">
+ <summary>
+ 採用年月日2を取得する
+ </summary>
+ <returns>採用年月日2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用条件CD2">
+ <summary>
+ 採用条件CD2を取得する
+ </summary>
+ <returns>採用条件CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用条件表示順">
+ <summary>
+ 採用条件表示順を取得する
+ </summary>
+ <returns>採用条件表示順</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、999を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f転退年月日2">
+ <summary>
+ 転退年月日2を取得する
+ </summary>
+ <returns>転退年月日2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f転退理由CD2">
+ <summary>
+ 転退理由CD2を取得する
+ </summary>
+ <returns>転退理由CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f旧姓">
+ <summary>
+ 旧姓を取得する
+ </summary>
+ <returns>旧姓</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f旧姓カナ">
+ <summary>
+ 旧姓カナを取得する
+ </summary>
+ <returns>旧姓カナ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f改姓年月日">
+ <summary>
+ 改姓年月日を取得する
+ </summary>
+ <returns>改姓年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f生年月日">
+ <summary>
+ 生年月日を取得する
+ </summary>
+ <returns>生年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f本籍CD">
+ <summary>
+ 本籍CDを取得する
+ </summary>
+ <returns>本籍CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f結婚CD">
+ <summary>
+ 結婚CDを取得する
+ </summary>
+ <returns>結婚CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f現住所電話番号">
+ <summary>
+ 現住所電話番号を取得する
+ </summary>
+ <returns>現住所電話番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f現住所郵便番号">
+ <summary>
+ 現住所郵便番号を取得する
+ </summary>
+ <returns>現住所郵便番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f現住所都道府県CD">
+ <summary>
+ 現住所都道府県CDを取得する
+ </summary>
+ <returns>現住所都道府県CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f現住所都道府県名称">
+ <summary>
+ 現住所都道府県名称を取得する
+ </summary>
+ <returns>現住所都道府県名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f現住所">
+ <summary>
+ 現住所を取得する
+ </summary>
+ <returns>現住所</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡先電話番号">
+ <summary>
+ 連絡先電話番号を取得する
+ </summary>
+ <returns>連絡先電話番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡先郵便番号">
+ <summary>
+ 連絡先郵便番号を取得する
+ </summary>
+ <returns>連絡先郵便番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡先都道府県CD">
+ <summary>
+ 連絡先都道府県CDを取得する
+ </summary>
+ <returns>連絡先都道府県CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡先都道府県名称">
+ <summary>
+ 連絡先都道府県名称を取得する
+ </summary>
+ <returns>連絡先都道府県名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡先住所">
+ <summary>
+ 連絡先住所を取得する
+ </summary>
+ <returns>連絡先住所</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f連絡者">
+ <summary>
+ 連絡者を取得する
+ </summary>
+ <returns>連絡者</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f続柄CD">
+ <summary>
+ 続柄CDを取得する
+ </summary>
+ <returns>続柄CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f続柄名称">
+ <summary>
+ 続柄名称を取得する
+ </summary>
+ <returns>続柄名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員管理件数">
+ <summary>
+ 職員管理件数を取得する
+ </summary>
+ <returns>職員管理件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用年月日1">
+ <summary>
+ 採用年月日1を取得する
+ </summary>
+ <returns>採用年月日1</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用条件CD">
+ <summary>
+ 採用条件CDを取得する
+ </summary>
+ <returns>採用条件CD</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f採用条件名称">
+ <summary>
+ 採用条件名称を取得する
+ </summary>
+ <returns>採用条件名称</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f転退年月日1">
+ <summary>
+ 転退年月日1を取得する
+ </summary>
+ <returns>転退年月日1</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f転退理由CD">
+ <summary>
+ 転退理由CDを取得する
+ </summary>
+ <returns>転退理由CD</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f転退理由名称">
+ <summary>
+ 転退理由名称を取得する
+ </summary>
+ <returns>転退理由名称</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f管理履歴初回登録日時">
+ <summary>
+ 管理履歴初回登録日時を取得する
+ </summary>
+ <returns>管理履歴初回登録日時</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f管理履歴最終更新日時">
+ <summary>
+ 管理履歴最終更新日時を取得する
+ </summary>
+ <returns>管理履歴最終更新日時</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f管理履歴登録者ID">
+ <summary>
+ 管理履歴登録者IDを取得する
+ </summary>
+ <returns>管理履歴登録者ID</returns>
+ <remarks>職員管理件数が０、または、職員管理索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f通勤方法CD">
+ <summary>
+ 通勤方法CDを取得する
+ </summary>
+ <returns>通勤方法CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f通勤方法名称">
+ <summary>
+ 通勤方法名称を取得する
+ </summary>
+ <returns>通勤方法名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f通勤距離">
+ <summary>
+ 通勤距離を取得する
+ </summary>
+ <returns>通勤距離</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f通勤時間">
+ <summary>
+ 通勤時間を取得する
+ </summary>
+ <returns>通勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f最寄り駅">
+ <summary>
+ 最寄り駅を取得する
+ </summary>
+ <returns>最寄り駅</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f経験年数">
+ <summary>
+ 経験年数を取得する
+ </summary>
+ <returns>経験年数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f寮利用KBN">
+ <summary>
+ 寮利用KBNを取得する
+ </summary>
+ <returns>寮利用KBN</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f寮部屋番号">
+ <summary>
+ 寮部屋番号を取得する
+ </summary>
+ <returns>寮部屋番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f携帯電話番号">
+ <summary>
+ 携帯電話番号を取得する
+ </summary>
+ <returns>携帯電話番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fEMAIL">
+ <summary>
+ EMAILを取得する
+ </summary>
+ <returns>EMAIL</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f国家公務員番号">
+ <summary>
+ 国家公務員番号を取得する
+ </summary>
+ <returns>国家公務員番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f国家公務員採用年月日">
+ <summary>
+ 国家公務員採用年月日を取得する
+ </summary>
+ <returns>国家公務員採用年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職異動件数">
+ <summary>
+ 役職異動件数を取得する
+ </summary>
+ <returns>役職異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職異動年月日">
+ <summary>
+ 役職異動年月日を取得する
+ </summary>
+ <returns>役職異動年月日</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職初回登録日時">
+ <summary>
+ 役職初回登録日時を取得する
+ </summary>
+ <returns>役職初回登録日時</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職最終更新日時">
+ <summary>
+ 役職最終更新日時を取得する
+ </summary>
+ <returns>役職最終更新日時</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職登録者ID">
+ <summary>
+ 役職登録者IDを取得する
+ </summary>
+ <returns>役職登録者ID</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職終了年月日">
+ <summary>
+ 役職終了年月日を取得する
+ </summary>
+ <returns>役職終了年月日</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職CD1">
+ <summary>
+ 役職CD1を取得する
+ </summary>
+ <returns>役職CD1</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職名称1">
+ <summary>
+ 役職名称1を取得する
+ </summary>
+ <returns>役職名称1</returns>
+ <remarks>役職異動件数が０、または、役職異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職CD2">
+ <summary>
+ 役職CD2を取得する
+ </summary>
+ <returns>役職CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職名称2">
+ <summary>
+ 役職名称2を取得する
+ </summary>
+ <returns>役職名称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職略称2">
+ <summary>
+ 役職略称2を取得する
+ </summary>
+ <returns>役職略称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職表示順">
+ <summary>
+ 役職表示順を取得する
+ </summary>
+ <returns>役職表示順</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種異動件数">
+ <summary>
+ 職種異動件数を取得する
+ </summary>
+ <returns>職種異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種異動年月日">
+ <summary>
+ 職種異動年月日を取得する
+ </summary>
+ <returns>職種異動年月日</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種終了年月日">
+ <summary>
+ 職種終了年月日を取得する
+ </summary>
+ <returns>職種終了年月日</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種初回登録日時">
+ <summary>
+ 職種初回登録日時を取得する
+ </summary>
+ <returns>職種初回登録日時</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種最終更新日時">
+ <summary>
+ 職種最終更新日時を取得する
+ </summary>
+ <returns>職種最終更新日時</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種登録者ID">
+ <summary>
+ 職種登録者IDを取得する
+ </summary>
+ <returns>職種登録者ID</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種CD1">
+ <summary>
+ 職種CD1を取得する
+ </summary>
+ <returns>職種CD1</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種名称1">
+ <summary>
+ 職種名称1を取得する
+ </summary>
+ <returns>職種名称1</returns>
+ <remarks>職種異動件数が０、または、職種異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種CD2">
+ <summary>
+ 職種CD2を取得する
+ </summary>
+ <returns>職種CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種名称2">
+ <summary>
+ 職種名称2を取得する
+ </summary>
+ <returns>職種名称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種略称2">
+ <summary>
+ 職種略称2を取得する
+ </summary>
+ <returns>職種略称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種表示順">
+ <summary>
+ 職種表示順を取得する
+ </summary>
+ <returns>職種表示順</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f配属FLG">
+ <summary>
+ 配属FLGを取得する
+ </summary>
+ <returns>配属FLG</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、Falseを取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務地FLG">
+ <summary>
+ 配属FLGを取得する
+ </summary>
+ <returns>配属FLG</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、Falseを取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職種FLG">
+ <summary>
+ 職種FLGを取得する
+ </summary>
+ <returns>職種FLG</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、Falseを取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f役職FLG">
+ <summary>
+ 役職FLGを取得する
+ </summary>
+ <returns>役職FLG</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、Falseを取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fチーム1">
+ <summary>
+ チーム1を取得する
+ </summary>
+ <returns>チーム1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fチーム2">
+ <summary>
+ チーム2を取得する
+ </summary>
+ <returns>チーム2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員初回登録日時">
+ <summary>
+ 職員初回登録日時を取得する
+ </summary>
+ <returns>職員初回登録日時</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員最終更新日時">
+ <summary>
+ 職員最終更新日時を取得する
+ </summary>
+ <returns>職員最終更新日時</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員登録者ID">
+ <summary>
+ 職員登録者IDを取得する
+ </summary>
+ <returns>職員登録者ID</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量レベルCD1">
+ <summary>
+ 技量レベルCD1を取得する
+ </summary>
+ <returns>技量レベルCD1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量レベル名称1">
+ <summary>
+ 技量レベル名称1を取得する
+ </summary>
+ <returns>技量レベル名称1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量分類CD1">
+ <summary>
+ 技量分類CD1を取得する
+ </summary>
+ <returns>技量分類CD1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量レベルCD2">
+ <summary>
+ 技量レベルCD2を取得する
+ </summary>
+ <returns>技量レベルCD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量レベル名称2">
+ <summary>
+ 技量レベル名称2を取得する
+ </summary>
+ <returns>技量レベル名称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量レベル略称2">
+ <summary>
+ 技量レベル略称2を取得する
+ </summary>
+ <returns>技量レベル略称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量表示順">
+ <summary>
+ 技量表示順を取得する
+ </summary>
+ <returns>技量表示順</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f技量分類CD2">
+ <summary>
+ 技量分類CD2を取得する
+ </summary>
+ <returns>技量分類CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f割当パターンCD">
+ <summary>
+ 割当パターンCD2を取得する
+ </summary>
+ <returns>割当パターンCD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f割当パターン名称">
+ <summary>
+ 技量レベル名称2を取得する
+ </summary>
+ <returns>技量レベル名称2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f更新FLG">
+ <summary>
+ 更新FLGを取得する
+ </summary>
+ <returns>更新FLG</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f自動割当対象区分2">
+ <summary>
+ 自動割当対象区分2を取得する
+ </summary>
+ <returns>自動割当対象区分2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f夜勤専従者KBN2">
+ <summary>
+ 夜勤専従者KBN2を取得する
+ </summary>
+ <returns>夜勤専従者KBN2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fPHS電話番号2">
+ <summary>
+ PHS電話番号2を取得する
+ </summary>
+ <returns>PHS電話番号2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f結婚CD2">
+ <summary>
+ 結婚CD2を取得する
+ </summary>
+ <returns>結婚CD2</returns>
+ <remarks>社員データ件数が０、または、職員索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f自動割当対象区分">
+ <summary>
+ 自動割当対象区分を取得する
+ </summary>
+ <returns>自動割当対象区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f夜勤専従者KBN1">
+ <summary>
+ 夜勤専従者KBN1を取得する
+ </summary>
+ <returns>夜勤専従者KBN1</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f期間日数">
+ <summary>
+ 期間日数を取得する
+ </summary>
+ <returns>期間日数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績年月日">
+ <summary>
+ 実績年月日を取得する
+ </summary>
+ <returns>実績年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務CD">
+ <summary>
+ 実績勤務CDを取得する
+ </summary>
+ <returns>実績勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務名称">
+ <summary>
+ 実績勤務名称を取得する
+ </summary>
+ <returns>実績勤務名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務記号">
+ <summary>
+ 実績勤務記号を取得する
+ </summary>
+ <returns>実績勤務記号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務分類CD">
+ <summary>
+ 実績勤務分類CDを取得する
+ </summary>
+ <returns>実績勤務分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務区分">
+ <summary>
+ 実績勤務区分を取得する
+ </summary>
+ <returns>実績勤務区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績割当分類CD">
+ <summary>
+ 実績割当分類CDを取得する
+ </summary>
+ <returns>実績割当分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績半日勤務FLG">
+ <summary>
+ 実績半日勤務FLGを取得する
+ </summary>
+ <returns>実績半日勤務FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績AM勤務CD">
+ <summary>
+ 実績AM勤務CDを取得する
+ </summary>
+ <returns>実績AM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績PM勤務CD">
+ <summary>
+ 実績PM勤務CDを取得する
+ </summary>
+ <returns>実績PM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績代休取得FLG">
+ <summary>
+ 実績代休取得FLGを取得する
+ </summary>
+ <returns>実績代休取得FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績休み分類CD">
+ <summary>
+ 実績休み分類CDを取得する
+ </summary>
+ <returns>実績休み分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績時間休FLG">
+ <summary>
+ 実績時間休FLGを取得する
+ </summary>
+ <returns>実績時間休FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績勤務グループCD">
+ <summary>
+ 実績勤務グループCDを取得する
+ </summary>
+ <returns>実績勤務グループCD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績説明">
+ <summary>
+ 実績説明を取得する
+ </summary>
+ <returns>実績説明</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績理由区分">
+ <summary>
+ 実績理由区分を取得する
+ </summary>
+ <returns>実績理由区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f確定部署CD">
+ <summary>
+ 確定部署CDを取得する
+ </summary>
+ <returns>確定部署CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f実績応援看護単位CD">
+ <summary>
+ 実績応援看護単位CDを取得する
+ </summary>
+ <returns>実績応援看護単位CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定年月日">
+ <summary>
+ 予定年月日を取得する
+ </summary>
+ <returns>予定年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務CD">
+ <summary>
+ 予定勤務CDを取得する
+ </summary>
+ <returns>予定勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務名称">
+ <summary>
+ 予定勤務名称を取得する
+ </summary>
+ <returns>予定勤務名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務記号">
+ <summary>
+ 予定勤務記号を取得する
+ </summary>
+ <returns>予定勤務記号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務分類CD">
+ <summary>
+ 予定勤務分類CDを取得する
+ </summary>
+ <returns>予定勤務分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務区分">
+ <summary>
+ 予定勤務区分を取得する
+ </summary>
+ <returns>予定勤務区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定割当分類CD">
+ <summary>
+ 予定割当分類CDを取得する
+ </summary>
+ <returns>予定割当分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定半日勤務FLG">
+ <summary>
+ 予定半日勤務FLGを取得する
+ </summary>
+ <returns>予定半日勤務FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定AM勤務CD">
+ <summary>
+ 予定AM勤務CDを取得する
+ </summary>
+ <returns>予定AM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定PM勤務CD">
+ <summary>
+ 予定PM勤務CDを取得する
+ </summary>
+ <returns>予定PM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定代休取得FLG">
+ <summary>
+ 予定代休取得FLGを取得する
+ </summary>
+ <returns>予定代休取得FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定休み分類CD">
+ <summary>
+ 予定休み分類CDを取得する
+ </summary>
+ <returns>予定休み分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定時間休FLG">
+ <summary>
+ 予定時間休FLGを取得する
+ </summary>
+ <returns>予定時間休FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定勤務グループCD">
+ <summary>
+ 予定勤務グループCDを取得する
+ </summary>
+ <returns>予定勤務グループCD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定説明">
+ <summary>
+ 予定説明を取得する
+ </summary>
+ <returns>予定説明</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定理由区分">
+ <summary>
+ 予定理由区分を取得する
+ </summary>
+ <returns>予定理由区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f予定応援看護単位CD">
+ <summary>
+ 予定応援看護単位CDを取得する
+ </summary>
+ <returns>予定応援看護単位CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員件数">
+ <summary>
+ 職員取得件数を取得する
+ </summary>
+ <returns>職員取得件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻件数">
+ <summary>
+ 打刻件数を取得する
+ </summary>
+ <returns>打刻件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻年月日">
+ <summary>
+ 打刻年月日を取得する
+ </summary>
+ <returns>打刻年月日</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻SEQ">
+ <summary>
+ 打刻SEQを取得する
+ </summary>
+ <returns>打刻SEQ</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻時刻">
+ <summary>
+ 打刻時刻を取得する
+ </summary>
+ <returns>打刻時刻</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f出退区分">
+ <summary>
+ 出退区分を取得する
+ </summary>
+ <returns>出退区分</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f摘要CD">
+ <summary>
+ 摘要CDを取得する
+ </summary>
+ <returns>摘要CD</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f摘要名称">
+ <summary>
+ 摘要名称を取得する
+ </summary>
+ <returns>摘要名称</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻エラー件数">
+ <summary>
+ 打刻エラー件数を取得する
+ </summary>
+ <returns>打刻エラー件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f職員管理番号3">
+ <summary>
+ 職員管理番号1を取得する
+ </summary>
+ <returns>職員管理番号1</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f氏名3">
+ <summary>
+ 氏名2を取得する
+ </summary>
+ <returns>氏名2</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護単位CD2">
+ <summary>
+ 看護単位CD2を取得する
+ </summary>
+ <returns>看護単位CD2</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護単位名称2">
+ <summary>
+ 看護単位名称2を取得する
+ </summary>
+ <returns>看護単位名称2</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産休件数">
+ <summary>
+ 産休件数を取得する
+ </summary>
+ <returns>産休件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産前夜免From">
+ <summary>
+ 産前夜免Fromを取得する
+ </summary>
+ <returns>産前夜免From</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産前夜免To">
+ <summary>
+ 産前夜免Toを取得する
+ </summary>
+ <returns>産前夜免To</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産前休暇From">
+ <summary>
+ 産前休暇Fromを取得する
+ </summary>
+ <returns>産前休暇From</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産前休暇To">
+ <summary>
+ 産前休暇Toを取得する
+ </summary>
+ <returns>産前休暇To</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産前休暇期間">
+ <summary>
+ 産前休暇期間を取得する
+ </summary>
+ <returns>産前休暇期間</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産後休暇From">
+ <summary>
+ 産後休暇Fromを取得する
+ </summary>
+ <returns>産後休暇From</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産後休暇To">
+ <summary>
+ 産後休暇Toを取得する
+ </summary>
+ <returns>産後休暇To</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f産後休暇期間">
+ <summary>
+ 産後休暇期間を取得する
+ </summary>
+ <returns>産後休暇期間</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f育児休暇From">
+ <summary>
+ 育児休暇Fromを取得する
+ </summary>
+ <returns>育児休暇From</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f育児休暇To">
+ <summary>
+ 育児休暇Toを取得する
+ </summary>
+ <returns>育児休暇To</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f育児休暇期間">
+ <summary>
+ 育児休暇期間を取得する
+ </summary>
+ <returns>育児休暇期間</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f出産確定年月日">
+ <summary>
+ 出産確定年月日を取得する
+ </summary>
+ <returns>出産確定年月日</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f出産予定年月日">
+ <summary>
+ 出産予定年月日を取得する
+ </summary>
+ <returns>出産予定年月日</returns>
+ <remarks>産休件数が０、または、産休索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f処理済FLG">
+ <summary>
+ 処理済FLを取得する
+ </summary>
+ <returns>処理済FL</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f在院状況">
+ <summary>
+ 在院状況を取得する
+ </summary>
+ <returns>在院状況</returns>
+ <remarks>打刻件数が０の場合、Falseを取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直年月日">
+ <summary>
+ 日当直年月日を取得する
+ </summary>
+ <returns>日当直年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務CD">
+ <summary>
+ 日当直勤務CDを取得する
+ </summary>
+ <returns>日当直勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務名称">
+ <summary>
+ 日当直勤務名称を取得する
+ </summary>
+ <returns>日当直勤務名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務記号">
+ <summary>
+ 日当直勤務記号を取得する
+ </summary>
+ <returns>日当直勤務記号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務分類CD">
+ <summary>
+ 日当直勤務分類CDを取得する
+ </summary>
+ <returns>日当直勤務分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直割当分類CD">
+ <summary>
+ 日当直割当分類CDを取得する
+ </summary>
+ <returns>日当直割当分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直半日勤務FLG">
+ <summary>
+ 日当直半日勤務FLGを取得する
+ </summary>
+ <returns>日当直半日勤務FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直AM勤務CD">
+ <summary>
+ 日当直AM勤務CDを取得する
+ </summary>
+ <returns>日当直AM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直PM勤務CD">
+ <summary>
+ 日当直PM勤務CDを取得する
+ </summary>
+ <returns>日当直PM勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直代休取得FLG">
+ <summary>
+ 日当直代休取得FLGを取得する
+ </summary>
+ <returns>日当直代休取得FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直休み分類CD">
+ <summary>
+ 日当直休み分類CDを取得する
+ </summary>
+ <returns>日当直休み分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間休FLG">
+ <summary>
+ 日当直時間休FLGを取得する
+ </summary>
+ <returns>日当直時間休FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務グループCD">
+ <summary>
+ 日当直勤務グループCDを取得する
+ </summary>
+ <returns>日当直勤務グループCD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務グループ名称">
+ <summary>
+ 日当直勤務グループ名称を取得する
+ </summary>
+ <returns>日当直勤務グループ名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直説明">
+ <summary>
+ 日当直説明を取得する
+ </summary>
+ <returns>日当直説明</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直日別件数">
+ <summary>
+ 日当直日別件数を取得する
+ </summary>
+ <returns>日当直日別件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直初回登録日時">
+ <summary>
+ 日当直初回登録日時を取得する
+ </summary>
+ <returns>日当直初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直最終更新日時">
+ <summary>
+ 日当直最終更新日時を取得する
+ </summary>
+ <returns>日当直最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直登録者ID">
+ <summary>
+ 日当直登録者IDを取得する
+ </summary>
+ <returns>日当直登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fPHS電話番号">
+ <summary>
+ PHS電話番号を取得する
+ </summary>
+ <returns>PHS電話番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f時間外管理業務区分">
+ <summary>
+ 時間外管理業務区分を取得する
+ </summary>
+ <returns>時間外管理業務区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f初回登録日時_基本">
+ <summary>
+ 初回登録日時_基本を取得する
+ </summary>
+ <returns>初回登録日時_基本</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f最終更新日時_基本">
+ <summary>
+ 最終更新日時_基本を取得する
+ </summary>
+ <returns>最終更新日時_基本</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetDutyTime">
+ <summary>
+ 日当直勤務時間Ｍの取得指示メソッド<br />
+   概要:日当直グループCDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直勤務時間件数">
+ <summary>
+ 日当直勤務時間件数を取得する
+ </summary>
+ <returns>日当直勤務時間件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間勤務CD">
+ <summary>
+ 日当直時間勤務CDを取得する
+ </summary>
+ <returns>日当直時間勤務CD</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間勤務名称">
+ <summary>
+ 日当直時間勤務名称を取得する
+ </summary>
+ <returns>日当直時間勤務名称</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間勤務記号">
+ <summary>
+ 日当直時間勤務記号を取得する
+ </summary>
+ <returns>日当直時間勤務記号</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間勤務説明">
+ <summary>
+ 日当直時間勤務説明を取得する
+ </summary>
+ <returns>日当直時間勤務説明</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直時間勤務分類CD">
+ <summary>
+ 日当直時間勤務分類CDを取得する
+ </summary>
+ <returns>日当直時間勤務分類CD</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直前半開始時刻">
+ <summary>
+ 日当直前半開始時刻を取得する
+ </summary>
+ <returns>日当直前半開始時刻</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直前半終了時刻">
+ <summary>
+ 日当直前半終了時刻を取得する
+ </summary>
+ <returns>日当直前半終了時刻</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直前半勤務終了日">
+ <summary>
+ 日当直前半勤務終了日を取得する
+ </summary>
+ <returns>日当直前半勤務終了日</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直前半勤務時間">
+ <summary>
+ 日当直前半勤務時間を取得する
+ </summary>
+ <returns>日当直前半勤務時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直後半開始時刻">
+ <summary>
+ 日当直後半開始時刻を取得する
+ </summary>
+ <returns>日当直後半開始時刻</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直後半終了時刻">
+ <summary>
+ 日当直後半終了時刻を取得する
+ </summary>
+ <returns>日当直後半終了時刻</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直後半勤務開始日">
+ <summary>
+ 日当直後半勤務開始日を取得する
+ </summary>
+ <returns>日当直後半勤務開始日</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直後半勤務終了日">
+ <summary>
+ 日当直後半勤務終了日を取得する
+ </summary>
+ <returns>日当直後半勤務終了日</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直後半勤務時間">
+ <summary>
+ 日当直後半勤務時間を取得する
+ </summary>
+ <returns>日当直後半勤務時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直正味休憩時間">
+ <summary>
+ 日当直正味休憩時間を取得する
+ </summary>
+ <returns>日当直正味休憩時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直実勤務時間">
+ <summary>
+ 日当直実勤務時間を取得する
+ </summary>
+ <returns>日当直実勤務時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直超勤入力可否">
+ <summary>
+ 日当直超勤入力可否を取得する
+ </summary>
+ <returns>日当直超勤入力可否</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直超勤開始時間">
+ <summary>
+ 日当直超勤開始時間を取得する
+ </summary>
+ <returns>日当直超勤開始時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直当日休日算定時間">
+ <summary>
+ 日当直当日休日算定時間を取得する
+ </summary>
+ <returns>日当直当日休日算定時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直翌日休日算定時間">
+ <summary>
+ 日当直翌日休日算定時間を取得する
+ </summary>
+ <returns>日当直翌日休日算定時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直当日夜間算定時間">
+ <summary>
+ 日当直当日夜間算定時間を取得する
+ </summary>
+ <returns>日当直当日夜間算定時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直翌日夜間算定時間">
+ <summary>
+ 日当直翌日夜間算定時間を取得する
+ </summary>
+ <returns>日当直翌日夜間算定時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直宿日直単価">
+ <summary>
+ 日当直宿日直単価を取得する
+ </summary>
+ <returns>日当直宿日直単価</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直出勤打刻要否">
+ <summary>
+ 日当直出勤打刻要否を取得する
+ </summary>
+ <returns>日当直出勤打刻要否</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直出勤有効開始時間">
+ <summary>
+ 日当直出勤有効開始時間を取得する
+ </summary>
+ <returns>日当直出勤有効開始時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直退勤打刻要否">
+ <summary>
+ 日当直退勤打刻要否を取得する
+ </summary>
+ <returns>日当直退勤打刻要否</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直退勤有効終了時間">
+ <summary>
+ 日当直退勤有効終了時間を取得する
+ </summary>
+ <returns>日当直退勤有効終了時間</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日当直退勤有効終了日">
+ <summary>
+ 日当直退勤有効終了日を取得する
+ </summary>
+ <returns>日当直退勤有効終了日</returns>
+ <remarks>日当直勤務時間Ｍ件数が０、または、日当直勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務実績初回登録日時">
+ <summary>
+ 勤務実績初回登録日時を取得する
+ </summary>
+ <returns>勤務実績初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務実績最終更新日時">
+ <summary>
+ 勤務実績最終更新日時を取得する
+ </summary>
+ <returns>勤務実績最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務実績登録者ID">
+ <summary>
+ 勤務実績登録者IDを取得する
+ </summary>
+ <returns>勤務実績登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務予定初回登録日時">
+ <summary>
+ 勤務予定初回登録日時を取得する
+ </summary>
+ <returns>勤務予定初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務予定最終更新日時">
+ <summary>
+ 勤務予定最終更新日時を取得する
+ </summary>
+ <returns>勤務予定最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務予定登録者ID">
+ <summary>
+ 勤務予定登録者IDを取得する
+ </summary>
+ <returns>勤務予定登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f時間外初回登録日時">
+ <summary>
+ 時間外初回登録日時を取得する
+ </summary>
+ <returns>時間外初回登録日時</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f時間外状態区分">
+ <summary>
+ 時間外状態区分を取得する
+ </summary>
+ <returns>時間外状態区分</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f時間外最終更新日時">
+ <summary>
+ 時間外最終更新日時を取得する
+ </summary>
+ <returns>時間外最終更新日時</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f時間外登録者ID">
+ <summary>
+ 時間外登録者IDを取得する
+ </summary>
+ <returns>時間外登録者ID</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻初回登録日時">
+ <summary>
+ 打刻初回登録日時を取得する
+ </summary>
+ <returns>打刻初回登録日時</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻最終更新日時">
+ <summary>
+ 打刻最終更新日時を取得する
+ </summary>
+ <returns>打刻最終更新日時</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f打刻登録者ID">
+ <summary>
+ 打刻登録者IDを取得する
+ </summary>
+ <returns>打刻登録者ID</returns>
+ <remarks>打刻件数が０、または、打刻索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f日勤時間">
+ <summary>
+ 日勤時間を取得する
+ </summary>
+ <returns>日勤時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f夜勤時間">
+ <summary>
+ 夜勤時間を取得する
+ </summary>
+ <returns>夜勤時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f翌日夜勤時間">
+ <summary>
+ 翌日夜勤時間を取得する
+ </summary>
+ <returns>翌日夜勤時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f総夜勤時間">
+ <summary>
+ 総夜勤時間を取得する
+ </summary>
+ <returns>総夜勤時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f翌夜勤総時間">
+ <summary>
+ 翌夜勤総時間を取得する
+ </summary>
+ <returns>翌夜勤総時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース勤務">
+ <summary>
+ ベース勤務を取得する
+ </summary>
+ <returns>ベース勤務</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetBaseKinmu">
+ <summary>
+ ベース勤務の取得指示メソッド<br />
+ 概要:看護単位CD、採用条件CDを指定し、該当するベース勤務を取得する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース勤務CD">
+ <summary>
+ ベース勤務CDを取得する
+ </summary>
+ <returns>ベース勤務CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース勤務採用条件CD">
+ <summary>
+ ベース勤務採用条件CDを取得する
+ </summary>
+ <returns>ベース勤務採用条件CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース勤務勤務部署CD">
+ <summary>
+ ベース勤務勤務部署Cを取得する
+ </summary>
+ <returns>ベース勤務勤務部署C</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース前半開始時刻">
+ <summary>
+ ベース前半開始時刻を取得する
+ </summary>
+ <returns>ベース前半開始時刻</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース前半終了時刻">
+ <summary>
+ ベース前半終了時刻を取得する
+ </summary>
+ <returns>ベース前半終了時刻</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース前半勤務終了日">
+ <summary>
+ ベース前半勤務終了日を取得する
+ </summary>
+ <returns>ベース前半勤務終了日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース前半勤務時間">
+ <summary>
+ ベース前半勤務時間を取得する
+ </summary>
+ <returns>ベース前半勤務時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース後半開始時刻">
+ <summary>
+ ベース後半開始時刻を取得する
+ </summary>
+ <returns>ベース後半開始時刻</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース後半終了時刻">
+ <summary>
+ ベース後半終了時刻を取得する
+ </summary>
+ <returns>ベース後半終了時刻</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース後半勤務開始日">
+ <summary>
+ ベース後半勤務開始日を取得する
+ </summary>
+ <returns>ベース後半勤務開始日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース後半勤務終了日">
+ <summary>
+ ベース後半勤務終了日を取得する
+ </summary>
+ <returns>ベース後半勤務終了日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース後半勤務時間">
+ <summary>
+ ベース後半勤務時間を取得する
+ </summary>
+ <returns>ベース後半勤務時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース正味休憩時間">
+ <summary>
+ ベース正味休憩時間を取得する
+ </summary>
+ <returns>ベース正味休憩時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース実勤務時間">
+ <summary>
+ ベース実勤務時間を取得する
+ </summary>
+ <returns>ベース実勤務時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース超勤入力可否">
+ <summary>
+ ベース超勤入力可否を取得する
+ </summary>
+ <returns>ベース超勤入力可否</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース超勤開始時間">
+ <summary>
+ ベース超勤開始時間を取得する
+ </summary>
+ <returns>ベース超勤開始時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース当日休日算定時間">
+ <summary>
+ ベース当日休日算定時間を取得する
+ </summary>
+ <returns>ベース当日休日算定時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース翌日休日算定時間">
+ <summary>
+ ベース翌日休日算定時間を取得する
+ </summary>
+ <returns>ベース翌日休日算定時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース当日夜間算定時間">
+ <summary>
+ ベース当日夜間算定時間を取得する
+ </summary>
+ <returns>ベース当日夜間算定時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース翌日夜間算定時間">
+ <summary>
+ ベース翌日夜間算定時間を取得する
+ </summary>
+ <returns>ベース翌日夜間算定時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース宿日直単価">
+ <summary>
+ ベース宿日直単価を取得する
+ </summary>
+ <returns>ベース宿日直単価</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース出勤打刻要否">
+ <summary>
+ ベース出勤打刻要否を取得する
+ </summary>
+ <returns>ベース出勤打刻要否</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース出勤有効開始時間">
+ <summary>
+ ベース出勤有効開始時間を取得する
+ </summary>
+ <returns>ベース出勤有効開始時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース退勤打刻要否">
+ <summary>
+ ベース退勤打刻要否を取得する
+ </summary>
+ <returns>ベース退勤打刻要否</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース退勤有効終了時間">
+ <summary>
+ ベース退勤有効終了時間を取得する
+ </summary>
+ <returns>ベース退勤有効終了時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース退勤有効終了日">
+ <summary>
+ ベース退勤有効終了日を取得する
+ </summary>
+ <returns>ベース退勤有効終了日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース初回登録日時">
+ <summary>
+ ベース初回登録日時を取得する
+ </summary>
+ <returns>ベース初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース最終更新日時">
+ <summary>
+ ベース最終更新日時を取得する
+ </summary>
+ <returns>ベース最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース登録者ID">
+ <summary>
+ ベース登録者IDを取得する
+ </summary>
+ <returns>ベース登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間初回登録日時">
+ <summary>
+ 勤務時間初回登録日時を取得する
+ </summary>
+ <returns>勤務時間初回登録日時</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間最終更新日時">
+ <summary>
+ 勤務時間最終更新日時を取得する
+ </summary>
+ <returns>勤務時間最終更新日時</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間登録者ID">
+ <summary>
+ 勤務時間登録者IDを取得する
+ </summary>
+ <returns>勤務時間登録者ID</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間採用条件CD">
+ <summary>
+ 勤務時間採用条件CDを取得する
+ </summary>
+ <returns>勤務時間採用条件CD</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務時間勤務部署CD">
+ <summary>
+ 勤務時間勤務部署CDを取得する
+ </summary>
+ <returns>勤務時間勤務部署CD</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース日勤時間">
+ <summary>
+ ベース日勤時間を取得する
+ </summary>
+ <returns>ベース日勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース夜勤時間">
+ <summary>
+ ベース夜勤時間を取得する
+ </summary>
+ <returns>ベース夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース翌日夜勤時間">
+ <summary>
+ ベース翌日夜勤時間を取得する
+ </summary>
+ <returns>ベース翌日夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース総夜勤時間">
+ <summary>
+ ベース総夜勤時間を取得する
+ </summary>
+ <returns>ベース総夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fベース翌夜勤総時間">
+ <summary>
+ ベース翌夜勤総時間を取得する
+ </summary>
+ <returns>ベース翌夜勤総時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休年月日">
+ <summary>
+ 年休年月日を取得する
+ </summary>
+ <returns>年休年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休SEQ">
+ <summary>
+ 年休SEQを取得する
+ </summary>
+ <returns>年休SEQ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休取得内容区分">
+ <summary>
+ 年休取得内容区分を取得する
+ </summary>
+ <returns>年休取得内容区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休開始時間">
+ <summary>
+ 年休開始時間を取得する
+ </summary>
+ <returns>年休開始時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休終了時間">
+ <summary>
+ 年休終了時間を取得する
+ </summary>
+ <returns>年休終了時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休翌日FLG">
+ <summary>
+ 年休翌日FLGを取得する
+ </summary>
+ <returns>年休翌日FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休勤務年月日">
+ <summary>
+ 年休勤務年月日を取得する
+ </summary>
+ <returns>年休勤務年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休年月日区分">
+ <summary>
+ 年休年月日区分を取得する
+ </summary>
+ <returns>年休年月日区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休UNIQUESEQNO">
+ <summary>
+ 年休UNIQUESEQNOを取得する
+ </summary>
+ <returns>年休UNIQUESEQNO</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休承認済FLG">
+ <summary>
+ 年休承認済FLGを取得する
+ </summary>
+ <returns>年休承認済FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休休み分類CD">
+ <summary>
+ 年休休み分類CDを取得する
+ </summary>
+ <returns>年休休み分類CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休休み分類名称">
+ <summary>
+ 年休休み分類名称を取得する
+ </summary>
+ <returns>年休休み分類名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休休み分類略称">
+ <summary>
+ 年休休み分類略称を取得する
+ </summary>
+ <returns>年休休み分類略称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休初回登録日時">
+ <summary>
+ 年休初回登録日時を取得する
+ </summary>
+ <returns>年休初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休最終更新日時">
+ <summary>
+ 年休最終更新日時を取得する
+ </summary>
+ <returns>年休最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休登録者ID">
+ <summary>
+ 年休登録者IDを取得する
+ </summary>
+ <returns>年休登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休期間日数">
+ <summary>
+ 年休期間日数を取得する
+ </summary>
+ <returns>年休期間日数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休日別件数">
+ <summary>
+ 年休件数を取得する
+ </summary>
+ <returns>年休件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f健康状態">
+ <summary>
+ 健康状態を取得する
+ </summary>
+ <returns>健康状態</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f家族状況">
+ <summary>
+ 家族状況を取得する
+ </summary>
+ <returns>家族状況</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護保険区分">
+ <summary>
+ 看護保険区分を取得する
+ </summary>
+ <returns>看護保険区分</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f看護保険番号">
+ <summary>
+ 看護保険番号を取得する
+ </summary>
+ <returns>看護保険番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細期間日数">
+ <summary>
+ 勤務詳細期間日数を取得する
+ </summary>
+ <returns>勤務詳細期間日数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細日別件数">
+ <summary>
+ 勤務詳細件数を取得する
+ </summary>
+ <returns>勤務詳細件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細年月日">
+ <summary>
+ 勤務詳細年月日を取得する
+ </summary>
+ <returns>勤務詳細年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細勤務年月日">
+ <summary>
+ 勤務詳細勤務年月日を取得する
+ </summary>
+ <returns>勤務詳細勤務年月日</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細開始時間">
+ <summary>
+ 勤務詳細開始時間を取得する
+ </summary>
+ <returns>勤務詳細開始時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細終了時間">
+ <summary>
+ 勤務詳細終了時間を取得する
+ </summary>
+ <returns>勤務詳細終了時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細日勤時間">
+ <summary>
+ 勤務詳細日勤時間を取得する
+ </summary>
+ <returns>勤務詳細日勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細夜勤時間">
+ <summary>
+ 勤務詳細夜勤時間を取得する
+ </summary>
+ <returns>勤務詳細夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細翌日夜勤時間">
+ <summary>
+ 勤務詳細翌日夜勤時間を取得する
+ </summary>
+ <returns>勤務詳細翌日夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細診療報酬計算KBN">
+ <summary>
+ 勤務詳細診療報酬計算KBNを取得する
+ </summary>
+ <returns>勤務詳細診療報酬計算KBN</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細翌日FLG">
+ <summary>
+ 勤務詳細翌日FLGを取得する
+ </summary>
+ <returns>勤務詳細翌日FLG</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細CD">
+ <summary>
+ 勤務詳細CDを取得する
+ </summary>
+ <returns>勤務詳細CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細名称">
+ <summary>
+ 勤務詳細名称を取得する
+ </summary>
+ <returns>勤務詳細名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細略称">
+ <summary>
+ 勤務詳細略称を取得する
+ </summary>
+ <returns>勤務詳細略称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細初回登録日時">
+ <summary>
+ 勤務詳細初回登録日時を取得する
+ </summary>
+ <returns>勤務詳細初回登録日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細最終更新日時">
+ <summary>
+ 勤務詳細最終更新日時を取得する
+ </summary>
+ <returns>勤務詳細最終更新日時</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務詳細登録者ID">
+ <summary>
+ 勤務詳細登録者IDを取得する
+ </summary>
+ <returns>勤務詳細登録者ID</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲異動件数">
+ <summary>
+ 再掲異動件数を取得する
+ </summary>
+ <returns>再掲異動件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲CD">
+ <summary>
+ 再掲CDを取得する
+ </summary>
+ <returns>再掲CD</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲名称">
+ <summary>
+ 再掲名称を取得する
+ </summary>
+ <returns>再掲名称</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲略称">
+ <summary>
+ 再掲略称を取得する
+ </summary>
+ <returns>再掲略称</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲初回登録日時">
+ <summary>
+ 再掲初回登録日時を取得する
+ </summary>
+ <returns>再掲初回登録日時</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲最終更新日時">
+ <summary>
+ 再掲最終更新日時を取得する
+ </summary>
+ <returns>再掲最終更新日時</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲登録者ID">
+ <summary>
+ 再掲登録者IDを取得する
+ </summary>
+ <returns>再掲登録者ID</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲異動年月日">
+ <summary>
+ 再掲異動年月日を取得する
+ </summary>
+ <returns>再掲異動年月日</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f再掲終了年月日">
+ <summary>
+ 再掲終了年月日を取得する
+ </summary>
+ <returns>再掲終了年月日</returns>
+ <remarks>再掲異動件数が０、または、再掲異動索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半開始時刻_文字列型">
+ <summary>
+ 前半開始時刻を取得する
+ </summary>
+ <returns>前半開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f前半終了時刻_文字列型">
+ <summary>
+ 前半終了時刻を取得する
+ </summary>
+ <returns>前半終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半開始時刻_文字列型">
+ <summary>
+ 後半開始時刻を取得する
+ </summary>
+ <returns>後半開始時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f後半終了時刻_文字列型">
+ <summary>
+ 後半終了時刻を取得する
+ </summary>
+ <returns>後半終了時刻</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤開始時間_文字列型">
+ <summary>
+ 超勤開始時間を取得する
+ </summary>
+ <returns>超勤開始時間</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f超勤備考">
+ <summary>
+ 超勤備考を取得する
+ </summary>
+ <returns>超勤備考</returns>
+ <remarks>超勤件数が０、または、超勤索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務前時間外可能フラグ">
+ <summary>
+ 勤務前時間外可能フラグを取得する
+ </summary>
+ <returns>勤務前時間外可能フラグ</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務中時間外可能フラグ">
+ <summary>
+ 勤務中時間外可能フラグを取得する
+ </summary>
+ <returns>勤務中時間外可能フラグ</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f勤務後時間外可能フラグ">
+ <summary>
+ 勤務後時間外可能フラグを取得する
+ </summary>
+ <returns>勤務後時間外可能フラグ</returns>
+ <remarks>勤務時間Ｍ件数が０、または、勤務時間索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩減算フラグ">
+ <summary>
+ 休憩減算フラグを取得する
+ </summary>
+ <returns>休憩減算フラグ</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f取得時間">
+ <summary>
+ 取得時間を取得する
+ </summary>
+ <returns>取得時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休日勤時間">
+ <summary>
+ 年休日勤時間を取得する
+ </summary>
+ <returns>年休日勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休夜勤時間">
+ <summary>
+ 年休夜勤時間を取得する
+ </summary>
+ <returns>年休夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f年休翌日夜勤時間">
+ <summary>
+ 年休翌日夜勤時間を取得する
+ </summary>
+ <returns>年休翌日夜勤時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f休憩減算フラグ2">
+ <summary>
+ 休憩減算フラグ2を取得する
+ </summary>
+ <returns>休憩減算フラグ2</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.f控除時間">
+ <summary>
+ 控除時間を取得する
+ </summary>
+ <returns>控除時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mStaffInit">
+ <summary>
+ 職員基本情報の取得指示<br />
+   概要:職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はエラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetStaff">
+ <summary>
+ 職員基本情報の取得指示<br />
+   概要:職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetKinmu">
+ <summary>
+ 職員別勤務の取得指示<br />
+   職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mCheckDakoku">
+ <summary>
+ 打刻のチェック<br />
+   概要:職員単位で打刻のチェックを行う
+ </summary>
+ <returns>（TRUE：打刻エラーあり、FALSE：打刻エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetOverKinmu">
+ <summary>
+ 超勤調整、明細Ｆの取得指示<br />
+   概要:病院CD、職員番号を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetKinmuTime">
+ <summary>
+ 勤務時間Ｍの取得指示<br />
+   概要:看護単位CD、職種CD、役職CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetTanka">
+ <summary>
+ 超勤単価の取得指示<br />
+   概要:超勤時間を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetDakoku">
+ <summary>
+ 勤務時間Ｍの取得指示<br />
+   概要:看護単位CD、職種CD、役職CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetSankyuStaff">
+ <summary>
+ 産休の取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m職員並び順(System.Int32@)">
+ <summary>
+ ＮＳ職員歴Ｆより指定された並び順でデータを取得する
+ </summary>
+ <param name="p_lngSyokuinNarabi">職員並び順</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m翌日実績">
+ <summary>
+ 翌日実績メソッド<br />
+   概要:参照日付を翌日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m翌日日当直">
+ <summary>
+ 翌日日当直メソッド<br />
+   概要:参照日付を翌日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m前日実績">
+ <summary>
+ 前日実績メソッド<br />
+   概要:参照日付を前日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m前日日当直">
+ <summary>
+ 前日日当直メソッド<br />
+   概要:参照日付を前日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m翌日予定">
+ <summary>
+ 翌日予定メソッド<br />
+   概要:参照日付を翌日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m前日予定">
+ <summary>
+ 前日予定メソッド<br />
+   概要:参照日付を前日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.Class_Terminate_Renamed">
+ <summary>
+ 構造体、ﾃﾞｰﾀﾃﾞｨｸｼｮﾅﾘｵﾌﾞｼﾞｪｸﾄの開放<br />
+   概要:構造体、ﾃﾞｰﾀﾃﾞｨｸｼｮﾅﾘｵﾌﾞｼﾞｪｸﾄを初期化する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetDuty">
+ <summary>
+  職員別日当直の取得指示メソッド<br />
+   概要:職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetNenkyu">
+ <summary>
+ 年休Fの取得指示メソッド<br />
+   概要:職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m翌日年休">
+ <summary>
+ 翌日年休メソッド<br />
+   概要:参照日付を翌日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m前日年休">
+ <summary>
+ 前日年休メソッド<br />
+   概要:参照日付を前日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mChkKinmuDuty">
+ <summary>
+ 勤務変更のチェックメソッド<br />
+   概要:職員単位で勤務変更可否のチェックを行う
+ </summary>
+ <returns>（TRUE：エラーあり、FALSE：エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.mGetKinmuDetail">
+ <summary>
+ 勤務詳細Fの取得指示メソッド<br />
+   概要:職員番号と基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m翌日勤務詳細">
+ <summary>
+ 翌日勤務詳細メソッド<br />
+   概要:参照日付を翌日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.m前日勤務詳細">
+ <summary>
+ 前日勤務詳細メソッド<br />
+   概要:参照日付を前日に移動
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncCheckDakoku(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ 指定職員の打刻のチェックを行う
+ </summary>
+ <param name="p_lngFrom">打刻チェック日の前日</param>
+ <param name="p_lngTo">打刻チェック日の翌日</param>
+ <param name="p_blnJissekiResult">勤務実績が取得できたか</param>
+ <param name="p_blnDakokuResult">打刻が取得できたか</param>
+ <param name="p_blnOverKinmuResult">超勤が取得できたか</param>
+ <returns>（TRUE：打刻エラーあり、FALSE：打刻エラーなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncChkKinmuDuty(System.Int32,System.Int32)">
+ <summary>
+ 勤務変更可否のチェックを行う
+ </summary>
+ <param name="p_lngFrom">チェック日の前日</param>
+ <param name="p_lngTo">チェック日の翌日</param>
+ <returns>（TRUE：勤務変更可、FALSE：勤務変更不可）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDakokuData(DATABEAN.Check_Dakoku@,System.Int32,System.Int32,System.Boolean)">
+ <summary>
+ 打刻チェックに必要なデータを取得する
+ </summary>
+ <param name="p_udtCheck">打刻チェック用構造体</param>
+ <param name="p_lngFrom">打刻チェック日の前日</param>
+ <param name="p_lngTo">刻チェック日の翌日</param>
+ <param name="p_blnDutyKinmuResult">打刻取得結果</param>
+ <returns>戻り値なし</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetJikanNenkyu(System.String,System.Int32,DATABEAN.Jikan_Nenkyu[]@)">
+ <summary>
+ 受け取った職員番号を元に時間年休を取得
+ </summary>
+ <param name="p_strStaffNo">職員番号</param>
+ <param name="p_lngFrom">対象年月日</param>
+ <param name="p_udtJikanNenkyu">時間年休取得用構造体</param>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncSetDakokuErr(System.Int16,System.String)">
+ <summary>
+ 受け取ったパラメータに応じたエラーメッセージを設定する
+ </summary>
+ <param name="p_intErrNo">エラーNO</param>
+ <param name="p_strKbn">打刻区分</param>
+ <returns>戻り値なし</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subDataSort">
+ <summary>
+ データ並び替え
+   概要：構造体配列変数のデータを並べ替えする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetPlanNo(System.Int32@,System.Int32@,System.Int32,System.Int32)">
+ <summary>
+ 受け取った年月日を元にその期間が対象となっている計画番号と前月の計画番号を取得
+ </summary>
+ <param name="p_lngPlan">計画番号（IN/OUT）</param>
+ <param name="p_lngBeforePlan">前回の計画番号（IN/OUT）</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnNenkyuIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetKangoTani(System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号、年月日を元に看護単位CD,看護単位名称を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetSaikei(System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号、年月日を元に看護単位CD,看護単位名称を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetHaizokuBusyo(System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号、年月日を元に配属部署CD,配属部署名称を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffInfo(System.Object,System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号を元に職員基本情報を取得
+ </summary>
+ <param name="p_objDic">汎用Ｍ情報</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetHanyouName(System.String,System.String)">
+ <summary>
+ 取得したコードを元に汎用Ｍより名称を取得
+ </summary>
+ <param name="p_strCode">汎用Ｍより取得するコード</param>
+ <param name="p_strMasterID">汎用ＭのマスタID</param>
+ <returns>「Name」の値</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetPost(System.String,System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号を元に役職を取得
+ </summary>
+ <param name="p_strStaffNo"> 職員番号</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetJob(System.String,System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号を元に職種を取得
+ </summary>
+ <param name="p_strStaffNo"> 職員番号</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffHistory1">
+ <summary>
+ 受け取った職員番号を元に職員歴情報を取得
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetTargetStaff(System.Int32,System.Int32)">
+ <summary>
+ 受け取った看護単位CDを元に在職している職員情報を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetOldPalnNo(System.String)">
+ <summary>
+ 指定された年月日以前で直近の職員歴Ｆに存在する計画番号を取得
+ </summary>
+ <param name="p_strKangoTani">看護単位CD</param>
+ <returns>直近の計画番号</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffHistory2">
+ <summary>
+ 受け取った看護単位CDを元に職員歴情報を取得(mGetStaff用）
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetTecName(System.String,System.String@)">
+ <summary>
+ 受け取った技量CDを元に名称を取得(mGetStaff用）
+ </summary>
+ <param name="p_strTeclevelCD">技量レベルCD</param>
+ <param name="p_strTecBunruiCD">技量分類CD</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks>「NS_SKILL_M」テーブルの項目「Name」の値</remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetKinmu(System.Int32,System.Int32)">
+ <summary>
+ 受け取った期間を元に対象職員の勤務実績・予定を取得(mGetKinmu用）
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetNenkyu(System.Int32,System.Int32)">
+ <summary>
+ 受け取った期間を元に対象職員の時間休を取得(mGetNenkyu用）
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDuty(System.Int32,System.Int32)">
+ <summary>
+ 受け取った期間を元に対象職員の日当直を取得(mGetKinmu用）
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnJIssekiKensuku">
+ <summary>
+ 実績データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnDutyKensuku">
+ <summary>
+ 日当直データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnYoteiKensuku">
+ <summary>
+ 予定データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnYoteiIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnJissekiIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnDutyIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffMngNo(System.Int32,System.Int32)">
+ <summary>
+ 受け取った職員番号を元に職員の表示用職員番号を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>戻り値なし</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetOverKinmu(System.Int32,System.Int32)">
+ <summary>
+ 超勤調整Ｆ、明細Ｆの情報を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetKinmuM">
+ <summary>
+ 勤務名称マスタを取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetHolBunruiM">
+ <summary>
+ 休暇分類マスタを取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffMngHistory(System.Object,System.Int32,System.Int32)">
+ <summary>
+ 職員管理履歴情報を取得する
+ </summary>
+ <param name="p_objDic">汎用Ｍ情報（ﾃﾞｨｸｼｮﾅﾘ）</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetHanyouM(System.Object@)">
+ <summary>
+ 汎用Ｍ情報を取得する
+ </summary>
+ <param name="p_objDic">汎用Ｍﾃﾞｨｸｼｮﾅﾘ（IN/OUT)</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetMaxTeam(System.String)">
+ <summary>
+ 看護単位Ｍよりﾁｰﾑを取得する
+ </summary>
+ <param name="p_strKangoCD">看護単位CD</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetKinmuTimeM">
+ <summary>
+ 勤務時間マスタを取得する
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetKinmuTime_Kensu">
+ <summary>
+ 勤務時間マスタに存在する共通の勤務CDの件数を取得
+ </summary>
+ <returns>（TRUE：勤務時間M設定あり、FALSE：勤務時間M設定なし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetChkKinmuTime">
+ <summary>
+ 勤務時間マスタを取得する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGet_TimeM(System.String,System.String)">
+ <summary>
+ 勤務時間マスタを取得する
+ </summary>
+ <param name="p_strSaiyouCD">採用条件CD</param>
+ <param name="p_strKangoTaniCD">看護単位CD</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subChkKinmuTime(System.String,System.String,System.String,System.String,System.Int32@,System.Int32@)">
+ <summary>
+ 勤務時間のチェック
+ </summary>
+ <param name="p_strKbn">区分</param>
+ <param name="p_strSaiyouCD">採用条件CD</param>
+ <param name="p_strKangoTaniCD">看護単位CD</param>
+ <param name="p_strKinmuCD">勤務CD</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetOverKinmu_Single(System.Object,System.String,System.Int32,System.Int32)">
+ <summary>
+ 超勤調整Ｆ又は超勤明細Ｆのどちらかをを取得する
+ </summary>
+ <param name="p_objDic">超勤理由Ｍ情報</param>
+ <param name="p_strTableNM">職種CD</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetOverKinmu_Double(System.Object,System.Int32,System.Int32)">
+ <summary>
+ 確定Ｆにデータが存在すれば調整Ｆ、未存在は明細Ｆを取得する
+ </summary>
+ <param name="p_objDic">超勤理由Ｍ情報</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncSetOverKinmu_Data(System.Object,System.Int32,System.Int32,System.Object@,System.Object@,System.Int16@,System.Int16@)">
+ <summary>
+ 調整Ｆ AND 明細Ｆのデータをﾃﾞｰﾀﾃﾞｨｸｼｮﾅﾘに格納
+ </summary>
+ <param name="p_objDic">超勤理由Ｍ情報</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <param name="p_objTyouseiDic">調整Ｆ</param>
+ <param name="p_objMeisaiDic">明細Ｆ</param>
+ <param name="p_intTyouseiCnt">明細Ｆﾃﾞｰﾀ件数</param>
+ <param name="p_intMeisaiCnt">調整Ｆﾃﾞｰﾀ件数</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetTanka">
+ <summary>
+ 超勤時間を各単価時間に振り分ける
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetOverKinmuTankaM(DATABEAN.OverKinmuTankaM[]@)">
+ <summary>
+ 超勤単価Ｍを取得
+ </summary>
+ <param name="p_TankaData">超勤単価Ｍ構造体</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaffIdoMaster(System.Int32,System.Int32,System.Object@,System.Object@,System.Object@,System.Object@,System.Object@)">
+ <summary>
+ 指定期間の職員の異動情報をﾃﾞｰﾀﾃﾞｨｸｼｮﾅﾘｵﾌﾞｼﾞｪｸﾄに格納
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <param name="p_objKinmuIdoDic">勤務地異動ｵﾌﾞｼﾞｪｸﾄ（IN/OUT）</param>
+ <param name="p_objPostDic">役職異動ｵﾌﾞｼﾞｪｸﾄ（IN/OUT）</param>
+ <param name="p_objJobDic">職種異動ｵﾌﾞｼﾞｪｸﾄ（IN/OUT）</param>
+ <param name="p_objHaizokuIdoDic">配属異動ｵﾌﾞｼﾞｪｸﾄ（IN/OUT）</param>
+ <param name="p_objSaikeiIdoDic">再掲異動ｵﾌﾞｼﾞｪｸﾄ（IN/OUT）</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetStaff_SQL(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 退職者、在職者全員の職員を取得するSQLを作成する
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <param name="plngKbn">職員取得FLG（ﾌﾟﾛﾊﾟﾃｨで渡される）</param>
+ <returns>SQL文字列</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDakoku(System.Int32,System.Int32)">
+ <summary>
+ 有効範囲時間内の打刻を取得する。
+ </summary>
+ <param name="p_lngFrom">前日の年月日</param>
+ <param name="p_lngTo">翌日の年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDakokuTime_Limit(System.Int32,System.Int32,DATABEAN.Dakoku_Kinmu@)">
+ <summary>
+ 打刻取得のための有効時間範囲を取得。
+ </summary>
+ <param name="p_lngFrom">指定日の前日</param>
+ <param name="p_lngTo">指定日の翌日</param>
+ <param name="p_udtDakoku">打刻情報（OUT）</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncCheckZaiin(System.Int32@)">
+ <summary>
+ 在院状況をチェックする。
+ </summary>
+ <param name="p_lngFrom">指定日の前日</param>
+ <returns>（TRUE：在院している、FALSE：在院していない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncChkApproveData(System.String)">
+ <summary>
+ 「NS_APPLI_F」に情報が存在するか確認する。
+ </summary>
+ <param name="p_strSeq">UNIQUESEQNO</param>
+ <returns>（TRUE：データあり／承認操作を一度終えている、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetCalenderDakoku">
+ <summary>
+ カレンダー上の一日を基準に打刻を取得。（有効範囲は考慮していない）
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncSetTekiyouM(System.Object@)">
+ <summary>
+ 摘要Ｍの名称を全てﾃﾞｨｸｼｮﾅﾘｵﾌﾞｼﾞｪｸﾄに格納
+ </summary>
+ <param name="p_objDic">ｵﾌﾞｼﾞｪｸﾄ</param>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnDutyDetaliKensuku">
+ <summary>
+ 日当直日別データのインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnDutyDetailIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDutyTimeM">
+ <summary>
+ 日当直勤務時間Ｍを取得
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetDutyTime_Kensu">
+ <summary>
+ 勤務時間マスタに存在する共通の勤務CDの件数を取得
+ </summary>
+ <returns>（TRUE：勤務時間M設定あり、FALSE：勤務時間M設定なし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGet_DutyTimeM(System.String)">
+ <summary>
+ 勤務時間マスタを取得する
+ </summary>
+ <param name="p_strDutyGroupCD">日当直グループCD</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetBaseKinmu">
+ <summary>
+ 勤務時間Ｍを取得
+ </summary>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGet_BaseKinmu(System.String,System.String)">
+ <summary>
+ 勤務時間マスタを取得する
+ </summary>
+ <param name="p_strSaiyouCD">採用条件CD</param>
+ <param name="p_strKangoTaniCD">看護単位CD</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnNenkyuKensaku">
+ <summary>
+ 年休データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetKinmuDetail(System.Int32,System.Int32)">
+ <summary>
+ 受け取った期間を元に対象職員の勤務詳細を取得(mGetKinmuDetail用）
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnKinmuDetailIndexCheck">
+ <summary>
+ 現在設定されているインデックスが有効かどうか判断する
+ </summary>
+ <returns>（TRUE：有効、FALSE：無効）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetHanyouName(System.String)">
+ <summary>
+ 汎用マスタの名称と略称を取得
+ </summary>
+ <param name="p_MasterID">汎用ＭのマスタID</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncBlnKinmuDetailKensaku">
+ <summary>
+ 勤務詳細データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>（TRUE：存在する、FALSE：存在しない）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetDutyInOutFlg(System.String,System.Int32,System.Int32,System.Int32@,System.Int32@)">
+ <summary>
+ 勤務詳細データを年月日で検索してインデックスを確定する
+ </summary>
+ <param name="p_DutyKinmuCD">日当直勤務CD</param>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <param name="p_lngInFlg">出勤打刻要否（OUT）</param>
+ <param name="p_OutFlg">退勤打刻要否（OUT）</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.subGetKinmuInOutFlg(System.String,System.String,System.String,System.Int32@,System.Int32@)">
+ <summary>
+ 勤務の出退勤必須フラグを返す
+ </summary>
+ <param name="p_KinmuCD">勤務CD</param>
+ <param name="p_SaiyoCD">採用条件CD</param>
+ <param name="p_KangoTaniCD">看護単位CD</param>
+ <param name="p_lngInFlg">出勤打刻要否（OUT）</param>
+ <param name="p_OutFlg">退勤打刻要否（OUT）</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.fncGetSankyuStaff">
+ <summary>
+ 産休の取得
+ </summary>
+ <returns>（TRUE：エラーなし、FALSE：エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0010C.clsStaffData.SortSankyuData">
+ <summary>
+ 表示順 / 職員番号 順に並び替え
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

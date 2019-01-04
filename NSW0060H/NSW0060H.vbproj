@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>
+    </DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <MyType>Windows</MyType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C3E54EBE-C4EA-42DD-8537-4EBC8092B59D}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <AssemblyName>NSW0060H</AssemblyName>
+    <OutputType>Library</OutputType>
+    <AssemblyMajorVersion>4</AssemblyMajorVersion>
+    <AssemblyMinorVersion>0</AssemblyMinorVersion>
+    <AssemblyRevisionNumber>1</AssemblyRevisionNumber>
+    <GenerateRevisionNumber>False</GenerateRevisionNumber>
+    <AssemblyCompanyName>日本インターシステムズ株式會社</AssemblyCompanyName>
+    <StartWithIE>False</StartWithIE>
+    <RootNamespace>NsAid_NSW0060H</RootNamespace>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DefineDebug>True</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DefineDebug>False</DefineDebug>
+    <DefineTrace>True</DefineTrace>
+    <DefineConstants>Win32=True</DefineConstants>
+    <PlatformTarget>x86</PlatformTarget>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>none</DebugType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>Win32=True</DefineConstants>
+    <DocumentationFile>NSW0060H.xml</DocumentationFile>
+    <NoWarn>42016,42017,42018,42019,42032,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <CodeAnalysisRuleSet>ManagedMinimumRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="FarPoint.Win, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.PDF, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.Win.Chart, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="GrapeCity.Win.PluginInputMan, Version=10.0.4001.2012, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.vb" />
+    <Compile Include="NSW0060H.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="NSW0060HA.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSW0060HA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSW0060HA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSW0060HB.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSW0060HB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSW0060HB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="NSW0060HA.resX">
+      <DependentUpon>NSW0060HA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSW0060HB.resX">
+      <DependentUpon>NSW0060HB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00 GENERAL\General\General.vbproj">
+      <Project>{C8C975DE-1ABD-498C-A8DE-040C3ED331D5}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSW0000C\NSW0000C.vbproj">
+      <Project>{62009D97-F351-402D-A89D-787A08CAC52C}</Project>
+      <Name>NSW0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSW0300C\NSW0300C.vbproj">
+      <Project>{AFD179E6-FB79-4775-AF2B-A65B55C76619}</Project>
+      <Name>NSW0300C</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+</Project>

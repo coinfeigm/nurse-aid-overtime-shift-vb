@@ -1,0 +1,24 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0150H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0150H.frmNSC0150H.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSC0150H.frmNSC0150H.frmNSC0150H_FormClosing(System.Object,System.Windows.Forms.FormClosingEventArgs)">
+ <summary>
+ フォーム終了時処理。
+ 色設定が変更されており、OKボタン押下で画面を閉じなかった場合判定内処理実行
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

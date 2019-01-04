@@ -1,0 +1,50 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0120H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0120H.frmNSC0120HA.lstPgmName_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ プログラム名称リスト選択行変更処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:NsAid_NSC0120H.frmNSC0120HA.lstPgmName_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ プログラム名称リストキー押下処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:NsAid_NSC0120H.frmNSC0120HA.subReInitSpread(System.Int32,FarPoint.Win.Spread.FpSpread,System.Int32@)">
+ <summary>
+ 追加ボタン押下時、判定を行い表示行数加算の場合はスプレッドの再初期化を行う
+ </summary>
+ <param name="p_CurrentCount">データを入力する行番号</param>
+ <param name="p_spr">スプレッド</param>
+ <param name="p_MaxCount">スプレッド表示行数を保持しているメンバ変数</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0120H.frmNSC0120HA.fncChkCountUp(System.Int32,System.Int32)">
+ <summary>
+ スプレッド表示行数の加算が必要かどうか判定
+ </summary>
+ <param name="p_CurrentIndex">データを入力する行番号</param>
+ <param name="p_sprDispCount">スプレッドで表示している行数</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0120H.frmNSC0120HA.subCalcCount2(System.Int32,System.Int32@)">
+ <summary>
+ Spreadの初期表示時に必要な行及び列数を算出する
+ </summary>
+ <param name="p_num">取得件数</param>
+ <param name="p_DispCount">表示する行または列数</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

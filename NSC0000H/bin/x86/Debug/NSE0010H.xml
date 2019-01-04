@@ -1,0 +1,257 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSE0010H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmd_Down_Click(System.Object,System.EventArgs)">
+ <summary>
+ 表示順下へボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmd_Up_Click(System.Object,System.EventArgs)">
+ <summary>
+ 表示順上へボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdChange_Click(System.Object,System.EventArgs)">
+ <summary>
+ 変更ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdDelete_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdSheetCreate_Click(System.Object,System.EventArgs)">
+ <summary>
+ 評価シート作成ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.cmdUpdate_Click(System.Object,System.EventArgs)">
+ <summary>
+ 更新ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.frmNSE0010HA_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.lstKoumoku_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ 項目一覧ダブルクリック処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.optKoumoku_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ 設定項目ラジオボタン選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HB.GetBunruiM">
+ <summary>
+ 分類コンボボックスデータ取得
+ </summary>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HB.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダーボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HB.cmd_Cancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HB.cmd_Ok_Click(System.Object,System.EventArgs)">
+ <summary>
+ OKボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HB.frmNSE0010HB_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.chkCopy_CheckStateChanged(System.Object,System.EventArgs)">
+ <summary>
+ コピーチェックボタン選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダーボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ OKボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.frmNSE0010HC_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HC.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cboKikan_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 期間コンボボックス選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cboLevel_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ レベルコンボボックス選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cboMidashi_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 見出し項目コンボボックス選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 使用項目⇒ﾏｽﾀへボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdDel_Click(System.Object,System.EventArgs)">
+ <summary>
+ ﾏｽﾀ⇒使用項目へボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdDelete_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdDown_Click(System.Object,System.EventArgs)">
+ <summary>
+ 表示順下へボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdKikanAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdUp_Click(System.Object,System.EventArgs)">
+ <summary>
+ 表示順上へボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.cmdUpdate_Click(System.Object,System.EventArgs)">
+ <summary>
+ 更新ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.frmNSE0010HD_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSE0010H.frmNSE0010HD.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+</members>
+</doc>

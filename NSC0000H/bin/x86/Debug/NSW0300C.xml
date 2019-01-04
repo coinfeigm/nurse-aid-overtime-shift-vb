@@ -1,0 +1,544 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0300C
+</name>
+</assembly>
+<members>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p時間外取得フラグ">
+ <summary>
+ p時間外取得フラグをセットする
+ </summary>
+ <param name="Value">p時間外取得フラグ</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetHanyouName(System.String,System.String)">
+ <summary>
+ 取得したコードを元に汎用Ｍより名称を取得
+ </summary>
+ <param name="p_strCode">汎用Ｍより取得するコード</param>
+ <param name="p_strMasterID">汎用ＭのマスタID</param>
+ <returns>名称</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncblnHolidayKensaku">
+ <summary>
+ 休日Ｍデータを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>True:対象日付が存在する、False:対象日付が存在しない</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncblnJissekiChokinKensaku">
+ <summary>
+ 勤務実績・超勤データを年月日で検索してインデックスを確定する
+ </summary>
+ <returns>True:対象日付が存在する、False:対象日付が存在しない</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.subGetHolidayData">
+ <summary>
+ 休日Ｍデータを取得
+ </summary>
+ <remarks>自動休日出勤化を行う場合のみ出力期間以前の休日データを取得（自動休日出勤化チェック用）</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.subGetAutoHolidayKinmuCD">
+ <summary>
+ 自動休日出勤可能勤務CD、年休の勤務CDを取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncSetTekiyouM(System.Object@)">
+ <summary>
+ 摘要Ｍの名称を全てﾃﾞｨｸｼｮﾅﾘｵﾌﾞｼﾞｪｸﾄに格納
+ </summary>
+ <param name="p_objDic">ｵﾌﾞｼﾞｪｸﾄ</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetCyokinData(System.Int32,System.Int32)">
+ <summary>
+ 超過勤務時間を取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetJissekiData(System.Int32,System.Int32)">
+ <summary>
+ 実績ﾃﾞｰﾀを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetSaiyo_Kangotani(System.Int32,System.Int32)">
+ <summary>
+ 採用CD・看護単位CDの組合せﾃﾞｰﾀを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.subG_udtHistoryInit">
+ <summary>
+ g_udtHistory配列の初期化処理
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetSanteiTime(System.Int16)">
+ <summary>
+ 算定時間ﾃﾞｰﾀを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetDaikyuData(System.Int32,System.Int32)">
+ <summary>
+ 代休管理データを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncTimeChangeMinute(System.String)">
+ <summary>
+ 勤務時間計算（HHMMを分に変換する。例：0300⇒180、0301⇒181）
+ </summary>
+ <param name="p_strTime">時間（HHMM）</param>
+ <returns>時間（分）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncMinuteChangeTime(System.String)">
+ <summary>
+ 勤務時間計算（分をHHMMに変換する。例：180⇒0300、181⇒0301）
+ </summary>
+ <param name="p_strTime">時間（分）</param>
+ <returns>時間（HHMM）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetSaiyo_KangotaniOneDay(System.Int32,System.Int32)">
+ <summary>
+ 採用CD・看護単位CDの組合せﾃﾞｰﾀを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetSanteiTimeOneDay(System.Int16)">
+ <summary>
+ 算定時間ﾃﾞｰﾀを取得する
+ </summary>
+ <param name="p_lngFrom">p開始年月日</param>
+ <param name="p_lngTo">p終了年月日</param>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetGensaiTime(System.Int32,System.Int32)">
+ <summary>
+ 年休・控除を取得する
+ </summary>
+ <param name="p_From">p開始年月日</param>
+ <param name="p_To">p終了年月日</param>
+ <returns>年休・控除</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.TimeRound(System.Int32,System.String)">
+ <summary>
+ 引数に時間（分）と端数処理区分を受け取り、端数処理後の時間（分）を返す<br />
+ 時間（分）をいったんHHMM形式に変換し、MMを端数処理区分により処理する。<br />
+ ※切上げはHH+1、MMを0にして、切捨てはMMを0にして、再度時間（分）形式に変換して返す
+ </summary>
+ <param name="p_lngMinute">時間（分）</param>
+ <param name="p_strKBN">端数処理区分（2：切上げ、3：切捨て、それ以外：そのまま）</param>
+ <returns>時間（分）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.fncGetOKAppliRuikei">
+ <summary>
+ 時間外届出累計Ｆを取得する
+ </summary>
+ <returns>（TRUE：正常、FALSE：異常）</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.pGetDataObj">
+ <summary>
+ データ取得部品をセットする
+ </summary>
+ <param name="Value">データ取得部品</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p病院CD">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p職員区分">
+ <summary>
+ p職員区分をセットする
+ </summary>
+ <param name="Value">p職員区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p職員番号">
+ <summary>
+ p職員番号をセットする
+ </summary>
+ <param name="Value">p職員番号</param>
+ <remarks>
+ 職員区分=0の場合、受け取った職員番号は職員管理番号とみなす<br />
+ 職員区分=1の場合、受け取った職員番号は表示用の職員番号とみなす
+ </remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p開始年月日">
+ <summary>
+ 開始年月日をセットする
+ </summary>
+ <param name="Value">開始年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p終了年月日">
+ <summary>
+ 終了年月日をセットする
+ </summary>
+ <param name="Value">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p日付区分">
+ <summary>
+ 日付区分をセットする
+ </summary>
+ <param name="Value">日付区分（0:単一日、1:期間）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p対象CD">
+ <summary>
+ p対象CDをセットする
+ </summary>
+ <param name="Value">p対象CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p当直勤務CD">
+ <summary>
+ p当直勤務CDをセットする
+ </summary>
+ <param name="Value">p当直勤務CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p年月日">
+ <summary>
+ p年月日をセットする
+ </summary>
+ <param name="Value">p年月日（0:単一日、1:期間）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p超勤時間索引">
+ <summary>
+ p超勤時間索引をセットする
+ </summary>
+ <param name="Value">p超勤時間索引</param>
+ <remarks>p超勤時間索引＞超勤データ件数の場合セットしない</remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p採用CD">
+ <summary>
+ 採用CDをセットする
+ </summary>
+ <param name="Value">採用CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.p勤務部署CD">
+ <summary>
+ p勤務部署CDをセットする
+ </summary>
+ <param name="Value">p勤務部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSW0300C.clsGetOverData.pGetCyokinObj">
+ <summary>
+ 時間外取得部品をセットする
+ </summary>
+ <param name="Value">時間外取得部品</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.mOverKinmuInit(System.String)">
+ <summary>
+ 超勤データの取得指示
+ 職員単位で超勤データを取得する前に必ず実行する
+ </summary>
+ <param name="p_strDateJudgment">超勤データの日付判定（０：年月日、１：超勤年月日）※省略時は0で判定</param>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.mGetOverKinmuData">
+ <summary>
+ 実績勤務・超勤データの取得指示
+ 病院CD、職員番号を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f当直単価">
+ <summary>
+ 当直単価を取得する
+ </summary>
+ <returns>当直単価</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f年月日">
+ <summary>
+ 年月日を取得する
+ </summary>
+ <returns>年月日</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績超勤件数">
+ <summary>
+ 勤務実績・超勤データ件数を取得する
+ </summary>
+ <returns>勤務実績・超勤データ件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績勤務CD">
+ <summary>
+ 実績勤務CDを取得する
+ </summary>
+ <returns>実績勤務CD</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績勤務名称">
+ <summary>
+ 実績勤務名称を取得する
+ </summary>
+ <returns>実績勤務名称</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績勤務記号">
+ <summary>
+ 実績勤務記号を取得する
+ </summary>
+ <returns>実績勤務記号</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績理由区分">
+ <summary>
+ 実績理由区分を取得する
+ </summary>
+ <returns>実績理由区分</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績半日勤務FLG">
+ <summary>
+ 実績半日勤務FLGを取得する
+ </summary>
+ <returns>実績半日勤務FLG</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績勤務時間FROM">
+ <summary>
+ 実績勤務時間FROMを取得する
+ </summary>
+ <returns>実績勤務時間FROM</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績勤務時間TO">
+ <summary>
+ 実績勤務時間TOを取得する
+ </summary>
+ <returns>実績勤務時間TO</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f実績実勤務時間">
+ <summary>
+ 実績実勤務時間を取得する
+ </summary>
+ <returns>実績実勤務時間</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤時間件数">
+ <summary>
+ 超勤時間件数を取得する
+ </summary>
+ <returns>超勤時間件数</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤時間FROM">
+ <summary>
+ 超勤時間FROMを取得する
+ </summary>
+ <returns>超勤時間FROM</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤勤務年月日">
+ <summary>
+ 超勤勤務年月日を取得する
+ </summary>
+ <returns>超勤勤務年月日</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤状態区分">
+ <summary>
+ 超勤状態区分を取得する
+ </summary>
+ <returns>超勤状態区分</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤時間TO">
+ <summary>
+ 超勤時間TOを取得する
+ </summary>
+ <returns>超勤時間TO</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤UNIQUESEQNO">
+ <summary>
+ 超勤UNIQUESEQNOを取得する
+ </summary>
+ <returns>超勤UNIQUESEQNO</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間100">
+ <summary>
+ 超過勤務時間100を取得する
+ </summary>
+ <returns>超過勤務時間100</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間125">
+ <summary>
+ 超過勤務時間125を取得する
+ </summary>
+ <returns>超過勤務時間125</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間135">
+ <summary>
+ 超過勤務時間135を取得する
+ </summary>
+ <returns>超過勤務時間135</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間150">
+ <summary>
+ 超過勤務時間150を取得する
+ </summary>
+ <returns>超過勤務時間150</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間160">
+ <summary>
+ 超過勤務時間160を取得する
+ </summary>
+ <returns>超過勤務時間160</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f休日勤務時間">
+ <summary>
+ 休日勤務時間を取得する
+ </summary>
+ <returns>休日勤務時間</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f夜間勤務時間">
+ <summary>
+ 夜間勤務時間を取得する
+ </summary>
+ <returns>夜間勤務時間</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤理由CD">
+ <summary>
+ 超勤理由CDを取得する
+ </summary>
+ <returns>超勤理由CD</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤理由名称">
+ <summary>
+ 超勤理由名称を取得する
+ </summary>
+ <returns>超勤理由名称</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超勤理由略称">
+ <summary>
+ 超勤理由略称を取得する
+ </summary>
+ <returns>超勤理由略称</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.m前日超勤">
+ <summary>
+ 前日超勤
+ 参照日付を前日に移動する
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks>日付区分が単一日の場合、処理中断<br />
+          参照年月日が無効の場合、処理中断<br />
+          データ検索年月日-1が開始年月日より小さい場合、処理中断
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.m翌日超勤">
+ <summary>
+ 翌日超勤
+ 参照日付を翌日に移動する
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks>日付区分が単一日の場合、処理中断<br />
+          参照年月日が無効の場合、処理中断<br />
+          データ検索年月日+1が開始年月日より大きい場合、処理中断
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.mGetOverKinmuDataOneDay">
+ <summary>
+ 実績勤務・超勤データの取得指示(該当日のデータのみを取得する)
+ 病院CD、職員番号、採用コード、勤務部署コードを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間150_2">
+ <summary>
+ 超過勤務時間150_2を取得する
+ </summary>
+ <returns>超過勤務時間150_2</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f超過勤務時間175">
+ <summary>
+ 超過勤務時間175を取得する
+ </summary>
+ <returns>超過勤務時間175</returns>
+ <remarks>勤務実績・超勤データ件数が０、または、勤務実績・超勤データ索引が０、または、超勤データ件数が０、または、超勤データ索引が０の場合、０を取得する</remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.mGetOKAppliRuikei">
+ <summary>
+ 時間外届出累計存在有無を判定する
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f申請時間">
+ <summary>
+ 超過勤務時間を取得する
+ </summary>
+ <returns>超過勤務時間</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSW0300C.clsGetOverData.f確定時間">
+ <summary>
+ 確定時間を取得する
+ </summary>
+ <returns>確定時間</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

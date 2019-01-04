@@ -1,0 +1,11 @@
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.vbprojResolveAssemblyReference.cache
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NsAid_NSW0060H.frmNSW0060HA.resources
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NsAid_NSW0060H.frmNSW0060HB.resources
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.vbproj.GenerateResource.Cache
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.dll.licenses
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\Module\NSW0060H.dll
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\Module\NSW0060H.pdb
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\Module\NSW0060H.xml
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.dll
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.xml
+C:\Users\developer\Desktop\Useless\33 KOMATSU\33 KOMATSU\03 NSWORK\NSW0060H\obj\Debug\NSW0060H.pdb

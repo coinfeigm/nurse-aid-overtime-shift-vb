@@ -1,0 +1,1885 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0050C
+</name>
+</assembly>
+<members>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pMtrx_SumID">
+ <summary>
+ 集計IDをセットする
+ </summary>
+ <param name="Value">集計ID</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pMtrx_ZokuseiKbn">
+ <summary>
+ 属性区分をセットする
+ </summary>
+ <param name="Value">属性区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mMtrx_VSumIdx">
+ <summary>
+ p縦集計索引をセットする
+ </summary>
+ <param name="Value">p縦集計索引</param>
+ <remarks>p縦集計索引＞縦集計データ件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mMtrx_HSumIdx">
+ <summary>
+ p横集計索引をセットする
+ </summary>
+ <param name="Value">p横集計索引</param>
+ <remarks>p横集計索引＞横集計データ件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pMtrx_KinmuDeptCD">
+ <summary>
+ マトリックス部署CDをセットする
+ </summary>
+ <param name="Value">マトリックス部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pHospitalCD">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pKD_KinmuDeptCD">
+ <summary>
+ 勤務部署CDをセットする
+ </summary>
+ <param name="Value">勤務部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pKD_KijunDate">
+ <summary>
+ 看護単位一覧取得時の基準日をセットする
+ </summary>
+ <param name="Value">看護単位一覧取得時の基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pKD_UserCD">
+ <summary>
+ 利用者CDをセットする
+ </summary>
+ <param name="Value">利用者CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mKD_KinmuDeptIdx">
+ <summary>
+ m勤務部署索引をセットする
+ </summary>
+ <param name="Value">m勤務部署索引</param>
+ <remarks>m勤務部署索引＞勤務部署件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pKN_KinmuDeptCD">
+ <summary>
+ 勤務名称設定取得対象部署CDをセットする
+ </summary>
+ <param name="Value">勤務名称設定取得対象部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pKN_GetKbn">
+ <summary>
+ 取得区分をセットする
+ </summary>
+ <param name="Value">取得区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mKN_KinmuIdx">
+ <summary>
+ m勤務名称索引をセットする
+ </summary>
+ <param name="Value">m勤務名称索引</param>
+ <remarks>m勤務名称索引＞勤務名称件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pOKR_KinmuDeptCD">
+ <summary>
+ 時間外理由取得対象部署CDをセットする
+ </summary>
+ <param name="Value">時間外理由取得対象部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pOKR_GetKbn">
+ <summary>
+ 取得区分をセットする
+ </summary>
+ <param name="Value">取得区分</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mOKR_ReasonIdx">
+ <summary>
+ 時間外理由索引をセットする
+ </summary>
+ <param name="Value">時間外理由索引</param>
+ <remarks>時間外理由索引＞時間外理由件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mJM_DataIdx">
+ <summary>
+ 職種索引をセットする
+ </summary>
+ <param name="Value">職種索引</param>
+ <remarks>職種索引＞職種件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mPM_DataIdx">
+ <summary>
+ 役職索引をセットする
+ </summary>
+ <param name="Value">役職索引</param>
+ <remarks>役職索引＞役職件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pJM_CD">
+ <summary>
+ 取得対象職種CDをセットする
+ </summary>
+ <param name="Value">取得対象職種CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pPM_CD">
+ <summary>
+ 取得対象役職CDをセットする
+ </summary>
+ <param name="Value">取得対象役職CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mG_GengouIdx">
+ <summary>
+ 元号索引をセットする
+ </summary>
+ <param name="Value">元号索引</param>
+ <remarks>元号索引＞元号件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pG_GetTurn">
+ <summary>
+ 元号取得順をセットする
+ </summary>
+ <param name="Value">元号取得順</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pG_FromDate">
+ <summary>
+ 開始年月日をセットする
+ </summary>
+ <param name="Value">開始年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pG_ToDate">
+ <summary>
+ 終了年月日をセットする
+ </summary>
+ <param name="Value">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pG_GetDateKbn">
+ <summary>
+ 日付区分をセットする
+ </summary>
+ <param name="Value">日付区分（0:単一日、1:期間）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pWD_WardDeptCD">
+ <summary>
+ 配属部署CDをセットする
+ </summary>
+ <param name="Value">配属部署CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pWD_KijunDate">
+ <summary>
+ 看護単位一覧取得時の基準日をセットする
+ </summary>
+ <param name="Value">看護単位一覧取得時の基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mWD_WardDeptIdx">
+ <summary>
+ 配属部署索引をセットする
+ </summary>
+ <param name="Value">配属部署索引</param>
+ <remarks>配属部署索引＞配属部署件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mDG_DataIdx">
+ <summary>
+ 日当直グループ索引をセットする
+ </summary>
+ <param name="Value">日当直グループ索引</param>
+ <remarks>日当直グループ索引＞日当直グループ件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pDG_GroupCD">
+ <summary>
+ 日当直グループCDをセットする
+ </summary>
+ <param name="Value">日当直グループCD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pDG_KijunDate">
+ <summary>
+ 看護単位一覧取得時の基準日をセットする
+ </summary>
+ <param name="Value">看護単位一覧取得時の基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pHM_FromDate">
+ <summary>
+ 開始年月日をセットする
+ </summary>
+ <param name="Value">開始年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pHM_ToDate">
+ <summary>
+ 終了年月日をセットする
+ </summary>
+ <param name="Value">終了年月日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mHM_DataIdx">
+ <summary>
+ 休日索引をセットする
+ </summary>
+ <param name="Value">休日索引</param>
+ <remarks>休日索引＞休日件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pHNY_KijunDate">
+ <summary>
+ 看護単位一覧取得時の基準日をセットする
+ </summary>
+ <param name="Value">看護単位一覧取得時の基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pMasterId">
+ <summary>
+ 汎用マスタIDをセットする
+ </summary>
+ <param name="Value">汎用マスタID</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pMasterCd">
+ <summary>
+ 汎用マスタCDをセットする
+ </summary>
+ <param name="Value">汎用マスタCD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.mHNY_DataIdx">
+ <summary>
+ 汎用索引をセットする
+ </summary>
+ <param name="Value">汎用索引</param>
+ <remarks>汎用索引＞汎用件数の場合、セットしない</remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pJM_KijunDate">
+ <summary>
+ 職種基準日をセットする
+ </summary>
+ <param name="Value">職種基準日</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0050C.clsGetMaster.pPM_KijunDate">
+ <summary>
+ 役職基準日をセットする
+ </summary>
+ <param name="Value">役職基準日</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumCount">
+ <summary>
+ 縦集計データ件数を取得する
+ </summary>
+ <returns>縦集計データ件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_KinmuDeptCD">
+ <summary>
+ 集計取得部署CDを取得する
+ </summary>
+ <returns>集計取得部署CD</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumBunruiCD">
+ <summary>
+ 縦集計分類CDを取得する
+ </summary>
+ <returns>縦集計分類CD</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumName">
+ <summary>
+ 縦集計名称を取得する
+ </summary>
+ <returns>縦集計名称</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumKinmuCD">
+ <summary>
+ 縦集計勤務CDを取得する
+ </summary>
+ <returns>縦集計勤務CD</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumHiritsu">
+ <summary>
+ 縦集計比率を取得する
+ </summary>
+ <returns>縦集計比率</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumKbn">
+ <summary>
+ 縦集計区分を取得する
+ </summary>
+ <returns>縦集計区分</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumZokuseiJobCD">
+ <summary>
+ 縦属性職種CDを取得する
+ </summary>
+ <returns>縦属性職種CD</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumZokuseiJobCD">
+ <summary>
+ 縦属性役職CDを取得する
+ </summary>
+ <returns>縦属性役職CD</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumDispFlg">
+ <summary>
+ 縦表示フラグを取得する
+ </summary>
+ <returns>縦表示フラグ</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumDispFlg">
+ <summary>
+ 横表示フラグを取得する
+ </summary>
+ <returns>横表示フラグ</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumFirstYMD">
+ <summary>
+ 縦初回登録日時を取得する
+ </summary>
+ <returns>縦初回登録日時</returns>
+ <remarks>縦集計データ件数が０、または、縦集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumFirstYMD">
+ <summary>
+ 横初回登録日時を取得する
+ </summary>
+ <returns>横初回登録日時</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumBunruiCD">
+ <summary>
+ 横集計分類CDを取得する
+ </summary>
+ <returns>横集計分類CD</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumCount">
+ <summary>
+ 横集計件数を取得する
+ </summary>
+ <returns>横集計件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumName">
+ <summary>
+ 横集計名称を取得する
+ </summary>
+ <returns>横集計名称</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumKinmuCD">
+ <summary>
+ 横集計勤務CDを取得する
+ </summary>
+ <returns>横集計勤務CD</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumHiritsu">
+ <summary>
+ 横集計比率を取得する
+ </summary>
+ <returns>横集計比率</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、"0"を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumKbn">
+ <summary>
+ 横集計区分を取得する
+ </summary>
+ <returns>横集計区分</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、"0"を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_SumHFirstYMD">
+ <summary>
+ 横初回登録日時を取得する
+ </summary>
+ <returns>横初回登録日時</returns>
+ <remarks>横集計データ件数が０、または、横集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetMatrix">
+ <summary>
+ 集計マトリックスを取得する<br />
+ 病院CDと集計IDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetKinmuDept">
+ <summary>
+ 勤務部署Ｍを取得する<br />
+ 病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：0件又はデータなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_KinmuDeptCD">
+ <summary>
+ 看護単位CDを取得する
+ </summary>
+ <returns>看護単位CD</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_DispNo">
+ <summary>
+ 表示NOを取得する
+ </summary>
+ <returns>表示NO</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_TeamCount">
+ <summary>
+ チーム数を取得する
+ </summary>
+ <returns>チーム数</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_DivisionFLG">
+ <summary>
+ 分割FLGを取得する
+ </summary>
+ <returns>分割FLG</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_CapaCount">
+ <summary>
+ 定員数を取得する
+ </summary>
+ <returns>定員数</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_EffEndDay">
+ <summary>
+ 有効終了日を取得する
+ </summary>
+ <returns>有効終了日</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_FirstYMD">
+ <summary>
+ 看護初回登録日時を取得する
+ </summary>
+ <returns>看護初回登録日時</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_LastUPD">
+ <summary>
+ 看護最終更新日時を取得する
+ </summary>
+ <returns>看護最終更新日時</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_RegistrantID">
+ <summary>
+ 看護登録者IDを取得する
+ </summary>
+ <returns>看護登録者ID</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_KinmuDeptName">
+ <summary>
+ 看護単位名称を取得する
+ </summary>
+ <returns>看護単位名称</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_SecName">
+ <summary>
+ 看護単位略称1を取得する
+ </summary>
+ <returns>看護単位略称1</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_SecName2">
+ <summary>
+ 看護単位略称2を取得する
+ </summary>
+ <returns>看護単位略称2</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_KinmuDeptCount">
+ <summary>
+ 看護単位件数を取得する
+ </summary>
+ <returns>看護単位件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelCD1">
+ <summary>
+ 階層レベルコード１を取得する
+ </summary>
+ <returns>階層レベルコード１</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelName1">
+ <summary>
+ 階層レベル名称１を取得する
+ </summary>
+ <returns>階層レベル名称１</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelDisp1">
+ <summary>
+ 階層レベル表示順１を取得する
+ </summary>
+ <returns>階層レベル表示順１</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelCD2">
+ <summary>
+ 階層レベルコード２を取得する
+ </summary>
+ <returns>階層レベルコード２</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelName2">
+ <summary>
+ 階層レベル名称２を取得する
+ </summary>
+ <returns>階層レベル名称２</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelDisp2">
+ <summary>
+ 階層レベル表示順２を取得する
+ </summary>
+ <returns>階層レベル表示順２</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelCD3">
+ <summary>
+ 階層レベルコード３を取得する
+ </summary>
+ <returns>階層レベルコード３</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelName3">
+ <summary>
+ 階層レベル名称３を取得する
+ </summary>
+ <returns>階層レベル名称３</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelDisp3">
+ <summary>
+ 階層レベル表示順３を取得する
+ </summary>
+ <returns>階層レベル表示順３</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelCD4">
+ <summary>
+ 階層レベルコード４を取得する
+ </summary>
+ <returns>階層レベルコード４</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelName4">
+ <summary>
+ 階層レベル名称４を取得する
+ </summary>
+ <returns>階層レベル名称４</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelDisp4">
+ <summary>
+ 階層レベル表示順４を取得する
+ </summary>
+ <returns>階層レベル表示順４</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelCD5">
+ <summary>
+ 階層レベルコード５を取得する
+ </summary>
+ <returns>階層レベルコード５</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelName5">
+ <summary>
+ 階層レベル名称５を取得する
+ </summary>
+ <returns>階層レベル名称５</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_ClasslevelDisp5">
+ <summary>
+ 階層レベル表示順５を取得する
+ </summary>
+ <returns>階層レベル表示順５</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_NightKangoAddFlg">
+ <summary>
+ 夜間看護加算対象フラグを取得する
+ </summary>
+ <returns>夜間看護加算対象フラグ</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_PlanMakeFlg">
+ <summary>
+ 計画作成対象フラグを取得する
+ </summary>
+ <returns>計画作成対象フラグ</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_HopeNumFlg">
+ <summary>
+ 希望回数制限フラグを取得する
+ </summary>
+ <returns>希望回数制限フラグ</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_SaikeiFlg">
+ <summary>
+ 再掲フラグを取得する
+ </summary>
+ <returns>再掲フラグ</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_HanyouArea">
+ <summary>
+ 汎用エリアを取得する
+ </summary>
+ <returns>汎用エリア</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_HanyouArea2">
+ <summary>
+ 汎用エリア2を取得する
+ </summary>
+ <returns>汎用エリア2</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKD_SkillPwPoint">
+ <summary>
+ 必要戦力点数を取得する
+ </summary>
+ <returns>必要戦力点数</returns>
+ <remarks>勤務部署件数が０、または、勤務部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuCD">
+ <summary>
+ 勤務CDを取得する
+ </summary>
+ <returns>勤務CD</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_Name">
+ <summary>
+ 勤務名称を取得する
+ </summary>
+ <returns>勤務名称</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_MarkF">
+ <summary>
+ 勤務記号を取得する
+ </summary>
+ <returns>勤務記号</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuExplan">
+ <summary>
+ 勤務説明を取得する
+ </summary>
+ <returns>勤務説明</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_DispNo">
+ <summary>
+ 勤務表示順を取得する
+ </summary>
+ <returns>勤務表示順</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuKbn">
+ <summary>
+ 勤務区分を取得する
+ </summary>
+ <returns>勤務区分</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuBunruiCD">
+ <summary>
+ 勤務分類Cを取得する
+ </summary>
+ <returns>勤務分類C</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_AllocBunruiCD">
+ <summary>
+ 割当分類CDを取得する
+ </summary>
+ <returns>割当分類CD</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_AllocFlg">
+ <summary>
+ 割当FLGを取得する
+ </summary>
+ <returns>割当FLG</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_HalfKinmuFlg">
+ <summary>
+ 半日勤務FLGを取得する
+ </summary>
+ <returns>半日勤務FLG</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_AMKinmuCD">
+ <summary>
+ AM勤務CDを取得する
+ </summary>
+ <returns>AM勤務CD</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_PMKinmuCD">
+ <summary>
+ PM勤務CDを取得する
+ </summary>
+ <returns>PM勤務CD</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_GetDaikyuFlg">
+ <summary>
+ 代休取得FLGを取得する
+ </summary>
+ <returns>代休取得FLG</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_HolidayBunruiCD">
+ <summary>
+ 休日分類CDを取得する
+ </summary>
+ <returns>休日分類CD</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuGrpCD">
+ <summary>
+ 勤務グループCを取得する
+ </summary>
+ <returns>勤務グループC</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_TimeHolFlg">
+ <summary>
+ 時間休FLGを取得する
+ </summary>
+ <returns>時間休FLG</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_YoubiLimit">
+ <summary>
+ 曜日制限を取得する
+ </summary>
+ <returns>曜日制限</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_ColorNo">
+ <summary>
+ 色番号を取得する
+ </summary>
+ <returns>色番号</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_EffToDate">
+ <summary>
+ 有効終了日を取得する
+ </summary>
+ <returns>有効終了日</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_HanyouArea">
+ <summary>
+ 汎用エリアを取得する
+ </summary>
+ <returns>汎用エリア</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_HanyouArea2">
+ <summary>
+ 汎用エリア2を取得する
+ </summary>
+ <returns>汎用エリア2</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_FirstYMD">
+ <summary>
+ 勤務名称初回登録日時を取得する
+ </summary>
+ <returns>勤務名称初回登録日時</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_LastUPD">
+ <summary>
+ 勤務名称最終更新日時を取得する
+ </summary>
+ <returns>勤務名称最終更新日時</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_RegistrantID">
+ <summary>
+ 登録者IDを取得する
+ </summary>
+ <returns>登録者ID</returns>
+ <remarks>勤務名称件数が０、または、勤務名称索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fKN_KinmuCount">
+ <summary>
+ 勤務名称件数を取得する
+ </summary>
+ <returns>勤務名称件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_ReasonCD">
+ <summary>
+ 時間外理由Cを取得する
+ </summary>
+ <returns>時間外理由C</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_Name">
+ <summary>
+ 時間外理由名称を取得する
+ </summary>
+ <returns>時間外理由名称</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_DispNo">
+ <summary>
+ 時間外理由表示順を取得する
+ </summary>
+ <returns>時間外理由表示順</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_Kbn">
+ <summary>
+ 時間外区分を取得する
+ </summary>
+ <returns>時間外区分</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_SecName">
+ <summary>
+ 時間外理由略称を取得する
+ </summary>
+ <returns>時間外理由略称</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_FirstYMD">
+ <summary>
+ 時間外理由初回登録日時を取得する
+ </summary>
+ <returns>時間外理由初回登録日時</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_LastUPD">
+ <summary>
+ 時間外理由最終更新日時を取得する
+ </summary>
+ <returns>時間外理由最終更新日時</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_RegistrantID">
+ <summary>
+ 登録者IDを取得する
+ </summary>
+ <returns>登録者ID</returns>
+ <remarks>時間外理由件数が、または、時間外理由索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fOKR_ReasonCount">
+ <summary>
+ 時間外理由件数を取得する
+ </summary>
+ <returns>時間外理由件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumLastUpd">
+ <summary>
+ 縦最終更新日時を取得する
+ </summary>
+ <returns>縦最終更新日時</returns>
+ <remarks>縦集計データ件数が、または、縦集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumLastUpd">
+ <summary>
+ 横最終更新日時を取得する
+ </summary>
+ <returns>横最終更新日時</returns>
+ <remarks>横集計データ件数が、または、横集計索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumRegistrantID">
+ <summary>
+ 縦利用者IDを取得する
+ </summary>
+ <returns>縦利用者ID</returns>
+ <remarks>縦集計データ件数が、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumRegistrantID">
+ <summary>
+ 横利用者IDを取得する
+ </summary>
+ <returns>横利用者ID</returns>
+ <remarks>横集計データ件数が、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_DataCount">
+ <summary>
+ 職種件を取得する
+ </summary>
+ <returns>職種件</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_JobCD">
+ <summary>
+ 職種Cを取得する
+ </summary>
+ <returns>職種C</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_Name">
+ <summary>
+ 職種名称を取得する
+ </summary>
+ <returns>職種名称</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_SecName">
+ <summary>
+ 職種略称を取得する
+ </summary>
+ <returns>職種略称</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_SecName2">
+ <summary>
+ 職種略称2を取得する
+ </summary>
+ <returns>職種略称2</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_DispNo">
+ <summary>
+ 職種表示順を取得する
+ </summary>
+ <returns>職種表示順</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_EffToDate">
+ <summary>
+ 職種有効終了日を取得する
+ </summary>
+ <returns>職種有効終了日</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_HanyouArea">
+ <summary>
+ 職種汎用エリアを取得する
+ </summary>
+ <returns>職種汎用エリア</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_HanyouArea2">
+ <summary>
+ 職種汎用エリア2を取得する
+ </summary>
+ <returns>職種汎用エリア2</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_FirstYMD">
+ <summary>
+ 職種初回登録日時を取得する
+ </summary>
+ <returns>職種初回登録日時</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_LastUPD">
+ <summary>
+ 職種最終更新日時を取得する
+ </summary>
+ <returns>職種最終更新日時</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fJM_RegistrantID">
+ <summary>
+ 職種登録者IDを取得する
+ </summary>
+ <returns>職種登録者ID</returns>
+ <remarks>職種件数が、または、職種索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_DataCount">
+ <summary>
+ 役職件数を取得する
+ </summary>
+ <returns>役職件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_PostCD">
+ <summary>
+ 役職CDを取得する
+ </summary>
+ <returns>役職CD</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_Name">
+ <summary>
+ 役職名称を取得する
+ </summary>
+ <returns>役職名称</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_SecName">
+ <summary>
+ 役職略称を取得する
+ </summary>
+ <returns>役職略称</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_SecName2">
+ <summary>
+ 役職略称2を取得する
+ </summary>
+ <returns>役職略称2</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_DispNo">
+ <summary>
+ 役職表示順を取得する
+ </summary>
+ <returns>役職表示順</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_EffToDate">
+ <summary>
+ 役職有効終了日を取得する
+ </summary>
+ <returns>役職有効終了日</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_HanyouArea">
+ <summary>
+ 役職汎用エリアを取得する
+ </summary>
+ <returns>役職汎用エリア</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_HanyouArea2">
+ <summary>
+ 役職汎用エリア2を取得する
+ </summary>
+ <returns>役職汎用エリア2</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_ClassLevelCD">
+ <summary>
+ 役職階層レベルを取得する
+ </summary>
+ <returns>役職階層レベル</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_ClassLevelName">
+ <summary>
+ 役職階層レベルを取得する
+ </summary>
+ <returns>役職階層レベル</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_ClassLevelDisp">
+ <summary>
+ 役職階層レベルを取得する
+ </summary>
+ <returns>役職階層レベル</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_FirstYMD">
+ <summary>
+ 役職初回登録日時を取得する
+ </summary>
+ <returns>役職初回登録日時</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_LastUPD">
+ <summary>
+ 役職最終更新日時を取得する
+ </summary>
+ <returns>役職最終更新日時</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_RegistrantID">
+ <summary>
+ 役職登録者IDを取得する
+ </summary>
+ <returns>役職登録者ID</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fPM_Mark">
+ <summary>
+ 役職記号を取得する
+ </summary>
+ <returns>役職記号</returns>
+ <remarks>役職件数が、または、役職索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fG_GengouCount">
+ <summary>
+ 元号取得件数を取得する
+ </summary>
+ <returns>元号取得件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fG_GengouName">
+ <summary>
+ 和暦名称を取得する
+ </summary>
+ <returns>和暦名称</returns>
+ <remarks>元号件数が、または、元号索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fG_GengouYear">
+ <summary>
+ 和暦年を取得する
+ </summary>
+ <returns>和暦年</returns>
+ <remarks>元号件数が、または、元号索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_VSumZokuseiPostCD">
+ <summary>
+ 縦属性職種CDを取得する
+ </summary>
+ <returns>縦属性職種CD</returns>
+ <remarks>縦集計データ件数が、または、縦集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fMtrx_HSumZokuseiPostCD">
+ <summary>
+ 縦属性役職CDを取得する
+ </summary>
+ <returns>縦属性役職CD</returns>
+ <remarks>横集計データ件数が、または、横集計索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_WardDeptCD">
+ <summary>
+ 配属部署CDを取得する
+ </summary>
+ <returns>配属部署CD</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_DispNo">
+ <summary>
+ 表示NOを取得する
+ </summary>
+ <returns>表示NO</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_EffEndDay">
+ <summary>
+ 有効終了日を取得する
+ </summary>
+ <returns>有効終了日</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_FirstYMD">
+ <summary>
+ 配属初回登録日時を取得する
+ </summary>
+ <returns>配属初回登録日時</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_LastUPD">
+ <summary>
+ 配属最終更新日時を取得する
+ </summary>
+ <returns>配属最終更新日時</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_RegistrantID">
+ <summary>
+ 配属登録者IDを取得する
+ </summary>
+ <returns>配属登録者ID</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_WardDeptName">
+ <summary>
+ 配属単位名称2を取得する
+ </summary>
+ <returns>配属単位名称2</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_SecName">
+ <summary>
+ 配属単位略称を取得する
+ </summary>
+ <returns>配属単位略称</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_SecName2">
+ <summary>
+ 配属単位略称2を取得する
+ </summary>
+ <returns>配属単位略称2</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_WardDeptCount">
+ <summary>
+ 配属単位件数を取得する
+ </summary>
+ <returns>配属単位件数</returns>
+ <remarks>が、または、０の場合、を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelCD1">
+ <summary>
+ 階層レベルコード１を取得する
+ </summary>
+ <returns>階層レベルコード１</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelName1">
+ <summary>
+ 階層レベル名称１を取得する
+ </summary>
+ <returns>階層レベル名称１</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelDisp1">
+ <summary>
+ 階層レベル表示順１を取得する
+ </summary>
+ <returns>階層レベル表示順１</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelCD2">
+ <summary>
+ 階層レベルコード２を取得する
+ </summary>
+ <returns>階層レベルコード２</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelName2">
+ <summary>
+ 階層レベル名称２を取得する
+ </summary>
+ <returns>階層レベル名称２</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelDisp2">
+ <summary>
+ 階層レベル表示順２を取得する
+ </summary>
+ <returns>階層レベル表示順２</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelCD3">
+ <summary>
+ 階層レベルコード３を取得する
+ </summary>
+ <returns>階層レベルコード３</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelName3">
+ <summary>
+ 階層レベル名称３を取得する
+ </summary>
+ <returns>階層レベル名称３</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelDisp3">
+ <summary>
+ 階層レベル表示順３を取得する
+ </summary>
+ <returns>階層レベル表示順３</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelCD4">
+ <summary>
+ 階層レベルコード４を取得する
+ </summary>
+ <returns>階層レベルコード４</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelName4">
+ <summary>
+ 階層レベル名称４を取得する
+ </summary>
+ <returns>階層レベル名称４</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelDisp4">
+ <summary>
+ 階層レベル表示順４を取得する
+ </summary>
+ <returns>階層レベル表示順４</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelCD5">
+ <summary>
+ 階層レベルコード５を取得する
+ </summary>
+ <returns>階層レベルコード５</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelName5">
+ <summary>
+ 階層レベル名称５を取得する
+ </summary>
+ <returns>階層レベル名称５</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_ClasslevelDisp5">
+ <summary>
+ 階層レベル表示順５を取得する
+ </summary>
+ <returns>階層レベル表示順５</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_HanyouArea">
+ <summary>
+ 汎用エリアを取得する
+ </summary>
+ <returns>汎用エリア</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fWD_HanyouArea2">
+ <summary>
+ 汎用エリア2を取得する
+ </summary>
+ <returns>汎用エリア2</returns>
+ <remarks>配属部署件数が、または、配属部署索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_GroupName">
+ <summary>
+ 日当直グループ単位名称2を取得する
+ </summary>
+ <returns>日当直グループ単位名称2</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_SecName">
+ <summary>
+ 日当直グループ単位略称を取得する
+ </summary>
+ <returns>日当直グループ単位略称</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_SecName2">
+ <summary>
+ 日当直グループ単位略称2を取得する
+ </summary>
+ <returns>日当直グループ単位略称2</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_DataCount">
+ <summary>
+ 日当直グループ単位件を取得する
+ </summary>
+ <returns>日当直グループ単位件</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelCD1">
+ <summary>
+ 階層レベルコード１を取得する
+ </summary>
+ <returns>階層レベルコード１</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelName1">
+ <summary>
+ 階層レベル名称１を取得する
+ </summary>
+ <returns>階層レベル名称１</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelDisp1">
+ <summary>
+ 階層レベル表示順１を取得する
+ </summary>
+ <returns>階層レベル表示順１</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelCD2">
+ <summary>
+ 階層レベルコード２を取得する
+ </summary>
+ <returns>階層レベルコード２</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelName2">
+ <summary>
+ 階層レベル名称２を取得する
+ </summary>
+ <returns>階層レベル名称２</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelDisp2">
+ <summary>
+ 階層レベル表示順２を取得する
+ </summary>
+ <returns>階層レベル表示順２</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelCD3">
+ <summary>
+ 階層レベルコード３を取得する
+ </summary>
+ <returns>階層レベルコード３</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelName3">
+ <summary>
+ 階層レベル名称３を取得する
+ </summary>
+ <returns>階層レベル名称３</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelDisp3">
+ <summary>
+ 階層レベル表示順３を取得する
+ </summary>
+ <returns>階層レベル表示順３</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelCD4">
+ <summary>
+ 階層レベルコード４を取得する
+ </summary>
+ <returns>階層レベルコード４</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelName4">
+ <summary>
+ 階層レベル名称４を取得する
+ </summary>
+ <returns>階層レベル名称４</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelDisp4">
+ <summary>
+ 階層レベル表示順４を取得する
+ </summary>
+ <returns>階層レベル表示順４</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelCD5">
+ <summary>
+ 階層レベルコード５を取得する
+ </summary>
+ <returns>階層レベルコード５</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelName5">
+ <summary>
+ 階層レベル名称を取得する
+ </summary>
+ <returns>階層レベル名称</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_ClasslevelDisp5">
+ <summary>
+ 階層レベル表示順５を取得する
+ </summary>
+ <returns>階層レベル表示順５</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_HanyouArea">
+ <summary>
+ 汎用エリアを取得する
+ </summary>
+ <returns>汎用エリア</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_HanyouArea2">
+ <summary>
+ 汎用エリア2を取得する
+ </summary>
+ <returns>汎用エリア2</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_DispNo">
+ <summary>
+ 表示NOを取得する
+ </summary>
+ <returns>表示NO</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、1を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_FirstYMD">
+ <summary>
+ 日当直ｸﾞﾙｰﾌﾟ初回登録日時を取得する
+ </summary>
+ <returns>日当直ｸﾞﾙｰﾌﾟ初回登録日時</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_LastUPD">
+ <summary>
+ 日当直ｸﾞﾙｰﾌﾟ最終更新日時を取得する
+ </summary>
+ <returns>日当直ｸﾞﾙｰﾌﾟ最終更新日時</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_RegistrantID">
+ <summary>
+ 日当直ｸﾞﾙｰﾌﾟ登録者IDを取得する
+ </summary>
+ <returns>日当直ｸﾞﾙｰﾌﾟ登録者ID</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_GroupCD">
+ <summary>
+ 日当直CDを取得する
+ </summary>
+ <returns>日当直CD</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fDG_EffEndDay">
+ <summary>
+ 有効終了日を取得する
+ </summary>
+ <returns>有効終了日</returns>
+ <remarks>日当直グループ件数が０、または、日当直グループ索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_DataCount">
+ <summary>
+ 休日取得件数を取得する
+ </summary>
+ <returns>休日取得件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_YEARF">
+ <summary>
+ 休日年を取得する
+ </summary>
+ <returns>休日年</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_MONTHDAY">
+ <summary>
+ 休日月日を取得する
+ </summary>
+ <returns>休日月日</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_Name">
+ <summary>
+ 休日名称を取得する
+ </summary>
+ <returns>休日名称</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_HOLIDAYBUNRUICD">
+ <summary>
+ 休日分類CDを取得する
+ </summary>
+ <returns>休日分類CD</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_FirstYMD">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_LastUPD">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHM_RegistrantID">
+ <summary>
+ 利用者IDを取得する
+ </summary>
+ <returns>利用者ID</returns>
+ <remarks>休日件数が０、または、休日索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_DataCount">
+ <summary>
+ 汎用件数を取得する
+ </summary>
+ <returns>汎用件数</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_MasterCD">
+ <summary>
+ マスタコードを取得する
+ </summary>
+ <returns>マスタコード</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_Name">
+ <summary>
+ 名称を取得する
+ </summary>
+ <returns>名称</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_SecName">
+ <summary>
+ 略称を取得する
+ </summary>
+ <returns>略称</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_SecName2">
+ <summary>
+ 略称2を取得する
+ </summary>
+ <returns>略称2</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_BunruiCd">
+ <summary>
+ 分類コードを取得する
+ </summary>
+ <returns>分類コード</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_DispNo">
+ <summary>
+ 表示順を取得する
+ </summary>
+ <returns>表示順</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_EffFromDate">
+ <summary>
+ 有効開始日を取得する
+ </summary>
+ <returns>有効開始日</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_EffToDate">
+ <summary>
+ 有効終了日を取得する
+ </summary>
+ <returns>有効終了日</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_FirstYMD">
+ <summary>
+ 初回登録日時を取得する
+ </summary>
+ <returns>初回登録日時</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_LastUPD">
+ <summary>
+ 最終更新日時を取得する
+ </summary>
+ <returns>最終更新日時</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、0を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_RegistrantID">
+ <summary>
+ 利用者IDを取得する
+ </summary>
+ <returns>利用者ID</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_MarkF">
+ <summary>
+ 記号を取得する
+ </summary>
+ <returns>記号</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_HanyouArea">
+ <summary>
+ 汎用エリアを取得する
+ </summary>
+ <returns>汎用エリア</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_HanyouArea2">
+ <summary>
+ 汎用エリア２を取得する
+ </summary>
+ <returns>汎用エリア２</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fHNY_SysFixFlg">
+ <summary>
+ システム固有フラグを取得する
+ </summary>
+ <returns>システム固有フラグ</returns>
+ <remarks>汎用件数が０、または、汎用索引が０の場合、""を取得する</remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetKinmuNameM">
+ <summary>
+ 勤務名称Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetOKReasonM">
+ <summary>
+ 時間外理由Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetJobM">
+ <summary>
+ 職種Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetPostM">
+ <summary>
+ 役職Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetGengou">
+ <summary>
+ 元号管理Ｆの取得指示メソッド<br />
+   概要:基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetWardDept">
+ <summary>
+ 配属部署Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetDutyGroup">
+ <summary>
+ 日当直グループＭの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetHolidayM">
+ <summary>
+ 休日Mの取得指示メソッド<br />
+   概要:基準日を指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.mGetHanyoM">
+ <summary>
+ 汎用Ｍの取得指示メソッド<br />
+   概要:病院CDを指定後に実行する。
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし／エラーあり）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetKinmuName">
+ <summary>
+ 勤務名称Ｍ／勤務名称設定Fの情報を取得
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetOKReasonM">
+ <summary>
+ 時間外理由Ｍ／時間外理由設定Fの情報を取得
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetKinmuDept">
+ <summary>
+ 勤務部署Ｍの情報を取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetWardDept">
+ <summary>
+ 配属部署Ｍの情報を取得
+ </summary>
+ <returns>（-1：エラーあり（TRUE）、0：エラーなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetDutyGroup">
+ <summary>
+ 日当直グループＭの情報を取得
+ </summary>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetMatrix">
+ <summary>
+ 集計マトリックスＭの情報を取得
+ </summary>
+ <returns>（-1：エラーなし（TRUE）、0：エラーあり（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetJobM">
+ <summary>
+ 職種Ｍの情報を取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetPostM">
+ <summary>
+ 役職Ｍの情報を取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetGengou(System.Int32,System.Int32)">
+ <summary>
+ 基準日の和暦を取得
+ </summary>
+ <param name="p_lngFrom">開始年月日</param>
+ <param name="p_lngTo">終了年月日</param>
+ <returns>（-1：データあり（TRUE）、0：データなし（FALSE））</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetHolidayM">
+ <summary>
+ 休日Mを取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0050C.clsGetMaster.fncGetHanyoM">
+ <summary>
+ 汎用Ｍの情報を取得
+ </summary>
+ <returns>（TRUE：データあり、FALSE：データなし）</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,58 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0000H
+</name>
+</assembly>
+<members>
+<member name="M:NSC0000H.frmNSC0000HA.tvwDuty_NodeClick(System.Object,System.Windows.Forms.TreeViewEventArgs)">
+ <summary>
+ 日当直ツリービュークリック処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NSC0000H.frmNSC0000HA.Calendar_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ カレンダー再描画時処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:NSC0000H.frmNSC0000HA.cmdSelMonth_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ カレンダ部年月選択ボタン描画処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NSC0000H.frmNSC0000HA.fncChkJissekiExist">
+ <summary>
+ 時間外データ取得時、対象となるデータの存在チェック
+ </summary>
+ <returns></returns>
+ <remarks>
+ TreeViewのマーク（計画確定の有無）で実績の存在を判定している。
+ 計画確定のマーク用の文字を部署名称に使っている場合、判定が正常に行われない（処理が遅くなるだけで出力結果に差異は発生しない）
+ </remarks>
+</member>
+<member name="M:NSC0000H.frmNSC0000HA.subOverKinmuInit(System.Int32,System.Int32,System.String)">
+ <summary>
+ 並列処理用、超勤職員データ取得前初期化処理
+ </summary>
+ <param name="p_lngBeforeDay"></param>
+ <param name="p_lngStandardDate"></param>
+ <param name="p_strInit"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NSC0000H.frmNSC0000HA.subSetlblSearchData_DayOver">
+ <summary>
+ 対象：部　日付変更処理 時間外選択時
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

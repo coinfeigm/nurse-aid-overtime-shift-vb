@@ -1,0 +1,20 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0140H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0140H.frmNSC0140HC.subSetControlList(System.Object,System.String,System.Collections.Generic.List{System.Windows.Forms.CheckBox},System.Int32)">
+ <summary>
+ リストにチェックボックスを追加する処理
+ </summary>
+ <param name="p_Container">コントロールが配置されているコンテナ</param>
+ <param name="p_strControlName">対象コントロール名称</param>
+ <param name="p_list">リスト</param>
+ <param name="p_numIndex">開始Index</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

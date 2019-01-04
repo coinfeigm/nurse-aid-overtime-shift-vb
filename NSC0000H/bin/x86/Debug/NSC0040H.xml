@@ -1,0 +1,161 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0040H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.scrollPos(System.Int32)">
+ <summary>
+ ページ切替ボタン押下時の遷移位置設定（現行処理）
+ </summary>
+ <param name="count"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.subSetScrollBarPos(System.Boolean)">
+ <summary>
+ ページ切替ボタン押下時の遷移(現行処理)
+ </summary>
+ <param name="bool"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmMenkyo_Click(System.Object,System.EventArgs)">
+ <summary>
+ 免許
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmJobHis_Click(System.Object,System.EventArgs)">
+ <summary>
+ 職歴
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmSpecSchHisAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 専門学歴
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmGeneSchHis_Click(System.Object,System.EventArgs)">
+ <summary>
+ 一般学歴
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmStudy_Click(System.Object,System.EventArgs)">
+ <summary>
+ 研修
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmIin_Click(System.Object,System.EventArgs)">
+ <summary>
+ 委員
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.tsmQualify_Click(System.Object,System.EventArgs)">
+ <summary>
+ 資格
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.fncIIfForDate(System.String,System.Int32)">
+ <summary>
+ ####/##/##形式のStringをInteger形に変換するメソッド
+ ネストするIIf関数の可読性を高める為に作成
+ </summary>
+ <param name="p_Date">####/##/##</param>
+ <param name="p_Default">第一引数が</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HA.subSetImageKao(System.String)">
+ <summary>
+ 顔写真ファイル設定処理
+ </summary>
+ <param name="p_strPath"></param>
+ <remarks>FromFileにて画像を取得すると .NETがファイルをロックする</remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HI.subSetControlsList">
+ <summary>
+ コントロールリストの作成
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP01.subSetControlsList">
+ <summary>
+ コントロールリストの作成
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP06.subSetiimDateTo">
+ <summary>
+ imDateToに対し初期値を設定する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP08.subSetSprSheet(FarPoint.Win.Spread.SheetView,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64,System.Int64)">
+ <summary>
+ 
+ </summary>
+ <param name="p_spd"></param>
+ <param name="p_0">夜免FROM</param>
+ <param name="p_1">夜免TO</param>
+ <param name="p_2">産前休FROM</param>
+ <param name="p_3">産前休TO</param>
+ <param name="p_4">産後休FROM</param>
+ <param name="p_5">産後休TO</param>
+ <param name="p_6">育休FROM</param>
+ <param name="p_7">育休TO</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP11.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダーボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP14.subSetInputStyle(System.Int32,FarPoint.Win.Spread.StyleInfo)">
+ <summary>
+ 評価列を入力可能状態に設定
+ </summary>
+ <param name="p_colIndex">対象列</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP14.sprData_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ 列ヘッダ押下時の、列全体選択処理のキャンセル
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040H.frmNSC0040HP14.sprData_CellDoubleClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ 列ヘッダダブルクリック時の、列全体選択処理のキャンセル
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

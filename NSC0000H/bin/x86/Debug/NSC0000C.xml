@@ -1,0 +1,945 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0000C
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fR_ObjectNm">
+ <summary>
+ オブジェクト名称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fR_ObjectKbn">
+ <summary>
+ オブジェクト区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fR_SecuResourceCD">
+ <summary>
+ セキュリティリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fR_UpdAuthRangeKbn">
+ <summary>
+ 更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fSR_UpdAuthRangeKbn">
+ <summary>
+ 更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mUK_KinmuDeptIdx">
+ <summary>
+ 所属部署件数(兼務含む)をセットする
+ </summary>
+ <param name="Value">所属部署件数(兼務含む)</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pUserKinmuDeptInfGetFlg">
+ <summary>
+ 勤務情報取得済フラグを取得する
+ </summary>
+ <returns>勤務情報取得済フラグ</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pHospitalCD">
+ <summary>
+ 施設コードをセットする
+ </summary>
+ <param name="Value">施設コード</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pUserID">
+ <summary>
+ 利用者IDをセットする
+ </summary>
+ <param name="Value">利用者ID</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pUserStaffMngID">
+ <summary>
+ 利用者の職員管理番号をセットする
+ </summary>
+ <param name="Value">利用者の職員管理番号</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pGroupCD">
+ <summary>
+ 利用者のセキュリティグループコードをセットする
+ </summary>
+ <param name="Value">利用者のセキュリティグループコード</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pGetMasterObj">
+ <summary>
+ マスタ取得部品ｵﾌﾞｼﾞｪﾄをセットする
+ </summary>
+ <param name="Value">マスタ取得部品ｵﾌﾞｼﾞｪﾄ</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pUserKinmuDeptCD">
+ <summary>
+ 利用者の勤務部署コードをセットする
+ </summary>
+ <param name="Value">利用者の勤務部署コード</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mLB_MenuIdx">
+ <summary>
+ pメニュー索引をセットする
+ </summary>
+ <param name="Value">pメニュー索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mLB_ResourceIdx">
+ <summary>
+ pメニューデータ索引をセットする
+ </summary>
+ <param name="Value">pメニューデータ索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mAR_ResourceIdx">
+ <summary>
+ pリソース権限一括索引をセットする
+ </summary>
+ <param name="Value">pリソース権限一括索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mAK_KinmuDeptIdx">
+ <summary>
+ p利用者所属部署索引をセットする
+ </summary>
+ <param name="Value">p利用者所属部署索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.mARP_Idx">
+ <summary>
+ pパッケージ別一括権限索引をセットする
+ </summary>
+ <param name="Value">pパッケージ別一括権限索引</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pSaikeiDeptUseableFlg">
+ <summary>
+ 再掲部署使用権限をセットする
+ </summary>
+ <param name="Value">再掲部署使用権限</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0000C.clsGetSecurity.pSaikeiUseFlg">
+ <summary>
+ 再掲部署取得FLGをセットする
+ </summary>
+ <param name="Value">再掲部署取得FLG</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuDeptCD">
+ <summary>
+ f勤務部署コードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuDeptName">
+ <summary>
+ f勤務部署名称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_SecName">
+ <summary>
+ f略称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_SecName2">
+ <summary>
+ f略称2をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_DispNo">
+ <summary>
+ f表示Noをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelCD1">
+ <summary>
+ f階層レベルコード１をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelNm1">
+ <summary>
+ f階層レベル名称１をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelCD2">
+ <summary>
+ f階層レベルコード２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelNm2">
+ <summary>
+ f階層レベル名称２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelCD3">
+ <summary>
+ f階層レベルコード３をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelNm3">
+ <summary>
+ f階層レベル名称３をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelCD4">
+ <summary>
+ f階層レベルコード４をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelNm4">
+ <summary>
+ f階層レベル名称４をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelCD5">
+ <summary>
+ f階層レベルコード５をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuLevelNm5">
+ <summary>
+ f階層レベル名称５をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_NightKangoAddFlg">
+ <summary>
+ f夜間看護加算対象フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_PlanMakeFlg">
+ <summary>
+ f計画作成対象フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_TeamCount">
+ <summary>
+ fチーム数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_DivisionFlg">
+ <summary>
+ f分割フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_CapaCount">
+ <summary>
+ f定員数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_EffEndDay">
+ <summary>
+ f有効終了日をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_HanyoArea">
+ <summary>
+ f汎用エリアをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_HanyoArea2">
+ <summary>
+ f汎用エリア２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KenmuKinmuDeptFlg">
+ <summary>
+ f兼務勤務フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fUK_KinmuDeptCount">
+ <summary>
+ 所属部署件数(兼務含む)をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fR_RefAuthRangeKbn">
+ <summary>
+ 参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fSR_RefAuthRangeKbn">
+ <summary>
+ 参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuCount">
+ <summary>
+ fメニュー件数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuDefIdx">
+ <summary>
+ fデフォルトインデックスをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuDataDefIdx">
+ <summary>
+ fデフォルト子インデックスをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuID">
+ <summary>
+ fメニューIDをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuNm">
+ <summary>
+ fメニュー名(タイトル)をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_MenuTargetKbn">
+ <summary>
+ fメニュー対象区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_ResourceCount">
+ <summary>
+ fメニューデータ件数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_ResourceCD">
+ <summary>
+ fリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_ImageFileName">
+ <summary>
+ fイメージ名をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_HanyoArea">
+ <summary>
+ f汎用エリアをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_HanyoArea2">
+ <summary>
+ f汎用エリア２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_Title">
+ <summary>
+ fタイトルをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_ObjectNm">
+ <summary>
+ fオブジェクト名をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_ObjectKbn">
+ <summary>
+ fオブジェクト区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_SecuResourceCD">
+ <summary>
+ fセキュリティリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_UpdAuthRangeKbn">
+ <summary>
+ f更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fLB_RefAuthRangeKbn">
+ <summary>
+ f参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_ResourceCount">
+ <summary>
+ fリソース権限一括件数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_LBMenuTargetKbn">
+ <summary>
+ fメニュー対象区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_ResourceCD">
+ <summary>
+ fリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_ImageFileName">
+ <summary>
+ fイメージ名をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_HanyoArea">
+ <summary>
+ f汎用エリアをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_HanyoArea2">
+ <summary>
+ f汎用エリア２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_Title">
+ <summary>
+ fタイトルをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_ObjectNm">
+ <summary>
+ fオブジェクト名をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_ObjectKbn">
+ <summary>
+ fオブジェクト区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_SecuResourceCD">
+ <summary>
+ fセキュリティリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_UpdAuthRangeKbn">
+ <summary>
+ f更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAR_RefAuthRangeKbn">
+ <summary>
+ f参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuDeptCount">
+ <summary>
+ f利用者所属部署件数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_DataKbn">
+ <summary>
+ fデータ区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuDeptCD">
+ <summary>
+ f勤務部署コードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuDeptName">
+ <summary>
+ f勤務部署名称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_SecName">
+ <summary>
+ f略称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_SecName2">
+ <summary>
+ f略称2をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_DispNo">
+ <summary>
+ f表示Noをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelCD1">
+ <summary>
+ f階層レベルコード１をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelName1">
+ <summary>
+ f階層レベル名称１をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelCD2">
+ <summary>
+ f階層レベルコード２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelName2">
+ <summary>
+ f階層レベル名称２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelCD3">
+ <summary>
+ f階層レベルコード３をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelName3">
+ <summary>
+ f階層レベル名称３をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelCD4">
+ <summary>
+ f階層レベルコード４をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelName4">
+ <summary>
+ f階層レベル名称４をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelCD5">
+ <summary>
+ f階層レベルコード５をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_KinmuLevelName5">
+ <summary>
+ f階層レベル名称５をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_NightKangoAddFlg">
+ <summary>
+ f夜間看護加算対象フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_PlanMakeFlg">
+ <summary>
+ f計画作成対象フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_TeamCount">
+ <summary>
+ fチーム数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_DivisionFlg">
+ <summary>
+ f分割フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_CapaCount">
+ <summary>
+ f定員数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_EffEndDay">
+ <summary>
+ f有効終了日をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_HanyoArea">
+ <summary>
+ f汎用エリアをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_HanyoArea2">
+ <summary>
+ f汎用エリア２をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fNeedAuthRangeKbn">
+ <summary>
+ f必要権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fNeedAuthRange_KinmuDeptCd">
+ <summary>
+ f勤務部署コードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_Count">
+ <summary>
+ fパッケージ別一括権限件数をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_PackageCD">
+ <summary>
+ fパッケージコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_PackageName">
+ <summary>
+ fパッケージ名称をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_ResourceCD">
+ <summary>
+ fリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_Title">
+ <summary>
+ fタイトルをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_ObjectNm">
+ <summary>
+ fオブジェクト名をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_ObjectKbn">
+ <summary>
+ fオブジェクト区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_SecuResourceCD">
+ <summary>
+ fセキュリティリソースコードをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_MasterKbn">
+ <summary>
+ fマスタ区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_MasterID">
+ <summary>
+ fマスタIDをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_UpdAuthRangeKbn">
+ <summary>
+ f更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fARP_RefAuthRangeKbn">
+ <summary>
+ f参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fMaxUpdAuthRangeKbn">
+ <summary>
+ f最大更新権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fMaxReferAuthRangeKbn">
+ <summary>
+ f最大参照権限範囲区分をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fAK_SAIKEIFLG">
+ <summary>
+ f再掲フラグをセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetListBarMenu(System.String@)">
+ <summary>
+ メインメニューリストバー表示内容取得メソッド<br />
+ 概要:メインメニューのリストバーに表示する内容を取得する。
+ </summary>
+ <param name="p_LBMenuFlg">メニューフラグ</param>
+ <returns>権限あり:True  １件も権限なし又は異常:False</returns>
+ <remarks>メニューフラグは、クラサバ用メニューは１、WEB用メニューは２を指定</remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetResource(System.String)">
+ <summary>
+ リソース権限取得メソッド<br />
+ 概要:リソース権限情報を取得する。
+ </summary>
+ <param name="p_strResourceCD">リソースコード</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetAllResourcePackage(System.String,System.String)">
+ <summary>
+ パッケージ別一括権限取得メソッド<br />
+ 概要:パッケージ別で一括権限情報を取得する。
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetUserKinmuDeptInfo(System.String)">
+ <summary>
+ 利用者所属部署(兼務部署含む)取得メソッド<br />
+ 概要:利用者所属部署(兼務部署含む)を取得する。
+ </summary>
+ <param name="p_lngGetDate">兼務情報取得基準日</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetAllResource(System.String)">
+ <summary>
+ リソース権限一括取得メソッド<br />
+ 概要:１画面に複数リソースがある場合、全ての権限をを取得する。
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetSecuResource(System.String)">
+ <summary>
+ セキュリティリソース権限取得メソッド<br />
+ 概要:セキュリティリソース権限情報を取得する。
+ </summary>
+ <param name="p_strSecuResourceCD">セキュリティリソースコード</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetAuthKinmuDept(System.String)">
+ <summary>
+ 権限のある勤務部署コード取得メソッド<br />
+ 概要:利用者が権限のある勤務部署情報を取得する。
+ </summary>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mCheckAuthRangeKbn(System.String,System.String,System.String)">
+ <summary>
+ 選択部署操作権限判定メソッド<br />
+ 概要:利用者が選択した勤務部署に操作権限があるかを判定する。
+ </summary>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <param name="p_strStaffMngID">職員管理番号</param>
+ <param name="p_strKinmuDeptCD">勤務部署コード</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetNeedAuthRangeKbn(System.String,System.Int32)">
+ <summary>
+ 選択部署操作権限判定メソッド<br />
+ 概要:利用者が選択した勤務部署に操作権限があるかを判定する。
+ </summary>
+ <param name="p_strStaffMngID">職員管理番号</param>
+ <param name="p_lngDate">日数</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mGetMaxAuthRangeKbn(System.String)">
+ <summary>
+ 最大権限範囲取得メソッド<br />
+ 概要:指定された画面IDに紐づく最も強い権限を取得する。
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.mCheckAuthRangeKbn2(System.String,System.String)">
+ <summary>
+ 選択部署操作権限判定メソッド２<br />
+ 概要:引数の権限範囲区分により、処理可能か判定する。
+ </summary>
+ <param name="p_strResAuthRangeKbn">リソース権限範囲区分</param>
+ <param name="p_strNeedAuthRangeKbn">必要権限範囲区分</param>
+ <returns>参照/更新どちらか権限あり:True  参照/更新ともに権限なし又は異常:False</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetMenuM(System.String)">
+ <summary>
+ メニューＭの情報取得メソッド
+ </summary>
+ <param name="p_LBMenuFlg">メニューフラグ</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks>メニューフラグは、1：クラサバ  2：WEB</remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetResource(System.String)">
+ <summary>
+ リソース権限情報の取得メソッド
+ </summary>
+ <param name="p_strResouceCD">リソースコード</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetSecuResource(System.String)">
+ <summary>
+ セキュリティリソース権限情報の取得メソッド
+ </summary>
+ <param name="p_strSecuResouceCD">セキュリティリソースコード</param>
+ <returns>TRUETRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetUserKinmuDeptInfo(System.Int32)">
+ <summary>
+ 利用者所属部署取得（兼務部署含む）の取得メソッド
+ </summary>
+ <param name="p_lngGetDate">兼務情報取得基準日</param>
+ <returns>TRUETRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetListBarMenu">
+ <summary>
+ メニューリストの情報取得メソッド
+ </summary>
+ <returns>TRUETRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetMenuResource(System.String)">
+ <summary>
+ メニューリソースＭの情報取得メソッド
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetAllResource(System.String)">
+ <summary>
+ リソース権限情報の一括取得メソッド
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetAuthKinmuDept(System.String)">
+ <summary>
+ メニューＭの情報取得メソッド
+ </summary>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncCheckAuthRangeKbn(System.String,System.String,System.String)">
+ <summary>
+ 権限の判定メソッド
+ </summary>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <param name="p_strStaffMngID">職員管理番号</param>
+ <param name="p_strKinmuDeptCD">勤務部署コード</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetNeedAuthRangeKbn(System.String,System.Int32)">
+ <summary>
+ 権限の判定メソッド
+ </summary>
+ <param name="p_strStaffMngID">職員管理番号</param>
+ <param name="p_lngDate">日数</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetAllResourcePackage(System.String,System.String)">
+ <summary>
+ リソースパッケージ取得メソッド
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <param name="p_strAuthRangeKbn">権限範囲区分</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncGetMaxAuthRangeKbn(System.String)">
+ <summary>
+ メニューＭの情報取得メソッド
+ </summary>
+ <param name="p_strScreenID">画面ID</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0000C.clsGetSecurity.fncCheckAuthRangeKbn2(System.String,System.String)">
+ <summary>
+ 権限の判定メソッド２
+ </summary>
+ <param name="p_strResAuthRangeKbn">権限範囲区分</param>
+ <param name="p_strNeedAuthRangeKbn">必要権限範囲区分</param>
+ <returns>TRUE（データあり）/FALSE（データなし）</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

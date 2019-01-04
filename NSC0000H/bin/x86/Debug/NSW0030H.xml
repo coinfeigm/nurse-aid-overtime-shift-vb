@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0030H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSW0030H.frmNSW0030HA.cmdCondSet_Click(System.Object,System.EventArgs)">
+ <summary>
+ 条件設定ボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HA.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ 更新ボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HA.cmdSet_Click(System.Object,System.EventArgs)">
+ <summary>
+ 設定ボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HB.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HB.cmdItem_Click(System.Object,System.EventArgs)">
+ <summary>
+ 設定ボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HB.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ OKボタン押下処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HB.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HC.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSW0030H.frmNSW0030HD.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="F:NsAid_NSW0030H.basNSW0030H.g_udtlstBeforeList">
+ <summary>
+ 選択元ﾘｽﾄﾃﾞｰﾀの構造体(汎用マスタデータ)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:NsAid_NSW0030H.basNSW0030H.g_udtlstAfterList">
+ <summary>
+ 選択後ﾘｽﾄﾃﾞｰﾀの構造体(FD出力項目一覧画面、FD出力設定画面(To))
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:NsAid_NSW0030H.basNSW0030H.g_udtBKlstBeforeList">
+ <summary>
+ 選択元ﾘｽﾄﾃﾞｰﾀのﾜｰｸの構造体(FD出力設定画面(From))
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="F:NsAid_NSW0030H.basNSW0030H.g_udtBKlstAfterList">
+ <summary>
+ 選択後ﾘｽﾄﾃﾞｰﾀのﾜｰｸの構造体(FD出力項目一覧画面バックアップ(キャンセル用))
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

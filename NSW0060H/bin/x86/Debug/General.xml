@@ -1,0 +1,349 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+General
+</name>
+</assembly>
+<members>
+<member name="M:General.NS_HANYOUCOMPINFO_M.paGetHanyouInfo(System.String,System.String,System.String)">
+ <summary>
+ 汎用マスタの項目名を取得する
+ </summary>
+ <param name="p_HospitalCD">病院CD</param>
+ <param name="p_MasterID">マスタID</param>
+ <param name="p_MasterCD">マスタCD</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:General.ClsBase.pProcessObj">
+ <summary>
+ 呼び出し元画面オブジェクト設定
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paTextNumInput(System.Int16@)">
+ <summary>
+ ﾃｷｽﾄﾎﾞｯｸｽに数字しか入力できなくする。(職員設定画面のコンボボックスの入力制御に利用)
+ </summary>
+ <param name="p_KeyAscii">p_KeyAscii(I/O)    KeyPressｲﾍﾞﾝﾄ/KeyAscii</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paGetItemString(System.Object,System.Int32)">
+ <summary>
+ コントロールの指定されたインデックスの要素を取得
+ </summary>
+ <param name="p_objControl">対象のコントロール</param>
+ <param name="p_numIndex">取得したいインデックス</param>
+ <returns>対象のコントロールの指定されたインデックスの要素</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paSpreadSizeFit(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 旧SpreadのAutoFitの代替関数(BorderStyle = Fixed3D)
+ </summary>
+ <param name="p_spr">対象スプレッド</param>
+ <param name="p_numVBarDisp">垂直スクロールバー表示ポリシー</param>
+ <param name="p_numHBarDisp">水平スクロールバー表示ポリシー</param>
+ <param name="p_numDispRowCount">表示行数</param>
+ <param name="p_numWidth">表示列幅</param>
+ <param name="p_numMaxHeight">対象スプレッドの高さの限界値</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paSpreadSizeFit2(FarPoint.Win.Spread.FpSpread,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 旧SpreadのAutoFitの代替関数(BorderStyle = FixedSingle)
+ </summary>
+ <param name="p_spr">対象スプレッド</param>
+ <param name="p_numVBarDisp">垂直スクロールバー表示ポリシー</param>
+ <param name="p_numHBarDisp">水平スクロールバー表示ポリシー</param>
+ <param name="p_numDispRowCount">表示行数</param>
+ <param name="p_numWidth">表示列幅</param>
+ <param name="p_numMaxHeight">対象スプレッドの高さの限界値</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paSetControlList(System.Object,System.String,System.Collections.Generic.List{System.Object},System.Int32)">
+ <summary>
+ リストにコントロールを追加する処理
+ </summary>
+ <param name="p_Container">コントロールが配置されているコンテナ</param>
+ <param name="p_strControlName">対象コントロール名称</param>
+ <param name="p_list">リスト</param>
+ <param name="p_numIndex">開始Index</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paSetInputMode_GcTextBox(System.Int32@,CustomText.NiszText@)">
+ <summary>
+ NiszTextBoxのIMEモード、及び入力可能文字の制御を行う
+ </summary>
+ <param name="p_numInputMode">プロパティ等で渡された画面のInputMode</param>
+ <param name="p_TextBox">対象TextBox</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paTabControl_DrawItem_NotFontColorChange(System.Object,System.Windows.Forms.DrawItemEventArgs)">
+ <summary>
+ 文字色変更を伴わないタブ描画処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paTabControl_DrawItem_FontColorChange(System.Object,System.Windows.Forms.DrawItemEventArgs)">
+ <summary>
+ 文字色変更を伴うタブ描画処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:General.Control.paListBox_SelectedIndexChanged(System.Windows.Forms.ListBox,System.Collections.ArrayList@)">
+ <summary>
+ 0行目に「すべて」項目が存在する複数選択可のリストボックスの処理
+ </summary>
+ <param name="p_listBox">コントロール</param>
+ <param name="p_arrayList">選択状態を保持する変数</param>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateStringFromDate(System.DateTime,General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ Date型からyyyy/MM/dd形式を取得する関数 デフォルト yyyy/MM/dd形式
+ </summary>
+ <param name="p_Day"></param>
+ <param name="p_yyyyMM">形式を指定する列挙型</param>
+ <returns>yyyy/MM/dd</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateStringFromInteger(System.Int32,General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ Integerで8桁の日付データから yyyy/MM/dd形式で取得する関数　デフォルト yyyy/MM/dd形式
+ 引数が日付に変換出来ない数値の場合、"0000/00/00" 型で戻す
+ </summary>
+ <param name="p_Day"></param>
+ <param name="p_yyyyMM">形式を指定する列挙型</param>
+ <returns>yyyy/MM/dd</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.FncGetDateStringFromInteger(System.Int32,General.DateUtil.G_DATE_ENUM,System.Boolean@)">
+ <summary>
+ Integer型日付データを変換。
+ 日付に処理できないデータの場合、"0000/00/00"形式で返却
+ </summary>
+ <param name="p_Day"></param>
+ <param name="p_yyyyMM">形式を指定する列挙型</param>
+ <param name="p_blnFlg">日付変換結果フラグ true:変換可,False:不可</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateIntegerFromDate(System.DateTime,General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ Date型の変数をIntegerに変換する関数　デフォルト yyyyMMdd
+ </summary>
+ <param name="p_Day"></param>
+ <param name="p_yyyyMM">形式を指定する列挙型</param>
+ <returns>yyyyMMdd</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateIntegerFromDateString(System.String,General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ yyyy/MM/dd または yyyyMMdd 形式のStringをIntegerに変換する関数
+ </summary>
+ <param name="p_Day"></param>
+ <param name="p_yyyyMM">形式を指定する列挙型</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateFromDateInteger(System.Int32,System.Boolean@)">
+ <summary>
+ yyyyMMdd型のInteger型から Date型のデータを取得する関数。日付に変換できない数値の場合、Nothingを返却
+ </summary>
+ <param name="p_yyyyMMdd"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.fncGetDateFormatForDateString(General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ 戻り値String型用のFormat返却関数
+ </summary>
+ <param name="p_enum"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.fncGetDateFormatForDateInteger(General.DateUtil.G_DATE_ENUM)">
+ <summary>
+ 戻り値Integer型用のFormat返却関数
+ </summary>
+ <param name="p_enum"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetWeekName(System.DateTime)">
+ <summary>
+ Date型の日付を曜日(一文字)に変換する関数
+ </summary>
+ <param name="p_Date"></param>
+ <returns>曜日(一文字)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateString(System.DateTime,System.Boolean)">
+ <summary>
+ Date型のデータから 時分秒までのStringを返却する関数
+ </summary>
+ <param name="p_date"></param>
+ <param name="p_flg">true: yyyyMMddHHmmss形式、 False:yyyy/MM/dd HH:mm:ss</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paCalcZaisyoku(System.String,System.String@)">
+ <summary>
+ 開始日から現在までの在職年数の算出
+ </summary>
+ <param name="p_Birthday">開始日</param>
+ <param name="p_Month"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paCalcZaisyoku2(System.String,System.String,System.String@)">
+ <summary>
+ 在職年数の算出（期間）
+ </summary>
+ <param name="p_Birthday">期間開始日</param>
+ <param name="p_Birthday2">期間終了日</param>
+ <param name="p_Month"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.calcDateFromTo(System.String,System.String,System.String@)">
+ <summary>
+ 日付差を算出する処理
+ </summary>
+ <param name="p_FromDay">開始日</param>
+ <param name="p_ToDay">終了日</param>
+ <param name="p_Month">月数</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.DateUtil.paGetDateDiff_DayOfWeek(System.DateTime,System.DayOfWeek)">
+ <summary>
+ VB6で第二引数に W , 第三引数に VbDayOfWeekで 基準日を指定していた Format関数の代替処理
+ 第二引数の基準日から、第一引数の日付の曜日までの差を算出する
+ 基準日と等しい場合 1 を返す。
+ </summary>
+ <param name="p_date">対象日</param>
+ <param name="p_StanDardDay">基準日</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:General.FormBase.pProcessObj">
+ <summary>
+ 呼び出し元画面オブジェクト設定
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.BasGeneral.paMRComObject``1(``0@,System.Boolean)">
+ <summary>
+ COMオブジェクトのリリースを行う処理
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="objCom"></param>
+ <param name="force"></param>
+ <remarks></remarks>
+</member>
+<member name="M:General.BasGeneral.paGetDictionaryValue(System.Collections.Generic.Dictionary{System.Object,System.Object},System.String,System.Object)">
+ <summary>
+ ディクショナリクラスから値を取得する
+ </summary>
+ <param name="p_dic"></param>
+ <param name="p_key">キー値</param>
+ <param name="p_objDefault">キー値が存在しない場合のデフォルト値</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.BasGeneral.paDeepCopy``1(``0)">
+ <summary>
+ 引数に取ったインスタンスのディープコピーを返却する処理
+ </summary>
+ <typeparam name="T"></typeparam>
+ <param name="target"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.BasGeneral.paCreateObject(System.String)">
+ <summary>
+ 文字列から動的にインスタンスを作成する処理
+ </summary>
+ <param name="p_strObjName">オブジェクト名称</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.PrintBase.mPrintOut">
+ <summary>
+ 帳票出力オブジェクト初期処理
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:General.PrintBase.PrintControl">
+ <summary>
+ 帳票印字関連処理
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:General.PrintBase.Load_PrintOut">
+ <summary>
+ 帳票出力処理（NSC0010Hに呼ばれる）
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:General.StringUtil.paSplit(System.String,System.Char)">
+ <summary>
+ VB6のSplit関数の代替用関数
+ </summary>
+ <param name="p_str">分割対象文字列</param>
+ <param name="p_chrSep">区切文字</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.StringUtil.paSetFrontSpase(System.String,System.Int32,System.Char)">
+ <summary>
+ 前埋め処理
+ </summary>
+ <param name="p_strTarget">対象の文字列</param>
+ <param name="p_numLength">前埋め後の桁数</param>
+ <param name="p_chrCoverChar">前埋めに使用する文字(初期値＝"0")</param>
+ <returns>対象の文字列を指定された桁数になるまで指定された文字で埋める(文字を指定しない場合は0埋め)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.StringUtil.paChkInStr(System.String,System.String,System.Int32)">
+ <summary>
+ InStr(str1, VB6.Format(p_str2,"@@@@")) = 0　を置換するメソッド
+ @の数が第三引数となる
+ </summary>
+ <param name="p_str1">被検索対象文字列</param>
+ <param name="p_str2">検索対象文字列</param>
+ <param name="p_numDigits">スペース埋の桁数</param>
+ <returns></returns>
+ <remarks>paFormatSpace関数の挙動を修正した為に不要に</remarks>
+</member>
+<member name="M:General.StringUtil.paFormatZero(System.Int32,System.Int32)">
+ <summary>
+ 0埋めのﾌｫｰﾏｯﾄ文字列を作成する関数。
+ </summary>
+ <param name="p_int">被ﾌｫｰﾏｯﾄ数値</param>
+ <param name="p_numDigits">元の関数で指定された 0 の個数</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:General.StringUtil.paFormatSpace(System.String,System.Int32)">
+ <summary>
+ スペース埋めのﾌｫｰﾏｯﾄ文字列を作成する関数。
+ </summary>
+ <param name="p_str">被ﾌｫｰﾏｯﾄ文字列</param>
+ <param name="p_numDigits">元の関数で指定された @ の個数</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

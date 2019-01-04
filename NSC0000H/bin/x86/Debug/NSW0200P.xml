@@ -1,0 +1,17 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0200P
+</name>
+</assembly>
+<members>
+<member name="P:NsAid_NSW0200P.frmNSW0200P.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+</members>
+</doc>

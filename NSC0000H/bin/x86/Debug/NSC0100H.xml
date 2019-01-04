@@ -1,0 +1,171 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0100H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.Calendar_DblClick(System.Object,System.EventArgs)">
+ <summary>
+ カレンダー(日付ラベル)ダブルクリック処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.Calendar_MouseDownEvent(System.Object,System.Windows.Forms.MouseEventArgs)">
+ <summary>
+ カレンダー(日付ラベル)マウスダウン処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ 開始日設定用カレンダーボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdChange_Click(System.Object,System.EventArgs)">
+ <summary>
+ 変更ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdDelete_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdOk_Click(System.Object,System.EventArgs)">
+ <summary>
+ OKボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.frmNSC0100HA_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期表示処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.setKyotuInfTab">
+ <summary>
+ 共通情報タブの初期処理を行います。
+ </summary>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.lstHolidayData_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ 休日・祝日ﾃﾞｰﾀ選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.lstHolidayData_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ 休日・祝日ﾃﾞｰﾀダブルクリック時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.optHyouji_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ 表示期間選択変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.txtHospitalName_Change(System.Object,System.EventArgs)">
+ <summary>
+ 施設名称変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.txtTerm_Change(System.Object,System.EventArgs)">
+ <summary>
+ ターム/回数変更時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.vstKyotuInfTab_Switch(System.Object,System.Windows.Forms.TabControlCancelEventArgs)">
+ <summary>
+ タブ変更時の処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.CalendarInit">
+ <summary>
+ ｶﾚﾝﾀﾞｰの配色を取得します。
+ </summary>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.MastDayColor(System.Int32,System.Int32)">
+ <summary>
+ 病院内休日の場合の着色を行います。
+ </summary>
+ <param name="p_intYear">カレンダー表示年</param>
+ <param name="p_intMonth">カレンダー表示月</param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.cmdCalCopy_Click(System.Object,System.EventArgs)">
+ <summary>
+ 複写ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.HSclCol_Scroll(System.Object,System.Windows.Forms.ScrollEventArgs)">
+ <summary>
+ スクロールバー移動時処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks>移動した分、カレンダーの表示年月を変更します。</remarks>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HA.Calendar_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ カレンダー再描画時処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HB.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSC0100H.frmNSC0100HB.fncGetSelectBunruiValue">
+ <summary>
+ 分類の選択値を取得します。
+ </summary>
+ <returns>選択値</returns>
+</member>
+</members>
+</doc>

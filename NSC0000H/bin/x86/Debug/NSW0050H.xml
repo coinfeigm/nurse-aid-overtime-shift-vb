@@ -1,0 +1,45 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0050H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSW0050H.frmNSW0050HA.fncEditFormatYYYYMMDD(System.Int32)">
+ <summary>
+ 編集対象日付(yyyyMMdd)をyyyy/MM/dd形式に変換します。
+ </summary>
+ <param name="val">編集対象日付</param>
+ <returns>編集済日付</returns>
+ <remarks>
+ yyyy/MM/dd形式編集時、編集対象日付を右から設定し不足分は0埋めします。
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0050H.frmNSW0050HA.fncEditFormatYYYYMM(System.Int32)">
+ <summary>
+ 編集対象日付(yyyyMM)をyyyy/MM形式に変換します。
+ </summary>
+ <param name="val">編集対象日付</param>
+ <returns>編集済日付</returns>
+ <remarks>
+ yyyy/MM形式編集時、編集対象日付を右から設定し不足分は0埋めします。
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0050H.frmNSW0050HA.fncEditFormatDD(System.Int32)">
+ <summary>
+ 編集対象日付(dd)をdd形式に変換します。
+ </summary>
+ <param name="val">編集対象日付</param>
+ <returns>編集済日付</returns>
+ <remarks>
+ dd形式編集時、編集対象日付を右から設定し不足分は0埋めします。
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0050H.frmNSW0050HB.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+</members>
+</doc>

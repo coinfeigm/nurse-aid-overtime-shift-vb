@@ -1,0 +1,25 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0020H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0020H.frmNSC0020HA.subSetDic">
+ <summary>
+ スプレッドから取得したtextからCDを取得する為のディクショナリクラス。
+ ベタ書きなので修正時要注意
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020H.frmNSC0020HA.txtUserID_KeyDownEvent(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ ユーザIDテキストボックス キー入力時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

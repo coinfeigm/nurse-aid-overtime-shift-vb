@@ -1,0 +1,365 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="14.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6815767D-3071-4817-BE2C-3AA18379E865}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Sub Main</StartupObject>
+    <RootNamespace>NSC0000H</RootNamespace>
+    <AssemblyName>NSC0000H</AssemblyName>
+    <MyType>Console</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSC0000H.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSC0000H.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x64' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSC0000H.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x64' ">
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\Module\</OutputPath>
+    <DocumentationFile>NSC0000H.xml</DocumentationFile>
+    <Optimize>true</Optimize>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022,42353,42354,42355</NoWarn>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="adodb, Version=7.0.3300.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+    <Reference Include="CustomText, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\CustomText.dll</HintPath>
+    </Reference>
+    <Reference Include="DATABEAN, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DATABEAN.dll</HintPath>
+    </Reference>
+    <Reference Include="FarPoint.CalcEngine, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.Excel, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.PDF, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.PluginCalendar.WinForms, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.Win, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="FarPoint.Win.Chart, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7" />
+    <Reference Include="FarPoint.Win.SpreadJ, Version=5.0.2007.2008, Culture=neutral, PublicKeyToken=a5fa960294d899e7, processorArchitecture=MSIL" />
+    <Reference Include="MenuToolStrip, Version=1.0.3828.25698, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\MenuToolStrip.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.XML" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NSC0000H.vb" />
+    <Compile Include="NSC0000HA.Designer.vb">
+      <DependentUpon>NSC0000HA.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HA.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HB.Designer.vb">
+      <DependentUpon>NSC0000HB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HC.Designer.vb">
+      <DependentUpon>NSC0000HC.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HC.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HD.Designer.vb">
+      <DependentUpon>NSC0000HD.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HD.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HE.Designer.vb">
+      <DependentUpon>NSC0000HE.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HE.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HM.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSC0000HM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HMain.vb" />
+    <Compile Include="NSC0000HN.Designer.vb">
+      <SubType>Code</SubType>
+      <DependentUpon>NSC0000HN.vb</DependentUpon>
+    </Compile>
+    <Compile Include="NSC0000HN.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="NSC0000HPSW.cls" />
+    <Compile Include="Parallel_NSC0000H.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\licenses.licx" />
+    <EmbeddedResource Include="NSC0000HA.resx">
+      <DependentUpon>NSC0000HA.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HB.resx">
+      <DependentUpon>NSC0000HB.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HC.resx">
+      <DependentUpon>NSC0000HC.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HD.resx">
+      <DependentUpon>NSC0000HD.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HE.resx">
+      <DependentUpon>NSC0000HE.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HM.resX">
+      <DependentUpon>NSC0000HM.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="NSC0000HN.resX">
+      <DependentUpon>NSC0000HN.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\00 GENERAL\AidGeneral\AidGeneral.vbproj">
+      <Project>{DBBA6171-4E0C-471D-BEF2-C71F91D084AD}</Project>
+      <Name>AidGeneral</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\00 GENERAL\General\General.vbproj">
+      <Project>{C8C975DE-1ABD-498C-A8DE-040C3ED331D5}</Project>
+      <Name>General</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\00 GENERAL\LogUtil\LogUtil.vbproj">
+      <Project>{6B86AEFB-FA41-44B3-9B4C-AFC7E98A1D09}</Project>
+      <Name>LogUtil</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0000C\NSW0000C.vbproj">
+      <Project>{62009D97-F351-402D-A89D-787A08CAC52C}</Project>
+      <Name>NSW0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0020H\NSW0020H.vbproj">
+      <Project>{56D4971D-8249-417A-8DBC-F949DC7A8A40}</Project>
+      <Name>NSW0020H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0030H\NSW0030H.vbproj">
+      <Project>{8A2707E7-6727-4991-A213-4B9C9C541891}</Project>
+      <Name>NSW0030H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0030P\NSW0030P.vbproj">
+      <Project>{91B28C4B-839D-4539-8B4F-D0863D4DEFDB}</Project>
+      <Name>NSW0030P</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0050H\NSW0050H.vbproj">
+      <Project>{435D4012-46B8-44DF-9F7B-DEEB5D73A03D}</Project>
+      <Name>NSW0050H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0060H\NSW0060H.vbproj">
+      <Project>{C3E54EBE-C4EA-42DD-8537-4EBC8092B59D}</Project>
+      <Name>NSW0060H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0200P\NSW0200P.vbproj">
+      <Project>{657C763C-4131-4DB8-9487-985AC8517589}</Project>
+      <Name>NSW0200P</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\03 NSWORK\NSW0300C\NSW0300C.vbproj">
+      <Project>{AFD179E6-FB79-4775-AF2B-A65B55C76619}</Project>
+      <Name>NSW0300C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04 NSSTAFF\NSS0010H\NSS0010H.vbproj">
+      <Project>{76EF1806-19B8-40C3-B7C1-4FFED484BDF3}</Project>
+      <Name>NSS0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04 NSSTAFF\NSS0010P\NSS0010P.vbproj">
+      <Project>{637A9A1A-97EB-49B5-9CFA-8A90D4BB7B7E}</Project>
+      <Name>NSS0010P</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04 NSSTAFF\NSS0020H\NSS0020H.vbproj">
+      <Project>{27DD6E2A-85B4-4346-8001-410DC92A54D0}</Project>
+      <Name>NSS0020H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\04 NSSTAFF\NSS0030H\NSS0030H.vbproj">
+      <Project>{1EB99226-5EA8-4BA1-8B7B-A5BD981F8314}</Project>
+      <Name>NSS0030H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\05 NSDUTY\NSD0000C\NSD0000C.vbproj">
+      <Project>{CDC4DB92-F035-45AA-AB64-CC470F01C677}</Project>
+      <Name>NSD0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\05 NSDUTY\NSD0010H\NSD0010H.vbproj">
+      <Project>{1659DC28-C1AC-4012-833B-C738CE0E9645}</Project>
+      <Name>NSD0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\05 NSDUTY\NSD0020H\NSD0020H.vbproj">
+      <Project>{3D3DF95B-71D7-4474-B2A1-A7DB976C918C}</Project>
+      <Name>NSD0020H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\06 NSHOLIDAY\NSH0010H\NSH0010H.vbproj">
+      <Project>{54B9F443-8074-4247-ACE9-DA66DDD4A676}</Project>
+      <Name>NSH0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\07 NSAPPLICATION\NSA0000C\NSA0000C.vbproj">
+      <Project>{D7744071-979B-4853-9719-1032BB974BEF}</Project>
+      <Name>NSA0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\07 NSAPPLICATION\NSA0020H\NSA0020H.vbproj">
+      <Project>{710C163F-A33D-43F9-A5B5-5B4DDDFE23AF}</Project>
+      <Name>NSA0020H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\07 NSAPPLICATION\NSA0040H\NSA0040H.vbproj">
+      <Project>{7EE1B635-0F24-4580-BC00-825A1C7E5FA8}</Project>
+      <Name>NSA0040H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\08 NSEDUCATION\NSE0010H\NSE0010H.vbproj">
+      <Project>{E46AB874-344C-45CA-A152-9A30A458FFE5}</Project>
+      <Name>NSE0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\..\09 NSNURSE\NSN0010H\NSN0010H.vbproj">
+      <Project>{4C758A9B-0229-4F25-B0F3-F4FB50132442}</Project>
+      <Name>NSN0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0000C\NSC0000C.vbproj">
+      <Project>{B7962F6D-B4D1-471B-A8C9-D2462257B317}</Project>
+      <Name>NSC0000C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0010C\NSC0010C.vbproj">
+      <Project>{421B1068-CB3B-45D1-9CE0-E12C26279824}</Project>
+      <Name>NSC0010C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0010H\NSC0010H.vbproj">
+      <Project>{F1992970-8CDC-40C9-9E63-B12639489BBD}</Project>
+      <Name>NSC0010H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0020H\NSC0020H.vbproj">
+      <Project>{52894E35-0E50-498F-8E84-F42435578E5E}</Project>
+      <Name>NSC0020H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0030C\NSC0030C.vbproj">
+      <Project>{0ABC68BF-9C5B-46ED-A062-24DE5B4C76EA}</Project>
+      <Name>NSC0030C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0030H\NSC0030H.vbproj">
+      <Project>{6C8D5C09-89C1-42BA-B679-2E9C8CA7A9C9}</Project>
+      <Name>NSC0030H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0040C\NSC0040C.vbproj">
+      <Project>{A0CB70E5-0AF3-4453-AA6D-5FDE8439DC92}</Project>
+      <Name>NSC0040C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0040H\NSC0040H.vbproj">
+      <Project>{EBF3E251-CA81-4355-B0E5-E7FCF548D42D}</Project>
+      <Name>NSC0040H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0050C\NSC0050C.vbproj">
+      <Project>{6A035EE6-3BA8-4E47-81D6-A365D12AA76E}</Project>
+      <Name>NSC0050C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0050H\NSC0050H.vbproj">
+      <Project>{9B50902C-CCA9-482C-A657-B054905B56DA}</Project>
+      <Name>NSC0050H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0060C\NSC0060C.vbproj">
+      <Project>{A6BC9095-FF33-49C7-8230-BC0DE7BB52E8}</Project>
+      <Name>NSC0060C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0060H\NSC0060H.vbproj">
+      <Project>{76C16624-E9D2-45F6-BC4C-54E857F3DACF}</Project>
+      <Name>NSC0060H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0070C\NSC0070C.vbproj">
+      <Project>{5D7B39FF-8C00-477C-9342-86F5DF010A88}</Project>
+      <Name>NSC0070C</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0070H\NSC0070H.vbproj">
+      <Project>{3C126AD0-D6E9-45E7-B1F4-A2CDBE76358D}</Project>
+      <Name>NSC0070H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0090H\NSC0090H.vbproj">
+      <Project>{1E087232-63F8-470E-9DC0-D1FB14154D5A}</Project>
+      <Name>NSC0090H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0100H\NSC0100H.vbproj">
+      <Project>{CD6D2F35-D8F1-49A7-9110-36149EF10986}</Project>
+      <Name>NSC0100H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0110H\NSC0110H.vbproj">
+      <Project>{9A660751-DD30-41A2-98E4-82FE680D27F7}</Project>
+      <Name>NSC0110H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0120H\NSC0120H.vbproj">
+      <Project>{8EC87572-1FCC-45B3-BB95-E578B3F0128E}</Project>
+      <Name>NSC0120H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0130H\NSC0130H.vbproj">
+      <Project>{3A9EF85B-8D2A-476A-9F14-24AD6D30EB95}</Project>
+      <Name>NSC0130H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0140H\NSC0140H.vbproj">
+      <Project>{BA8500CA-6EA4-4711-8685-1FFAED311B86}</Project>
+      <Name>NSC0140H</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\NSC0150H\NSC0150H.vbproj">
+      <Project>{4B73A7A7-0C30-40F8-8BED-FF1AC9D23D18}</Project>
+      <Name>NSC0150H</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

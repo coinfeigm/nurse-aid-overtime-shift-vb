@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FarPoint.PDF</name>
+    </assembly>
+    <members>        
+        <member name="T:FarPoint.PDF.PdfSecurity">
+            <summary>
+              PDF文書にセキュリティと暗号化を提供するために必要な情報を格納します。
+            </summary>
+            <remarks>
+              文書を開くパスワードが設定されている場合には、ビューワー（アプリケーション）はパスワードを要求する必要があります。文書にパスワードが設定されていない場合には、文書を開く際にパスワードは要求されません。文書を開くパスワード、または権限パスワードを正しく設定することで、ユーザーは、文書を開き、暗号化を解除し、画面に表示できるようになります。暗号化が解除された文書に対して許可される操作は、文書を開くときに使用したパスワード、および、このクラスの<see cref="P:FarPoint.PDF.PdfSecurity.Permissions"/>プロパティで指定された権限によって決まります。
+            </remarks>
+        </member>
+        <member name="M:FarPoint.PDF.PdfSecurity.#ctor(System.String,System.String,FarPoint.PDF.PdfPermissions)">
+            <summary>
+              指定されたパスワード、および権限により<see cref="T:FarPoint.PDF.PdfSecurity"/>クラスのインスタンスを生成します。
+            </summary>
+            <param name="ownerPassword">入力された場合、閲覧者に文書への無制限のアクセスを許可するパスワード。</param>
+            <param name="userPassword">入力された場合、閲覧者にこのクラスの<see cref="P:FarPoint.PDF.PdfSecurity.Permissions"/>プロパティで指定された権限を許可するパスワード。</param>
+            <param name="permissions">このオブジェクトに初期設定する<see cref="P:FarPoint.PDF.PdfSecurity.Permissions"/>プロパティの値。</param>
+        </member>
+        <member name="M:FarPoint.PDF.PdfSecurity.#ctor(System.String,System.String)">
+            <summary>
+              指定されたパスワード、およびデフォルトの権限により<see cref="T:FarPoint.PDF.PdfSecurity"/>クラスのインスタンスを生成します。デフォルトでは、すべての権限が許可されます。
+            </summary>
+            <param name="ownerPassword">入力された場合、閲覧者に文書への無制限のアクセスを許可するパスワード。</param>
+            <param name="userPassword">入力された場合、閲覧者にこのクラスの<see cref="P:FarPoint.PDF.PdfSecurity.Permissions"/>プロパティで指定された権限を許可するパスワード。</param>
+        </member>
+        <member name="M:FarPoint.PDF.PdfSecurity.#ctor(System.String)">
+            <summary>
+              指定されたパスワード、およびデフォルトの権限により<see cref="T:FarPoint.PDF.PdfSecurity"/>クラスのインスタンスを生成します。デフォルトでは、すべての権限が許可されます。
+            </summary>
+            <param name="ownerPassword">入力された場合、閲覧者に文書への無制限のアクセスを許可するパスワード。</param>
+        </member>
+        <member name="P:FarPoint.PDF.PdfSecurity.OwnerPassword">
+            <summary>
+            ユーザーに許可された権限に関わらず、文書への完全な権限を許可する権限パスワード。
+            </summary>
+        </member>
+        <member name="P:FarPoint.PDF.PdfSecurity.UserPassword">
+            <summary>
+            リーダーで入力可能な文書を開くパスワード。この値が空の場合、ユーザーはパスワードを要求されません。ただし、ユーザーは、指定された権限に限定されます。
+            </summary>
+        </member>
+        <member name="P:FarPoint.PDF.PdfSecurity.Permissions">
+            <summary>
+            文書に対してユーザーに許可する権限を指定します。<see cref="T:FarPoint.PDF.PdfPermissions"/>列挙体の値はビットごとのOR演算で複数、指定できます。
+            </summary>
+            <remarks>デフォルトでは全ての権限が設定され、許可されます。</remarks>
+        </member>        
+        <member name="P:FarPoint.PDF.PdfSecurity.Use128Bit">
+            <summary>
+            128bit暗号化を使用して全ての権限を有効にするにはTrueに設定します。限られた権限を40bit暗号化で使用するにはFalseを設定します。
+            <see cref="F:FarPoint.PDF.PdfPermissions.AllowFillIn"/>、<see cref="F:FarPoint.PDF.PdfPermissions.AllowAccessibleReaders"/>、および<see cref="F:FarPoint.PDF.PdfPermissions.AllowAssembly"/>権限は、この値をTrueに設定する必要があります。
+            </summary>
+            <remarks>デフォルトではTrueです。</remarks>
+        </member>
+        <member name="T:FarPoint.PDF.PdfPermissions">
+            <summary>
+            PDF文書で有効な権限を指定します。これらの値は、ビットごとのOR演算で複数、指定できます。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.All">
+            <summary>
+            全ての権限を表します。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.None">
+            <summary>
+            権限が指定されていないことを表します。この設定は、ビットごとのOR演算で他のフラグと使用した場合には無効です。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowPrint">
+            <summary>
+            ユーザーのアクセス権限で文書が開かれた場合、文書の印刷を許可します。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowModifyContents">
+            <summary>
+              ユーザーのアクセス権限で文書が開かれた場合、文書の変更を許可します。注釈の追加または修正は、この権限に関わらず可能です。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowCopy">
+            <summary>
+            ユーザーのアクセス権限で文書が開かれた場合、文書のテキストおよび画像のコピーを許可します。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowModifyAnnotations">
+            <summary>
+            ユーザーのアクセス権限で文書が開かれた場合、文書への注釈の追加または修正を許可します。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowFillIn">
+            <summary>
+              ユーザーのアクセス権限で文書が開かれた場合、文書のフォームフィールドへの入力を許可します。この権限を設定するには、<see cref="P:FarPoint.PDF.PdfSecurity.Use128Bit"/>プロパティをTrueに設定する必要があります。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowAccessibleReaders">
+            <summary>
+              ユーザーのアクセス権限で文書が開かれた場合、文書のテキストおよび画像をアクセシビリティのために抽出することを許可します（まれにアクセシビリティ以外の目的での「画面の読み上げ」の可能性も考えられます）。この権限を設定するには、<see cref="P:FarPoint.PDF.PdfSecurity.Use128Bit"/>プロパティをTrueに設定する必要があります。
+            </summary>
+        </member>
+        <member name="F:FarPoint.PDF.PdfPermissions.AllowAssembly">
+            <summary>
+              ユーザーのアクセス権限で文書が開かれた場合、ページの挿入、回転、および削除、ブックマークおよびサムネイル画像の作成（AllowModifyContentsがFalseの場合でも）を許可します。この権限を設定するには、<see cref="P:FarPoint.PDF.PdfSecurity.Use128Bit"/>プロパティをTrueに設定する必要があります。
+            </summary>
+        </member>        
+    </members>
+</doc>

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0030H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0030H.frmNSC0030HA.txtShimei_KeyDown(System.Object,System.Windows.Forms.KeyEventArgs)">
+ <summary>
+ 氏名のキー押下時の処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+<member name="M:NsAid_NSC0030H.frmNSC0030HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+</members>
+</doc>

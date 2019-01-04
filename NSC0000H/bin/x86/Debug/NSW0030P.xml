@@ -1,0 +1,16 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0030P
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSW0030P.clsNSW0030P.GetMaster">
+ <summary>
+ Ｍデータを取得
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

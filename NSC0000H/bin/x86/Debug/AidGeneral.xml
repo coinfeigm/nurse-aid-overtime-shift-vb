@@ -1,0 +1,325 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+AidGeneral
+</name>
+</assembly>
+<members>
+<member name="P:AidGeneral.Calendar.pSelectedYear">
+ <summary>
+ 選択日付から、年のみを抽出して返却する処理
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:AidGeneral.Calendar.pSelectedMonth">
+ <summary>
+ 選択日付から、月を抽出して返却する処理
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:AidGeneral.Calendar.pSelectedDay">
+ <summary>
+ 選択日付から、日を抽出して返却する処理
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.paCalendarSelectedMonthsChanged(System.Int32,System.Int32,System.Int32,System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label},System.Windows.Forms.ToolTip)">
+ <summary>
+ ポップアップのカレンダー用、選択月変更処理
+ </summary>
+ <param name="p_numSelectedMonthsIndex">選択された月Index</param>
+ <param name="p_numSelectedDate">選択された年月日</param>
+ <param name="p_numCurrentDispMonth">現在表示中の月</param>
+ <param name="p_numCurrentDispYear">現在表示中の年</param>
+ <param name="lblDate"></param>
+ <param name="lblDate2"></param>
+ <param name="ToolTip1"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.paCalendarSelectedMonthsChanged2(System.Int32,System.Int32,System.Int32@,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ メイン画面カレンダー選択月表示処理
+ </summary>
+ <param name="p_numSelectedMonthsIndex">選択された月Index</param>
+ <param name="p_numSelectedDate">選択された年月日</param>
+ <param name="p_numCurrentDispYear">現在表示中の年</param>
+ <param name="lblDate"></param>
+ <param name="lblDate2"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.paCalendarSelectedMonthsChanged3(System.Int32,System.Int32,System.Int32@,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ 共通カレンダー画面カレンダー選択月表示処理
+ </summary>
+ <param name="p_numSelectedMonthsIndex">選択された月Index</param>
+ <param name="p_numSelectedDate">選択された年月日</param>
+ <param name="p_numCurrentDispYear">現在表示中の年</param>
+ <param name="lblDate"></param>
+ <param name="lblDate2"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SetMonthlyLabels(System.Int32,System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ ７日×６週分の日付の表示
+ 帳票のカレンダー部品処理
+ </summary>
+ <param name="p_index">出力対象月Index</param>
+ <param name="p_numSelYear">出力対象年</param>
+ <param name="p_lstLblDate">ラベル配列</param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SetLabelColor1(System.Int32,System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label},System.Windows.Forms.ToolTip)">
+ <summary>
+ ポップアップカレンダー描画処理
+ </summary>
+ <param name="p_numTargetMonthIndex"></param>
+ <param name="p_lstLblDate"></param>
+ <param name="p_lstLblDate2"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SetLabelColor2(System.Int32,System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label},System.Boolean)">
+ <summary>
+ メインメニュー用ラベル描画処理
+ </summary>
+ <param name="p_numTargetMonthIndex"></param>
+ <param name="p_year"></param>
+ <param name="p_lstLblDate"></param>
+ <param name="p_lstLblDate2"></param>
+ <param name="p_bool">メニュー画面かどうか True:メニュー画面 False:共通情報のカレンダー画面</param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SetLabelColor3(System.Int32,System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ 共通情報画面カレンダー用処理
+ </summary>
+ <param name="p_numTargetMonthIndex"></param>
+ <param name="p_year"></param>
+ <param name="p_lstLblDate"></param>
+ <param name="p_lstLblDate2"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SetSelectDateColor(System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ 帳票のカレンダー用初期選択日付描画処理
+ </summary>
+ <param name="p_lstLblDate"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.lblDateClick_Draw1(System.Int32,System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ 帳票のカレンダー用日付クリック描画処理
+ </summary>
+ <param name="Index"></param>
+ <param name="lblDate"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.subShowDateForm2(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ メイン画面のカレンダ用設定処理
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.GetHolidayMaster">
+ <summary>
+ 休日マスタからデータの取得処理
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.GetSelectDate1(System.Object,System.Collections.Generic.List{System.Windows.Forms.Label},System.Int32)">
+ <summary>
+ ポップアップ画面の選択日付変更処理
+ </summary>
+ <param name="cmbMonth"></param>
+ <param name="lblDate"></param>
+ <param name="p_numSelectedYear"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.GetSelectDate2(System.Collections.Generic.List{System.Windows.Forms.Label},System.Int32,System.Int32)">
+ <summary>
+ 共通画面カレンダの選択日付取得処理
+ </summary>
+ <param name="lblDate"></param>
+ <param name="p_index">クリックされたLabelIndex</param>
+ <param name="p_SelectDate"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.GetHoliday2Data2">
+ <summary>
+ 休日マスタから休日情報取得処理
+ </summary>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.paLabel_BorderLinePaint(System.Object,System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ 日付ラベルの枠線描画処理
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.ResetCalendarColor(System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ カレンダー日付ラベルの背景色をリセットします。
+ </summary>
+ <param name="m_lblDate">日付用ラベル</param>
+ <param name="m_lblDate2">曜日表示用ラベル</param>
+ <remarks>表示カレンダーの土・日・平日・祝日の背景色を既定の色に設定します。</remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SubDispMonthChange(System.Int32,System.Int32,System.Int32@,System.Collections.Generic.List{System.Windows.Forms.Label},System.Collections.Generic.List{System.Windows.Forms.Label},System.Boolean)">
+ <summary>
+ メインメニュー、共通情報カレンダー画面の選択月変更時処理
+ </summary>
+ <param name="p_numSelectedMonthsIndex"></param>
+ <param name="p_numSelectedDate"></param>
+ <param name="p_numCurrentDispYear"></param>
+ <param name="lblDate"></param>
+ <param name="lblDate2"></param>
+ <param name="p_bool">True:メニュー画面、False:共通情報カレンダー画面</param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SubSetSelectedDate(System.Int32,System.Int32,System.Int32@,System.Int32@,System.Int32@)">
+ <summary>
+ 選択月と翌月、来月の取得
+ </summary>
+ <param name="p_numTargetMonthIndex"></param>
+ <param name="p_year"></param>
+ <param name="w_numMonths"></param>
+ <param name="w_numPreMonths"></param>
+ <param name="w_numNextMonths"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SubGetWeekEndDateIndex(System.Collections.Generic.List{System.Windows.Forms.Label},System.Int32@,System.Int32@)">
+ <summary>
+ 週末のINDEXの取得
+ </summary>
+ <param name="p_lstLblDate">曜日表示Label</param>
+ <param name="p_numSatIndex">土曜のIndex</param>
+ <param name="p_numSunIndex">日曜のIndex</param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.SubSetWeekEndLabelColor(System.Collections.Generic.List{System.Windows.Forms.Label},System.Int32@,System.Int32@)">
+ <summary>
+ 土日印字ラベルの文字色変更
+ </summary>
+ <param name="p_lstLblDate2"></param>
+ <param name="p_numSatIndex"></param>
+ <param name="p_numSunIndex"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.Calendar.HolidayCheck2(System.Int32)">
+ <summary>
+ 休日マスタから取得した休日判定
+ </summary>
+ <param name="p_date">検査対象日付</param>
+ <returns>True：休日　False:休日以外 </returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.tvw_NodeClick(System.Windows.Forms.TreeView,System.Windows.Forms.TreeNode,DATABEAN.KinmuDept_Type[],System.String[]@,System.String[]@,System.Int32@,System.String)">
+ <summary>
+ 勤務部署が選択されたときの処理
+ </summary>
+ <param name="tvwKinmuDept">対象コントロール</param>
+ <param name="Node">選択されたノード</param>
+ <param name="p_udtKinmuDept"></param>
+ <param name="p_strKinmuDeptCD"></param>
+ <param name="p_strKinmuDeptNM"></param>
+ <param name="p_numDefDeptIdx">選択部署INDEX</param>
+ <param name="p_strSelectRangeKBN"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.paGetKinmuDeptTvw_Part1(System.Windows.Forms.TreeView,System.Object[],System.Int32,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.String@,System.String@,System.String@,System.String@,System.String@,System.Boolean,System.String)">
+ <summary>
+ ツリビュー作成処理_分割１
+ </summary>
+ <param name="p_TreeView"></param>
+ <param name="m_udtKinmuDept"></param>
+ <param name="w_lngLoop"></param>
+ <param name="w_lngLvl1Idx"></param>
+ <param name="w_lngLvl2Idx"></param>
+ <param name="w_lngLvl3Idx"></param>
+ <param name="w_lngLvl4Idx"></param>
+ <param name="w_lngLvl5Idx"></param>
+ <param name="w_preClassLvlCD1"></param>
+ <param name="w_preClassLvlCD2"></param>
+ <param name="w_preClassLvlCD3"></param>
+ <param name="w_preClassLvlCD4"></param>
+ <param name="w_preClassLvlCD5"></param>
+ <param name="p_blnRangeKBNFlg">メニュー画面:False,帳票条件設定画面:Trueに設定</param>
+ <param name="p_strSelectRangeKBN"></param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.paGetKinmuDeptTvw_Part2(System.Windows.Forms.TreeView,System.Object[],System.Int32,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.Int32@,System.String@,System.String@,System.String@,System.String@,System.String@,System.Boolean,System.String,System.String)">
+ <summary>
+ メニュー画面用、ツリービュー作成処理分割　２　
+ </summary>
+ <param name="p_TreeView"></param>
+ <param name="p_objDispData"></param>
+ <param name="w_lngLoop"></param>
+ <param name="w_lngLvl1Idx"></param>
+ <param name="w_lngLvl2Idx"></param>
+ <param name="w_lngLvl3Idx"></param>
+ <param name="w_lngLvl4Idx"></param>
+ <param name="w_lngLvl5Idx"></param>
+ <param name="w_preClassLvlCD1"></param>
+ <param name="w_preClassLvlCD2"></param>
+ <param name="w_preClassLvlCD3"></param>
+ <param name="w_preClassLvlCD4"></param>
+ <param name="w_preClassLvlCD5"></param>
+ <param name="p_blnRangeKBNFlg">メニュー画面:False,帳票条件設定画面:Trueに設定</param>
+ <param name="p_strSelectRangeKBN"></param>
+ <param name="p_starMark">勤務確定部署の末尾に付くマーク</param>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.paGetKinmuDeptData(DATABEAN.KinmuDept_Type[]@,System.String,System.String)">
+ <summary>
+ 出力部署取得処理
+ </summary>
+ <param name="m_udtKinmuDept"></param>
+ <param name="m_AuthRangeKbn">権限範囲区分</param>
+ <param name="p_SaikeiGetKbn">再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.paChkKinmuDept(System.Windows.Forms.TreeView,System.String,System.String[],System.String)">
+ <summary>
+ チェック処理
+ NSW0300P は選択範囲区分 = 1以降の処理に差異あり
+ </summary>
+ <param name="tvwKinmuDept"></param>
+ <param name="p_HospitalCd"></param>
+ <param name="m_KinmuDeptCD"></param>
+ <param name="m_SelectRangeKBN"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.DrawTreeView.paChkKinmuDept_Mode6(System.Windows.Forms.TreeView,System.String,System.String[],System.String)">
+ <summary>
+ チェック処理
+ NSW0300P(Mode6)にて利用
+ </summary>
+ <param name="tvwKinmuDept"></param>
+ <param name="p_HospitalCd"></param>
+ <param name="m_KinmuDeptCD"></param>
+ <param name="m_SelectRangeKBN"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:AidGeneral.ListViewItemComparer.#ctor(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 汎用マスタの項目名を取得する
+ </summary>
+ <param name="p_numColumn">カラム</param>
+ <param name="p_numSortflg">ソートフラグ(0=昇順,1=降順)</param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

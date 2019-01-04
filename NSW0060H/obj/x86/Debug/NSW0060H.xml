@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSW0060H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA.fncEditTimeSingle(System.Int32)">
+ <summary>
+ 時間をhh:mm形式に編集します。（単項目用）
+ </summary>
+ <param name="p_intTime">編集対象時間</param>
+ <returns>編集後時間</returns>
+</member>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA.fncEditTimeTotal(System.Int32)">
+ <summary>
+ 時間をhh:mm形式に編集します。（合計項目用）
+ </summary>
+ <param name="p_intTime">編集対象時間</param>
+ <returns>編集後時間</returns>
+</member>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA.fncEditTimeAllTotal(System.Int32)">
+ <summary>
+ 時間をhh:mm形式に編集します。（合計の合計項目用）
+ </summary>
+ <param name="p_intTime">編集対象時間</param>
+ <returns>編集後時間</returns>
+</member>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA.fncEditTime(System.Int32,System.Int32,System.Int32)">
+ <summary>
+ 時間をhh:mm形式に編集します。
+ </summary>
+ <param name="p_intTime">編集対象時間</param>
+ <param name="p_intHourZero">時間ゼロ埋め編集用桁数</param>
+ <param name="p_intHourBrank">時間空白埋め編集用桁数</param>
+ <returns>編集後時間</returns>
+  <remarks>
+ hh:mm形式とは、hh時間(空白埋め時間空白埋め編集用桁)mm分（ゼロ埋め有2桁）となります。
+ 例：引数.編集対象時間=123→戻り値.編集後時間="   2:03"
+ </remarks>
+</member>
+<member name="M:NsAid_NSW0060H.frmNSW0060HA._Title_Paint(System.Object,System.Windows.Forms.PaintEventArgs)">
+ <summary>
+ タイトル背景再描画時処理。
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+</member>
+</members>
+</doc>

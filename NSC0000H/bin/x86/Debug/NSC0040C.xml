@@ -1,0 +1,168 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0040C
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0040C.basNSC0040C.GetKinmuDept">
+ <summary>
+ 勤務部署取得メソッド<br />
+ 概要:表示順が一番の部署を取得する
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040C.basNSC0040C.GetStaffData">
+ <summary>
+ 職員データ取得メソッド<br />
+ 概要:選択されている職員の部署を取得する
+ </summary>
+ <returns>取得:True  未取得:False</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pHospitalCD">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pGetMasterObj">
+ <summary>
+ マスタ取得部品オブジェクトをセットする
+ </summary>
+ <param name="Value">マスタ取得部品オブジェクト</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSelectDeptObj">
+ <summary>
+ 部署ポップアップ部品オブジェクトをセットする
+ </summary>
+ <param name="Value">部署ポップアップ部品オブジェクト</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pGetDataObj">
+ <summary>
+ 職員部品オブジェクトをセットする
+ </summary>
+ <param name="Value">職員部品オブジェクト</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSecurityObj">
+ <summary>
+ セキュリティ部品オブジェクトをセットする
+ </summary>
+ <param name="Value">セキュリティ部品オブジェクト</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSP_AuthRangeKbn">
+ <summary>
+ DLLプロパティ（AuthRangeKbn）をセットする
+ </summary>
+ <param name="Value">DLLプロパティ（AuthRangeKbn）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSP_SecUseFlg">
+ <summary>
+ DLLプロパティ（SecUseFlg）をセットする
+ </summary>
+ <param name="Value">DLLプロパティ（SecUseFlg）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSP_ResourceCD">
+ <summary>
+ DLLプロパティ（ResourceCD）をセットする
+ </summary>
+ <param name="Value">DLLプロパティ（ResourceCD）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.pSP_TargetStaffMngID">
+ <summary>
+ DLLプロパティ（TargetStaffMngID）をセットする
+ </summary>
+ <param name="Value">DLLプロパティ（TargetStaffMngID）</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.fSP_StaffMngID">
+ <summary>
+ 職員管理番号を取得する
+ </summary>
+ <returns>職員管理番号</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.fSP_StaffName">
+ <summary>
+ 職員氏名を取得する
+ </summary>
+ <returns>職員氏名</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.fSP_StaffID">
+ <summary>
+ 職員番号を取得する
+ </summary>
+ <returns>職員氏名</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0040C.clsStaffPopUp.fSP_EndStatus">
+ <summary>
+ 終了状態を取得する
+ </summary>
+ <returns>終了状態</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040C.clsStaffPopUp.mShowStaffForm">
+ <summary>
+ 職員ポップアップ画面表示メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdCancelボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>何もしないで閉じる</remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.cmdKinmuti_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdKinmutiボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>勤務地を表示する</remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdOKボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>終了状態を更新する</remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.frmNSC0040C_Load(System.Object,System.EventArgs)">
+ <summary>
+ frmNSC0040CフォームLoadイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>frmNSC0040CをLoadし、表示する</remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.DispList">
+ <summary>
+ リスト表示メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0040C.frmNSC0040C.lstSelectList_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ lstSelectListリストDoubleClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>cmdOKボタンClickイベントを実行する</remarks>
+</member>
+</members>
+</doc>

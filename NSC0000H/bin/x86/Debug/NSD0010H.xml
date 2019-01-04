@@ -1,0 +1,141 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSD0010H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.cmd_UpDate_Click(System.Object,System.EventArgs)">
+ <summary>
+ 更新ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ 閉じるボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.cmdDel_Click(System.Object,System.EventArgs)">
+ <summary>
+ 勤務記号ボタン選択削除ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.cmdGroupChg_Click(System.Object,System.EventArgs)">
+ <summary>
+ グループ変更ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.cmdKinmuDisplay_Click(System.Object,System.EventArgs)">
+ <summary>
+ 勤務状況表示/非表示ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.CScmdDuty_ClickEvent(System.Object,System.EventArgs)">
+ <summary>
+ 勤務記号ボタン押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.frmNSD0010HA_Load(System.Object,System.EventArgs)">
+ <summary>
+ 初期処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.hscDuty_Scroll(System.Object,System.Windows.Forms.ScrollEventArgs)">
+ <summary>
+ 勤務記号ボタンスクロールバー移動時処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprAll_TopChange(System.Object,FarPoint.Win.Spread.TopChangeEventArgs)">
+ <summary>
+ 合計スプレッドに表示されている先頭の行が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprAll_LeftChange(System.Object,FarPoint.Win.Spread.LeftChangeEventArgs)">
+ <summary>
+ 合計スプレッドに表示されている左端の列が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprDayTotal_TopChange(System.Object,FarPoint.Win.Spread.TopChangeEventArgs)">
+ <summary>
+ 日付別スプレッドに表示されている先頭の行が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprDayTotal_LeftChange(System.Object,FarPoint.Win.Spread.LeftChangeEventArgs)">
+ <summary>
+ 日付別スプレッドに表示されている左端の列が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprDuty_ClickEvent(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ メインスプレッドのセル押下処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprDuty_TopChange(System.Object,FarPoint.Win.Spread.TopChangeEventArgs)">
+ <summary>
+ メインスプレッドに表示されている先頭の行が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprDuty_LeftChange(System.Object,FarPoint.Win.Spread.LeftChangeEventArgs)">
+ <summary>
+ メインスプレッドに表示されている左端の列が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprStaffTotal_TopChange(System.Object,FarPoint.Win.Spread.TopChangeEventArgs)">
+ <summary>
+ 個人スプレッドに表示されている先頭の行が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.sprStaffTotal_LeftChange(System.Object,FarPoint.Win.Spread.LeftChangeEventArgs)">
+ <summary>
+ 個人スプレッドに表示されている左端の列が変更された場合の処理。
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.subSetControlsList">
+ <summary>
+ コントロール配列を設定します。
+ </summary>
+</member>
+<member name="M:NsAid_NSD0010H.frmNSD0010HA.setHMtrxWidth">
+ <summary>
+ 個人別スプレッドの幅を取得します。
+ </summary>
+ <returns>幅</returns>
+</member>
+</members>
+</doc>

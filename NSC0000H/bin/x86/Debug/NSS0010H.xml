@@ -1,0 +1,79 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSS0010H
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSS0010H.frmNSS0010HA.SetSelectData(System.Int32)">
+ <summary>
+ 選択行の背景色変更
+ </summary>
+ <param name="p_Row"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HA.sprKensyuList_CellClick(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ Spreadセル押下時の処理
+ </summary>
+ <param name="sender"></param>
+ <param name="EventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HA.FncChkDataExist(System.Int32)">
+ <summary>
+ 選択行のデータ存在チェック
+ </summary>
+ <param name="p_index"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HA.FncGetSelectedSeqNum(System.Int32)">
+ <summary>
+ 選択行のSeq文字列取得処理
+ </summary>
+ <param name="p_aIndex"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HA.SubGetSelectedDataIndex(System.String)">
+ <summary>
+ 選択行のSEQと一致する構造体のINDEX取得処理
+ </summary>
+ <param name="p_Seq"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HB.cmdCalButton_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダボタン押下時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HH.cmdSearch_Click(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HH.sprStaffList_ClickEvent(System.Object,FarPoint.Win.Spread.CellClickEventArgs)">
+ <summary>
+ セルクリックイベント
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSS0010H.frmNSS0010HH.SetSelectData(System.Int32)">
+ <summary>
+ クリック行背景色変更処理
+ </summary>
+ <param name="p_Row"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

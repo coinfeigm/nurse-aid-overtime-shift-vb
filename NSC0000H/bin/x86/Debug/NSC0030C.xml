@@ -1,0 +1,192 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0030C
+</name>
+</assembly>
+<members>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetHospitalCode">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetMondayPosition">
+ <summary>
+ 月曜日の位置をセットする
+ </summary>
+ <param name="Value">月曜日の位置</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetMaxDate">
+ <summary>
+ 最大表示年の設定をセットする
+ </summary>
+ <param name="Value">最大表示年の設定</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetMinDate">
+ <summary>
+ 最小表示年の設定をセットする
+ </summary>
+ <param name="Value">最小表示年の設定</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetDefaultDate">
+ <summary>
+ デフォルト表示年の設定をセットする
+ </summary>
+ <param name="Value">デフォルト表示年の設定</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetNurseAidFLG(System.Boolean)">
+ <summary>
+ NurseAID使用フラグをセットする
+ </summary>
+ <param name="Value">NurseAID使用フラグの設定</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.LetHolidayDataType">
+ <summary>
+ 国民の祝日フラグをセットする
+ </summary>
+ <param name="Value">国民の祝日フラグの設定</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.GetSelectDate">
+ <summary>
+ 選択した日付を取得する
+ </summary>
+ <returns>選択した日付</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0030C.clsNusDate.GetEndStatus">
+ <summary>
+ 終了状態を取得する
+ </summary>
+ <returns>終了状態</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.clsNusDate.ShowDateForm">
+ <summary>
+ 日付表示メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.subSetControl(System.String,System.Collections.Generic.List{System.Windows.Forms.Label})">
+ <summary>
+ コントロールリスト化メソッド
+ </summary>
+ <param name="p_strControlName">コントロール名</param>
+ <param name="p_list">リスト</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.cmbMonth_SelectedIndexChanged(System.Object,System.EventArgs)">
+ <summary>
+ cmbMonthコンボボックスSelectedIndexChangedイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.cmdClose_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdCloseボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>何もしないで閉じる</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdOKボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>終了状態を更新</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.cmdYearDown_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdYearDownボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>表示年の年数をDownさせる</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.cmdYearUp_Click(System.Object,System.EventArgs)">
+ <summary>
+ cmdYearUpボタンClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>表示年の年数をUpさせる</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.frmNSC0030C_Load(System.Object,System.EventArgs)">
+ <summary>
+ frmNSC0030CフォームLoadイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>frmNSC0030CをLoadし、表示する</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.lblDate_Click(System.Object,System.EventArgs)">
+ <summary>
+ lblDateラベルClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>日付を選択する</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.SetWeeklyLabels">
+ <summary>
+ 曜日のラベル決定メソッド<br />
+ 概要:月曜日の指定位置から一週間の曜日のラベルを決定します
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.SetMonthlyLabels">
+ <summary>
+ 日付の表示メソッド<br />
+ 概要:７日×６週分の日付の表示を行います
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.SetLabelColor">
+ <summary>
+ ラベルカラー設定メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.lblDate_DoubleClick(System.Object,System.EventArgs)">
+ <summary>
+ lblDateラベルDoubleClickイベント
+ </summary>
+ <param name="eventSender">System.Object</param>
+ <param name="eventArgs">System.EventArgs</param>
+ <remarks>OKボタンをクリックしたときと同じ動きをさせる</remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.SetComboData">
+ <summary>
+ コンボボックス設定メソッド
+ 概要:表示年にあわせて月選択コンボボックスの中身を変える
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.SetSelectDateColor">
+ <summary>
+ 初期選択日付の背景色変更メソッド
+ 概要:初期選択日付の背景色を変える
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0030C.frmNSC0030C.GetSelectDate">
+ <summary>
+ 選択日付取得メソッド
+ 概要:選択日付を取得する
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

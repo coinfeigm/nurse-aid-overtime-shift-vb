@@ -1,0 +1,212 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+NSC0020C
+</name>
+</assembly>
+<members>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mfncStopPrint">
+ <summary>
+ 処理経過のカウントメソッド
+ </summary>
+ <returns>True(処理中止)、False(続行)</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mExcelClose">
+ <summary>
+ Excelオブジェクトの開放メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mChangeSheetName(System.String)">
+ <summary>
+ Sheet名の変更メソッド
+ </summary>
+ <param name="p_strNewName">変更Sheet名</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mfncExcelSaveInit(System.String,System.Boolean@)">
+ <summary>
+ Excel保存のための初期処理メソッド
+ </summary>
+ <param name="p_strMsgTitle">確認メッセージのタイトル（勤務 or 超勤 or 職員）</param>
+ <param name="p_DispFlag">進捗画面に「ﾌｧｲﾙ保存中...」と表示するかどうか</param>
+ <returns>True（保存可能）・・・保存すると答え、保存先を指定した場合<br />
+ False（保存不可）・・・上記以外</returns>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mfncOpenCommonDlg">
+ <summary>
+ コモンダイアログ表示メソッド
+ </summary>
+ <returns>True(ｷｬﾝｾﾙが押下)</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pFilePathLet(System.String)">
+ <summary>
+ ファイルのパスと名前をセットする
+ </summary>
+ <param name="Value">ファイルのパスと名前</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pFilePathGet(System.String)">
+ <summary>
+ ファイルのパスと名前を取得する
+ </summary>
+ <param name="Value">ファイルのパスと名前</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pZoom">
+ <summary>
+ 倍率をセットする
+ </summary>
+ <param name="Value">倍率</param>
+ <remarks>標準帳票の場合のみ</remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pPaperSize">
+ <summary>
+ 用紙サイズをセットする
+ </summary>
+ <param name="Value">用紙サイズ</param>
+ <remarks>標準帳票の場合のみ</remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pHospitalCd">
+ <summary>
+ 病院CDをセットする
+ </summary>
+ <param name="Value">病院CD</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pFrmCondition">
+ <summary>
+ 遷移元フォームオブジェクトをセットする
+ </summary>
+ <param name="Value">遷移元フォームオブジェクト</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pListID">
+ <summary>
+ 帳票IDをセットする
+ </summary>
+ <param name="Value">帳票ID</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pPrinterID">
+ <summary>
+ ﾌﾟﾘﾝﾀIDをセットする
+ </summary>
+ <param name="Value">ﾌﾟﾘﾝﾀID</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pStopFlg">
+ <summary>
+ 印刷中止をセットする
+ </summary>
+ <param name="Value">印刷中止</param>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pExcelAppli">
+ <summary>
+ Excelオブジェクトを取得する
+ </summary>
+ <returns>Excelオブジェクト</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pWorksheet">
+ <summary>
+ ExcelSheetオブジェクトを取得する
+ </summary>
+ <returns>ExcelSheetオブジェクト</returns>
+ <remarks></remarks>
+</member>
+<member name="P:NsAid_NSC0020C.clsNSC0020C.pEndStatus">
+ <summary>
+ ダイアログ終了ステータスをセットする
+ </summary>
+ <param name="Value">ダイアログ終了ステータス</param>
+ <remarks>0:印刷,1:プレビュー,2:ファイル出力</remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mGetExcelAppli(System.String)">
+ <summary>
+ Excelアプリケーション取得メソッド
+ </summary>
+ <param name="p_strSheetNM">sheet名</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mOutputControl(System.String@,System.String@)">
+ <summary>
+ 出力先制御メソッド
+ </summary>
+ <param name="p_strSheetNM">sheet名</param>
+ <param name="p_strW_SheetNM">sheet名(ワーク)</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mReplaceWinDefaultPrinter(System.String)">
+ <summary>
+ ウィンドウズのデフォルトプリンタを指定プリンタに指定するメソッド
+ </summary>
+ <param name="p_PrinterName">指定ﾌﾟﾘﾝﾀ</param>
+ <remarks>省略時は変更前の設定に戻す。</remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.subSetWinowsDefaultPrinter(System.String)">
+ <summary>
+ ウィンドウズのデフォルトプリンタを変更するメソッド
+ </summary>
+ <param name="p_DeviceLine">ﾌﾟﾘﾝﾀ名,ﾄﾞﾗｲﾊﾞ名,ﾎﾟｰﾄ</param>
+ <remarks>Ex.[Ｂ４縦,winspool,Ne00:]</remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mPrintForm_Caption(System.String)">
+ <summary>
+ 経過処理画面の処理のラベル文字列設定メソッド
+ </summary>
+ <param name="p_Caption">表示する文字列</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mPrintForm_Disp(System.Int32,System.Int32)">
+ <summary>
+ 処理中ウィンドウの処理経過を表示メソッド
+ </summary>
+ <param name="p_Int">現在の進捗数</param>
+ <param name="p_Count">Total</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mPrintForm_Show">
+ <summary>
+ 処理中ウィンドウの初期表示メソッド
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mSetBorderALLxlThin(System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+ <summary>
+ 指定された個所の罫線を引くメソッド
+ </summary>
+ <param name="p_strRange">罫線を引く対象の範囲</param>
+ <param name="p_blnEdgeLeft">範囲左</param>
+ <param name="p_blnEdgeRight">範囲右</param>
+ <param name="p_blnEdgeTop">範囲上</param>
+ <param name="p_blnEdgeBottom">範囲下</param>
+ <param name="p_blnInsideVertical">範囲内縦</param>
+ <param name="p_blnInsideHorizontal">範囲内横</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.mSetBorder(System.String,Microsoft.Office.Interop.Excel.XlBordersIndex,Microsoft.Office.Interop.Excel.XlLineStyle,Microsoft.Office.Interop.Excel.XlBorderWeight,System.Int16)">
+ <summary>
+ 指定された個所の罫線を引くメソッド
+ </summary>
+ <param name="p_strRange">罫線を引く対象の範囲</param>
+ <param name="p_xlPosition">罫線を引きたい部分</param>
+ <param name="p_xlLineStyle">罫線の種類</param>
+ <param name="p_xlWeight">罫線の太さ</param>
+ <param name="p_intColorIndex">罫線の色</param>
+ <remarks></remarks>
+</member>
+<member name="M:NsAid_NSC0020C.clsNSC0020C.getExcelsProcessID(System.Collections.Generic.List{System.Int32})">
+ <summary>
+ EXCELのプロセスID取得処理
+ </summary>
+ <param name="list"></param>
+ <remarks></remarks>
+</member>
+</members>
+</doc>

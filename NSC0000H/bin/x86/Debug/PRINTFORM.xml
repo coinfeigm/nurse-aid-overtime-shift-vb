@@ -1,0 +1,370 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+PRINTFORM
+</name>
+</assembly>
+<members>
+<member name="P:PRINTFORM.frmNSZ0030H.pDispMode">
+ <summary>
+ 表示モード
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0030H.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0030H.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0030H.subSetPrintID_Mode10">
+ <summary>
+ 変数に値をセットする
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0020H.pDispMode">
+ <summary>
+ 表示モード
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0020H.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0010H.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0010H.GetPlanControlData_Mode4">
+ <summary>
+ 計画期間選択ｺﾝﾎﾞﾎﾞｯｸｽ設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0010H.subDispControls_Mode4">
+ <summary>
+ コントロールの表示及び位置制御
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0010H.cmdCal_Click_Mode5(System.Object,System.EventArgs)">
+ <summary>
+ 年度等、yyyy形式に対応したカレンダボタン処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0010H.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0010H.thisForm_Load(System.Object,System.EventArgs)">
+ <summary>
+ ロード時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0000H.pDispMode">
+ <summary>
+ 表示モード
+ </summary>
+ <value></value>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0000H.pSaikeiUseFlg">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetControls">
+ <summary>
+ コントロール配列作成
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetDispControl">
+ <summary>
+ 遷移元から、各種コントロールの表示を制御
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.cmdCancel_Click(System.Object,System.EventArgs)">
+ <summary>
+ キャンセルボタン押下時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.cmdOK_Click_Mode1(System.Object,System.EventArgs)">
+ <summary>
+ OKボタン押下時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.cmdOutput_Click_Mode1(System.Object,System.EventArgs)">
+ <summary>
+ 出力先ボタン押下時処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetEdit_TextBox_Mode1">
+ <summary>
+ ﾃｷｽﾄﾎﾞｯｸｽ等の設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetEdit_LstBox_Mode1">
+ <summary>
+ ListBox設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetEdit_imtFilePath_Mode1">
+ <summary>
+ データ出力パス入力フォーム設定
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.subSetCotrolDisp_Mode2">
+ <summary>
+ コントロールのサイズ、位置を制御
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0000H.Load_Mode2(System.Object,System.EventArgs)">
+ <summary>
+ NSW0030P時のロード処理
+ </summary>
+ <param name="eventSender"></param>
+ <param name="eventArgs"></param>
+ <remarks></remarks>
+</member>
+<member name="T:PRINTFORM.frmNSZ0060H">
+ <summary>
+ ﾌﾟﾛｸﾞﾗﾑ名称：印刷条件設定ﾀﾞｲｱﾛｸﾞ
+        ＩＤ：NSZ0060H
+        概要：NSZ0060H 入院基本料届出書類様式９　H28年度版以降用　日付入力・ｵﾌﾟｼｮﾝ設定ﾎﾞｯｸｽ
+
+      規定値：帳票ＩＤ　　""
+      　　　　帳票名称　　""
+      　　　　表示初期値　*１ヶ月制       *ﾀｰﾑ制
+                          年月指定        年月指定（１ヶ月制と同様）
+                          期間指定        期間指定（ｼｽﾃﾑ日付より取得）
+     ファイル:NSZ0060H.vb
+
+      作成者：Y.Yamanishi    CREATE 2016/07/13       【P-08559】
+      更新者：_____________  UPDATE ____/__/__       【P-0****】
+                                 更新内容：(   )
+ 
+     Copyright (C) Inter co.,ltd 2016
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0060H.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0060H.pJimuStaffMngID">
+ <summary>
+ 職員管理番号を渡す
+ </summary>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.optDate_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ 日付ﾗｼﾞｵﾎﾞﾀﾝ変更
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダボタン
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.datDate_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ 日付入力欄の変更
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.DispStaffList">
+ <summary>
+ 補助職員のリスト表示
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.GetHojoStaffMngID">
+ <summary>
+ 「事務的業務」対象職員の取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.cmdStaffAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.cmdStaffDel_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.cmdStaffDelAll_Click(System.Object,System.EventArgs)">
+ <summary>
+ 全削除ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0060H.CheckControl">
+ <summary>
+ コントロールロック
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:PRINTFORM.frmNSZ0070H">
+ <summary>
+ ﾌﾟﾛｸﾞﾗﾑ名称：印刷条件設定ﾀﾞｲｱﾛｸﾞ
+        ＩＤ：NSZ0070H
+        概要：NSZ0070H 入院基本料届出書類様式９　H30年度版以降用　日付入力・ｵﾌﾟｼｮﾝ設定ﾎﾞｯｸｽ
+
+      規定値：帳票ＩＤ　　""
+      　　　　帳票名称　　""
+      　　　　表示初期値　*１ヶ月制       *ﾀｰﾑ制
+                          年月指定        年月指定（１ヶ月制と同様）
+                          期間指定        期間指定（ｼｽﾃﾑ日付より取得）
+     ファイル:NSZ0070H.vb
+
+      作成者：Okamura        CREATE 2018/04/19       【P-0xxxx】
+      更新者：_____________  UPDATE ____/__/__       【P-0****】
+                                 更新内容：(   )
+ 
+     Copyright (C) Inter co.,ltd 2016
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0070H.pSaikeiGetKbn">
+ <summary>
+ 再掲部署取得区分を受け取る
+ </summary>
+ <value>再掲部署取得区分(0:勤務部署/1:勤務部署＋再掲部署/2:再掲部署)</value>
+ <remarks>初期値は、勤務部署</remarks>
+</member>
+<member name="P:PRINTFORM.frmNSZ0070H.pJimuStaffMngID">
+ <summary>
+ 職員管理番号を渡す
+ </summary>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.cmdOK_Click(System.Object,System.EventArgs)">
+ <summary>
+ 
+ </summary>
+ <param name="sender"></param>
+ <param name="e"></param>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.optDate_CheckedChanged(System.Object,System.EventArgs)">
+ <summary>
+ 日付ﾗｼﾞｵﾎﾞﾀﾝ変更
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.cmdCal_Click(System.Object,System.EventArgs)">
+ <summary>
+ カレンダボタン
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.datDate_TextChanged(System.Object,System.EventArgs)">
+ <summary>
+ 日付入力欄の変更
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.DispStaffList">
+ <summary>
+ 補助職員のリスト表示
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.GetHojoStaffMngID">
+ <summary>
+ 「事務的業務」対象職員の取得
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.cmdStaffAdd_Click(System.Object,System.EventArgs)">
+ <summary>
+ 追加ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.cmdStaffDel_Click(System.Object,System.EventArgs)">
+ <summary>
+ 削除ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.cmdStaffDelAll_Click(System.Object,System.EventArgs)">
+ <summary>
+ 全削除ボタン押下時
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:PRINTFORM.frmNSZ0070H.CheckControl">
+ <summary>
+ コントロールロック
+ </summary>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
